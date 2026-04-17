@@ -133,15 +133,15 @@ export const studyGuide = [
     subtopics: [
       [
         "1. Scenario (HOW)",
-        "A detailed narrative that describes how a user interacts with the system step-by-step. It is the 'story of interaction'.",
+        "A detailed narrative describing step-by-step interaction. \n\nExample (ATM): \n1. User inserts card \n2. System prompts for PIN \n3. User enters PIN \n4. System validates PIN \n5. User selects 'Withdraw' \n6. User enters amount \n7. System dispenses cash \n8. Transaction completes",
       ],
       [
         "2. User Story (WHY)",
-        "A short statement from the user's perspective: 'As a [user], I want [goal], so that [reason]'.",
+        "A short statement from the user's perspective. \n\nExample: 'As a bank customer, I want to withdraw money so that I can access cash anytime.'",
       ],
       [
         "3. Persona (WHO)",
-        "A fictional representation of a typical user (character profile) used to ground requirements in reality.",
+        "A fictional representation of a typical user profile. \n\nExample (ATM User): \nName: Ade, Age: 45, Occupation: Business owner. \nGoal: Quick cash withdrawal. \nBehavior: Uses ATM frequently, prefers speed.",
       ],
     ],
     example:
