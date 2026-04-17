@@ -202,7 +202,7 @@ const App = () => {
                 MIT 817
               </h1>
               <p className="text-[10px] uppercase tracking-[0.3em] text-indigo-400 font-bold mt-1">
-                SE Excellence
+                By Ridbay
               </p>
             </div>
           </div>
@@ -501,7 +501,8 @@ const App = () => {
                       {m.example && (
                         <div className="p-6 md:p-10 bg-white/5 rounded-3xl md:rounded-[2.5rem] border border-white/10">
                           <h4 className="font-black text-gray-400 mb-6 uppercase text-[10px] tracking-[0.3em] flex items-center">
-                            <Terminal size={14} className="mr-3" /> Real-World Case Study
+                            <Terminal size={14} className="mr-3" /> Real-World
+                            Case Study
                           </h4>
                           <div className="text-gray-300 text-base md:text-lg leading-relaxed whitespace-pre-line font-medium italic border-l-2 border-indigo-500/30 pl-6">
                             {m.example}
@@ -515,7 +516,8 @@ const App = () => {
                             <Flame size={80} />
                           </div>
                           <h4 className="font-black text-rose-400 mb-6 uppercase text-[10px] tracking-[0.3em] flex items-center">
-                            <Flame size={14} className="mr-3" /> Exam Mastery Insight
+                            <Flame size={14} className="mr-3" /> Exam Mastery
+                            Insight
                           </h4>
                           <div className="text-rose-100/90 text-base md:text-lg leading-relaxed whitespace-pre-line font-medium relative z-10">
                             {m.mastery_insight}
