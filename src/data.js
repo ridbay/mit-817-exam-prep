@@ -1,417 +1,369 @@
 export const studyGuide = [
   {
-    title: "1. Foundations of Software Engineering",
+    title: "1. Foundations & Layered Technology",
     topic: "Foundations",
     overview:
-      "Software engineering is the discipline concerned with producing, maintaining, and evolving software systematically. The lecturer material stresses that software is abstract and intangible, which removes physical manufacturing limits but allows complexity to grow quickly.",
+      "Software engineering is a layered technology geared towards producing high-quality software. It involves a systematic, disciplined approach that scales to complex, abstract systems across the entire lifecycle.",
     subtopics: [
       [
-        "Definition of software engineering",
-        "Concerned with all aspects of software production from specification through maintenance.",
+        "Layer 1: Quality Focus",
+        "The foundation mindset. Quality is not added at the end; it must be built into every stage. (e.g., Secure transactions, no data loss).",
       ],
       [
-        "Why the field emerged",
-        "The software crisis showed that large systems were late, unreliable, and more expensive than expected.",
+        "Layer 2: Process Layer",
+        "The framework layer. Defines activities like Communication, Planning, Modeling, Construction, and Deployment.",
       ],
       [
-        "Nature of software",
-        "Software does not wear out like hardware; it deteriorates as change accumulates and complexity grows.",
+        "Layer 3: Methods Layer",
+        "The 'how-to' layer. Provides technical methods for Requirements Analysis, Design, Coding, and Testing.",
       ],
       [
-        "Professional software",
-        "Usually built by teams for users other than the developer and maintained over a long lifetime.",
-      ],
-      [
-        "Core activities",
-        "Specification, development, validation, and evolution; process frameworks often present communication, planning, modeling, construction, and deployment.",
-      ],
-      [
-        "Good software attributes",
-        "Maintainability, dependability/security, efficiency, and acceptability/usability.",
+        "Layer 4: Tools Layer",
+        "Supporting layer. Provides automated support like IDEs, Version Control (Git), and Testing tools.",
       ],
     ],
+    example:
+      "🔹 Layered Technology Diagram:\n        [ Tools ]\n       [ Methods ]\n      [ Process ]\n   [ Quality Focus ]\n\n🔹 Example: Login System Implementation\nQuality → Secure auth\nProcess → Plan the sprint\nMethods → Design auth module\nTools → Use Git & VS Code",
     exam_tip:
-      "If asked 'What is software engineering?' define it, then add the full life-cycle scope: specification, development, validation, and maintenance/evolution.",
+      "👉 ALWAYS remember: 'Process is the foundation layer of software engineering.' Quality is the mindset that drives all other layers.",
     common_trap:
-      "Do not say software engineering is only coding. The files repeatedly frame it as broader than programming.",
+      "Do not assume quality is a separate phase. It is a 'Layer' that must underlie every single activity in software engineering.",
+    mastery_insight:
+      "🔥 How to Think About It:\nSoftware engineering is NOT just coding. It is about managing complexity and change over time. Software 'does not wear out' but still deteriorates due to the inevitable accumulation of changes.\n\n👉 Exam Trick: When asked 'What is SE?', use this structure: Definition + Why it exists (software crisis) + Scope (full lifecycle) + Challenge (complexity + change).",
     summary:
-      "High-yield summary: define the field, explain the software crisis, state why software deteriorates, and list the fundamental activities and essential attributes.",
+      "🔹 High-Yield Summary: SE = Layered Technology. Quality (Mindset) → Process (Framework) → Methods (Technical) → Tools (Support).",
   },
   {
-    title: "2. Software Products and Product Thinking",
+    title: "2. Software Products",
     topic: "Software Products",
     overview:
-      "The lecturer notes distinguish project-based software from product software engineering. Project-based work starts from customer requirements, while product development starts from an identified business opportunity.",
+      "Distinguishes between generic products for a market and custom projects for a specific client. Focused on business opportunities, product vision, and avoiding scope bloat.",
     subtopics: [
       [
-        "Generic vs custom software",
-        "Generic software serves many customers; custom software is built for one client or organization.",
+        "Types of Products",
+        "Generic (for many users, e.g., MS Word) and Custom (for one client, e.g., Hospital System).",
       ],
       [
-        "Project-based software",
-        "Driven by client-owned requirements; requirements often change during the project.",
+        "Product vs Project",
+        "Product: Market-driven, continuous evolution. Project: Client-driven, defined scope.",
       ],
       [
-        "Product software engineering",
-        "Driven by market opportunity, planned features, and roadmaps.",
+        "Product Vision",
+        "A simple statement describing the core purpose of the product.",
       ],
       [
-        "Product vision",
-        "A simple statement that defines the essence of the product.",
-      ],
-      [
-        "Platforms",
-        "Products that provide functionality on which other applications can be built.",
-      ],
-      [
-        "Feature creep",
-        "Adding requested features without checking broad usefulness or better design alternatives.",
-      ],
-      [
-        "Rapid delivery",
-        "Important because market timing and user feedback matter in product success.",
+        "Feature Creep",
+        "Uncontrolled addition of features that makes products bloated and hard to use.",
       ],
     ],
+    example:
+      "🔹 Feature Creep Example:\nA simple Note app becomes: Notes + Chat + Video + Games → It becomes bloated and loses its original value proposition.",
     exam_tip:
-      "In theory questions, contrast project-based and product software directly: starting point, ownership of change, and market pressure.",
+      "👉 Understand the difference between WHAT (Feature), HOW (Scenario), and WHY (Story). Products solve business opportunities, Projects solve client requirements.",
     common_trap:
-      "Do not confuse a feature with a scenario or story. The test tutorial treats them as different concepts.",
+      "Do not confuse 'Feature' with 'Scenario'. A feature is the functionality; a scenario is the narrative of use.",
+    mastery_insight:
+      "🔥 Product Thinking:\nThe primary goal is to solve a Business Opportunity. Success depends on a clear Vision and avoiding the 'Feature Creep' trap where the product loses its original value.",
     summary:
-      "High-yield summary: know generic vs custom, project-based vs product, product vision, platform, product manager, and feature creep.",
+      "🔹 High-Yield Summary: Product = Business Opportunity. Project = Client Requirement. Success depends on a clear Vision and avoiding Feature Creep.",
   },
   {
-    title: "3. Agile Software Engineering, Scrum, and XP",
+    title: "3. Agile Software Engineering",
     topic: "Agile",
     overview:
-      "Agile development emphasizes flexibility, customer collaboration, and small working increments. The uploaded tutorial highlights the manifesto wording and the priority of software over excessive documentation.",
+      "A flexible, iterative development approach that responds to change through small working increments and close customer collaboration.",
     subtopics: [
-      ["Agility", "Ability to respond quickly and effectively to change."],
+      ["Core Philosophy", "Responding to change is more important than following a rigid plan."],
       [
-        "Manifesto ideas",
-        "Better ways of developing software, working software, customer collaboration, and responding to change.",
+        "Agile Manifesto",
+        "Working software > Documentation, Customer collaboration > Contract, Responding to change > Plan.",
       ],
       [
-        "Incremental delivery",
-        "Useful software is delivered in small pieces rather than one final release.",
+        "Iterative Delivery",
+        "Delivering useful software in small pieces to get early feedback.",
       ],
       [
-        "When agile fits",
-        "Changing requirements, close stakeholder access, and fast feedback cycles.",
-      ],
-      [
-        "When agile may not fit",
-        "Highly regulated or safety-critical environments that require heavy formality.",
-      ],
-      ["Scrum basics", "Product backlog, sprint, daily scrum, and increment."],
-      [
-        "XP basics",
-        "Communication, simplicity, feedback, courage, respect, and disciplined engineering practices.",
+        "Suitability",
+        "Best for changing requirements and fast delivery. NOT for safety-critical systems (e.g., airplane controls).",
       ],
     ],
+    example:
+      "🔹 Food Delivery App Lifecycle:\nWeek 1 → Basic ordering\nWeek 2 → Add delivery tracking\nWeek 3 → Add user reviews",
     exam_tip:
-      "For essay questions, connect agility to faster development and deployment by mentioning short cycles, feedback, reprioritization, and incremental release.",
+      "👉 'Explain Agile and its principles' is frequently asked. Focus on flexibility, speed, and user feedback.",
     common_trap:
-      "Do not write that agile rejects documentation completely. The value statement is 'working software over comprehensive documentation,' not documentation versus no documentation.",
+      "Do not write that agile rejects documentation completely. The manifesto says 'Working software OVER comprehensive documentation'.",
+    mastery_insight:
+      "🔥 What Agile REALLY Solves:\nTraditional models fail when requirements change. Agile builds systems that can change easily using the 'Deliver → Get feedback → Improve → Repeat' loop.\n\n👉 Hidden Insight: Agile fails when the system MUST be 100% correct before release (e.g., medical software).",
     summary:
-      "High-yield summary: define agility, state the manifesto priorities, name Scrum artifacts/events, and explain why agile can accelerate delivery.",
+      "🔹 High-Yield Summary: Agile = Flexibility + Speed + User Focus. It prioritizes individuals and interactions over tools.",
   },
   {
-    title: "4. Features, Scenarios, Stories, and User Focus",
-    topic: "Features, Stories, Scenarios",
+    title: "4. Scrum and XP",
+    topic: "Agile Frameworks",
     overview:
-      "The lecturer tutorial repeatedly tests the distinctions among feature, scenario, story, and product vision. These concepts connect user-centered thinking to product design.",
+      "Scrum provides a management framework for teamwork, while XP (Extreme Programming) provides disciplined engineering practices for high-quality code.",
+    subtopics: [
+      ["Scrum Components", "Backlog (list of work), Sprint (fixed cycle), Increment (working software), Daily Scrum (sync)."],
+      [
+        "Roles",
+        "Product Owner (what to build), Scrum Master (process coach), Team (builders).",
+      ],
+      [
+        "XP Practices",
+        "Pair Programming (two devs, one keyboard), Continuous Testing, Simple Design, Refactoring.",
+      ],
+    ],
+    example:
+      "🔹 E-commerce Implementation:\nBacklog → Login, Cart, Payment\nSprint → Build Login features\nIncrement → A working, tested login system ready for feedback.",
+    exam_tip:
+      "👉 Scrum = Management (Teamwork/Sprints). XP = Coding (Pair Programming/Unit Tests). Both are flavors of Agile.",
+    common_trap:
+      "Do not assume Scrum and XP are incompatible. They are often used together to manage projects and ensure code quality.",
+    mastery_insight:
+      "🔥 Framework Mastery:\nScrum is for management (how the team works); XP is for engineering (how the code is written). Using them together provides a complete agile package.",
+    summary:
+      "🔹 High-Yield Summary: Scrum = Management Framework. XP = Coding Practices. Both aim for rapid, high-quality delivery.",
+  },
+  {
+    title: "5. Features, Scenarios, and Stories",
+    topic: "User Focus",
+    overview:
+      "Concepts that connect user-centered thinking to product design by distinguishing functionality, usage narratives, and user needs.",
     subtopics: [
       [
         "Feature",
-        "An element that implements a coherent set of functionality.",
+        "A coherent set of functionality (The WHAT).",
       ],
       [
         "Scenario",
-        "A narrative describing how a user or group of users may use the system.",
+        "A narrative/story of usage showing how a user interacts with the system (The HOW).",
       ],
-      ["Story", "A short user-centered requirement statement."],
+      ["User Story", "A short, user-centered requirement expressing a need (The WHY)."],
       [
         "Persona",
-        "A representation of a typical user used to think through needs and interaction.",
-      ],
-      ["Feature qualities", "Independence, coherence, and relevance."],
-      ["UI simplicity", "Interfaces should not be unnecessarily complex."],
-      [
-        "Feature design knowledge",
-        "User knowledge, domain knowledge, product knowledge, and technology knowledge.",
+        "A representation of a typical user used to think through requirements.",
       ],
     ],
+    example:
+      "🔹 ATM User Experience:\nFeature → 'Withdraw Cash'\nStory → 'As a user, I want to withdraw cash quickly so I can buy food'\nScenario → 'User inserts card → enters PIN → selects 2000 → receives cash'",
     exam_tip:
-      "When asked to define scenario, use the phrase 'narrative that describes how a user or group of users might use a system.'",
+      "👉 ALWAYS use the phrase 'narrative that describes system use' when defining a scenario.",
     common_trap:
-      "Do not define product vision as a feature list. It is the essence of the product, not the full backlog.",
+      "Feature ≠ Story. A Story explains the 'Why' for the user; a Feature is the technical 'What'.",
+    mastery_insight:
+      "🔥 Visual Thinking:\nThink of the Feature as the tool, the Story as the goal, and the Scenario as the movie of the user using the tool to reach the goal.",
     summary:
-      "High-yield summary: be ready to distinguish feature, story, scenario, persona, and product vision in one sentence each.",
+      "🔹 High-Yield Summary: Feature = WHAT; Scenario = HOW; Story = WHY. Personas help anchor these to real user needs.",
   },
   {
-    title: "5. Process Models and Software Evolution",
+    title: "6. Process Models",
     topic: "Process Models",
     overview:
-      "Past questions repeatedly test process models. The textbook and exams cover waterfall, incremental, prototyping, spiral, concurrent, component-based development, formal methods, and the Unified Process.",
+      "Structured sets of activities to develop software. Models range from traditional linear approaches to risk-focused and iterative frameworks.",
     subtopics: [
-      ["Waterfall", "Linear, sequential progression through major activities."],
-      ["Incremental", "Delivery in a series of usable increments."],
-      [
-        "Prototyping",
-        "Early working version used to clarify or explore requirements.",
-      ],
+      ["Waterfall", "Rigid, sequential phases. Best for stable requirements (e.g., Payroll)."],
+      ["Incremental", "Building the system in parts and delivering them one by one."],
       [
         "Spiral",
-        "Risk-driven, iterative process combining prototyping and staged control.",
+        "Risk-driven model. Before moving to the next level, evaluate risks first.",
       ],
       [
-        "Concurrent model",
-        "Activities proceed in parallel and can exist in different states.",
+        "Prototyping",
+        "Building a quick 'fake' or partial version to get user feedback before full dev.",
       ],
       [
-        "Component-based development",
-        "Reuse through component qualification, adaptation, and integration.",
-      ],
-      ["Formal methods", "Mathematical specification and verification."],
-      [
-        "Unified Process",
-        "Iterative framework with phases such as inception, elaboration, construction, and transition.",
-      ],
-      [
-        "Prescriptive vs evolutionary",
-        "Prescriptive emphasizes planned structure; evolutionary emphasizes change through repeated cycles.",
-      ],
-      [
-        "Software evolution",
-        "Software changes after delivery to stay useful and aligned with needs.",
+        "Unified Process (UP)",
+        "Phase-based (Inception, Elaboration, Construction, Transition).",
       ],
     ],
+    example:
+      "🔹 Choosing a Model:\nWaterfall → Building a 100% defined payroll system.\nSpiral → Building a high-risk security protocol.\nPrototyping → Testing a new UI concept with real users.",
     exam_tip:
-      "Many questions ask for benefits, problems, or examples. Always state where the model fits best, not only what it is.",
+      "👉 Waterfall = Rigid. Agile/Incremental = Flexible. Spiral = Risk-focused. Always state where the model fits best in exam answers.",
     common_trap:
-      "Do not say UML and the Unified Process are the same. One is a modeling language; the other is a process framework.",
+      "Waterfall is not bad; it's just 'stable'. Avoid saying it's 'old' or 'obsolete'—it's still used in very structured environments.",
+    mastery_insight:
+      "🔥 KEY COMPARISON:\nWaterfall → Structured but Inflexible (Best for Stable).\nIncremental → Early Delivery (Best for Medium).\nSpiral → Risk Control (Best for High-Risk/Security).\nAgile → Flexible but low documentation (Best for Dynamic).",
     summary:
-      "High-yield summary: know each model's defining idea, major advantage, likely drawback, and a suitable project context.",
+      "🔹 High-Yield Summary: Process models provide a framework for development. Pick based on requirements stability and risk level.",
   },
   {
-    title: "6. Requirements Engineering",
+    title: "7. Requirements Engineering (Deep Dive)",
     topic: "Requirements Engineering",
     overview:
-      "Requirements engineering is one of the heaviest recurring exam topics. The files emphasize tasks such as elicitation, analysis, negotiation, validation, and management, as well as the outline of an SRS.",
+      "The process of identifying, analyzing, documenting, and managing system requirements. It is critical because poor requirements are the #1 cause of software failure.",
     subtopics: [
       [
-        "Stakeholders",
-        "People or groups who affect or are affected by the system.",
+        "1. Elicitation (Gathering)",
+        "Collecting needs from stakeholders using Interviews, Questionnaires, or Observation. Problem: Stakeholders often don't know what they want.",
       ],
       [
-        "Elicitation",
-        "Gathering information about needs, goals, constraints, and context.",
+        "2. Analysis",
+        "Understanding and organizing requirements to remove ambiguity. (e.g., Change 'Fast' to 'Response time < 2s').",
       ],
       [
-        "Analysis and modeling",
-        "Organizing, refining, and representing requirements.",
+        "3. Modeling",
+        "Representing requirements using diagrams: Scenario-based (Use cases), Data, Class, Flow, or Behavioral models.",
       ],
       [
-        "Negotiation",
-        "Reconciling conflicts and reaching a realistic agreed set of requirements.",
+        "4. Negotiation",
+        "Resolving conflicts to find a 'Win-Win' balance between stakeholders.",
       ],
       [
-        "Validation",
-        "Checking correctness, completeness, consistency, realism, and testability.",
-      ],
-      ["Management", "Handling changes and preserving traceability."],
-      [
-        "Requirement types",
-        "User, system, functional, non-functional, and domain requirements.",
+        "5. Validation",
+        "Ensuring requirements are Correct, Complete, and Consistent.",
       ],
       [
-        "SRS outline",
-        "A structured requirements document describing services, constraints, assumptions, and models.",
+        "6. Management",
+        "Handling changes (e.g., adding fingerprint login mid-project).",
       ],
       [
-        "Multiple stakeholder problem",
-        "Different stakeholders often have conflicting priorities, terminology, and expectations.",
+        "Requirement Types",
+        "Functional (What it does), Non-Functional (Constraints/Speed/Security), Domain (Industry rules, e.g., Min balance).",
       ],
       [
-        "Work products",
-        "Statements of need, meeting records, scenarios, use cases, and preliminary models.",
+        "SRS Document",
+        "Software Requirements Specification. Contains: Intro, Overview, Functional/Non-functional needs, and Constraints.",
       ],
     ],
+    example:
+      "🔹 Ride-Hailing App Case Study:\nElicitation → Interview drivers about pay.\nF-Requirement → 'User can request ride'.\nNF-Requirement → 'System responds in 2s'.\nDomain → 'Driver must have valid license'.\nModeling → Use Case: 'Request Ride'.\nManagement → Add 'EV-only' filter later.",
     exam_tip:
-      "For 'list and explain the tasks' questions, present the tasks in order and attach one line of purpose to each.",
+      "👉 For 'Discuss RE' questions, always use the 6-step structure: Elicitation → Analysis → Modeling → Negotiation → Validation → Management. Mention the SRS as the final output.",
     common_trap:
-      "Do not reduce validation to spelling checks. Validation is about whether the requirements are the right and workable ones.",
+      "Do not confuse Functional with Non-Functional. Functional is the 'action' (withdraw money); Non-Functional is the 'quality' (securely).",
+    mastery_insight:
+      "🔥 The REAL Problem RE Solves:\nUsers don't know exactly what they want. RE is the process of translating vague desires into precise, testable requirements. \n\n👉 Deep Task Flow: Understand (Elicitation) → Organize (Analysis) → Represent (Modeling) → Agree (Negotiation) → Check (Validation) → Control (Management).",
     summary:
-      "High-yield summary: memorize the task flow, the five requirement categories, common stakeholder conflicts, and the purpose of the SRS.",
+      "🔹 High-Yield Summary: RE = Most critical phase. Tasks build toward the SRS. Biggest risk: Communication gaps and ambiguity.",
   },
   {
-    title: "7. Modeling and UML",
+    title: "8. Modeling and UML",
     topic: "Modeling and UML",
     overview:
-      "The exam papers repeatedly ask for scenario-based, data, class-oriented, flow-oriented, and behavioral models, plus specific UML diagrams such as class, activity, and state diagrams.",
+      "UML (Unified Modeling Language) is a standard tool for visualizing, specifying, and documenting software systems. Models help developers communicate and analyze complexity.",
     subtopics: [
-      ["Scenario-based model", "Use cases and usage narratives."],
-      ["Data model", "Data objects, attributes, and relationships."],
-      [
-        "Class-oriented model",
-        "Classes, attributes, operations, and associations.",
-      ],
-      ["Flow-oriented model", "How information moves and is transformed."],
-      ["Behavioral model", "Events, states, and responses over time."],
-      ["Class diagrams", "Static structure of classes and relationships."],
-      ["Activity diagrams", "Workflow, process steps, and branching."],
-      ["State diagrams", "State changes triggered by events."],
-      [
-        "Structural vs behavioral",
-        "Static organization versus dynamic change.",
-      ],
-      [
-        "Model-driven engineering",
-        "Placing models at the center of development, sometimes with automated transformation.",
-      ],
+      ["Class Diagram", "Shows the static structure of classes and their relationships. (ATM Account/User)."],
+      ["Activity Diagram", "Shows the workflow or processing sequence. (Steps to withdraw cash)."],
+      ["State Diagram", "Shows the behavior of a single object over time. (Idle → Pin Entry → Success)."],
+      ["Use Case", "Shows user interactions with the system from an external view."],
     ],
+    example:
+      "🔹 ATM Modeling Case Study:\nClass → Account, CardReader, Screen.\nActivity → Insert Card → Enter PIN → Dispense Cash.\nState → ATM is 'Idle' until 'Card Inserted' event occurs.",
     exam_tip:
-      "ATM questions often require use case, class, and activity diagrams together. Identify actors, key domain entities, and the transaction flow.",
+      "👉 UML is a visualization tool. If asked for a diagram, focus on the flow (Activity) or structure (Class).",
     common_trap:
-      "Do not confuse class diagrams with activity diagrams. Class diagrams are static; activity diagrams show flow.",
+      "Do not confuse Class diagrams (Static) with Activity diagrams (Dynamic/Flow).",
+    mastery_insight:
+      "🔥 Communication Tool:\nUML exists because humans understand visuals better than text. It serves as the bridge between non-technical stakeholders (Use Cases) and technical developers (Class Diagrams).",
     summary:
-      "High-yield summary: define the five analysis model types and know when to use class, activity, and state diagrams.",
+      "🔹 High-Yield Summary: UML = Visualization tool. Class=Structure; Activity=Workflow; State=Behavior.",
   },
   {
-    title: "8. Design Concepts and Software Architecture",
+    title: "9. Design and Architecture",
     topic: "Design and Architecture",
     overview:
-      "The files ask repeatedly about architecture and design concepts such as abstraction, patterns, separation of concerns, modularity, refinement, information hiding, and refactoring.",
+      "Software architecture is the high-level structure of a system. Good design focuses on abstraction, modularity, and separation of concerns to make systems easier to maintain.",
     subtopics: [
-      [
-        "Architecture definition",
-        "The fundamental organization of a system, its components, relationships, and design/evolution principles.",
-      ],
-      [
-        "Layered architecture",
-        "Organizes system services into layers with controlled interaction.",
-      ],
-      [
-        "Pipe-and-filter",
-        "Transforms data through connected processing stages.",
-      ],
-      ["Data/class design", "Defines data structures and classes."],
-      [
-        "Interface design",
-        "Defines interactions with users and among components.",
-      ],
-      ["Abstraction", "Suppressing detail to focus on essentials."],
-      ["Modularity", "Decomposition into manageable parts."],
-      ["Separation of concerns", "Handling different concerns independently."],
-      [
-        "Information hiding",
-        "Concealing likely-to-change details behind interfaces.",
-      ],
-      [
-        "Refinement and refactoring",
-        "Developing detail in steps and improving design without changing external behavior.",
-      ],
-      ["Patterns", "Reusable design solutions to recurring problems."],
+      ["Layered Architecture", "Separate UI, Logic, and Database (Standard for web apps)."],
+      ["Pipe-and-Filter", "Transform data through stages (e.g., Image processing)."],
+      ["Key Concepts", "Abstraction (hide detail), Modularity (split to parts), Separation of Concerns (independent tasks)."],
     ],
+    example:
+      "🔹 Layered Bank System:\nUI Layer → User types PIN\nBusiness Logic Layer → Check balance logic\nDatabase Layer → Account balances stored here",
     exam_tip:
-      "For theory essays, do not merely list the concepts. Tie each concept to why it improves understandability, changeability, or quality.",
+      "👉 Good design = easier maintenance. Always mention Abstraction and Modularity in design essays.",
     common_trap:
-      "Do not treat architecture as just a diagram. The lecturer tutorial includes organization, relationships, environment, and guiding principles.",
+      "Architecture is not just a diagram; it's the fundamental organization and guiding principles of the system evolution.",
+    mastery_insight:
+      "🔥 Architectural Blueprint:\nArchitecture is the 'blueprint' of the system. Bad architecture makes a system hard to maintain and impossible to scale. Always aim for 'Low Coupling' (independent parts) and 'High Cohesion' (each part does one job well).",
     summary:
-      "High-yield summary: define architecture properly, then explain abstraction, modularity, separation of concerns, information hiding, refinement, refactoring, and patterns.",
+      "🔹 High-Yield Summary: Higher-level structure = Architecture. Lower-level structure = Design. Goal: Low coupling, high cohesion.",
   },
   {
-    title: "9. Cloud-Based Software, Microservices, Security, and Reliability",
-    topic: "Cloud, Microservices, Security, Reliability",
+    title: "10. Cloud and Microservices",
+    topic: "Cloud and Microservices",
     overview:
-      "The lecturer outline explicitly includes cloud-based software, microservices architecture, security/privacy, and reliable programming. The later slides also discuss SaaS design issues and DevOps links.",
+      "Modern development uses remote servers and granular, independent services to achieve scalability and flexibility.",
     subtopics: [
-      [
-        "Cloud-based software",
-        "Software delivered from remote infrastructure over a network.",
-      ],
-      [
-        "SaaS design issues",
-        "Data regulation, data transfer limits, data security, and data exchange via APIs.",
-      ],
-      [
-        "Authentication",
-        "May be local, social-login based, or federated for enterprise use.",
-      ],
-      [
-        "Information leakage risk",
-        "Multi-organization systems must prevent cross-customer leakage.",
-      ],
-      [
-        "Multi-tenant vs multi-instance",
-        "One shared instance versus separate system/database copies.",
-      ],
-      [
-        "Microservices",
-        "Small independently deployable services that collaborate.",
-      ],
-      ["Reliability", "Consistent required operation over time."],
-      [
-        "Safety and privacy",
-        "Avoiding harm and protecting personal information.",
-      ],
+      ["Cloud Software", "Delivered over a network (e.g., Google Drive, Spotify)."],
+      ["SaaS Issues", "Data regulation, security, and API exchange."],
+      ["Microservices", "Small independent services that handle specific tasks (e.g., Payment, Orders, Users)."],
     ],
+    example:
+      "🔹 E-commerce Microservices:\nService A → Handles Payments\nService B → Handles Inventory\nService C → Handles User Profiles\nIf Payments go down, users can still browse Inventory.",
     exam_tip:
-      "If the question looks modern or service-oriented, connect cloud design issues to regulation, authentication, security, and deployment.",
+      "👉 Cloud = Scalability. Microservices = Flexibility. Understand 'Multi-tenancy' (one instance shared by many clients).",
     common_trap:
-      "Do not assume cloud always means better security. The lecturer material explicitly warns against that assumption.",
+      "Do not assume cloud is automatically 'safer'. Security in the cloud is a shared responsibility.",
+    mastery_insight:
+      "🔥 Modern Scalability:\nCloud architecture is about managing distributed failures. In a microservices environment, 'Design for Failure' is key—if one service dies, the whole system shouldn't.",
     summary:
-      "High-yield summary: know SaaS risks, multi-tenant vs multi-instance, authentication options, and the meaning of reliability, safety, and privacy.",
+      "🔹 High-Yield Summary: Scalable infrastructure (Cloud) + Independent components (Microservices) = Modern Apps.",
   },
   {
-    title: "10. Quality, Testing, DevOps, Teams, and Ethics",
+    title: "11. Quality, Security, and Testing",
     topic: "Quality and Testing",
     overview:
-      "Quality and testing recur in several years of past questions. The lecturer material also adds DevOps and code management. Team structure, the four Ps, team toxicity, and ethical principles round out the project-focused part of the course.",
+      "Quality is the degree of excellence. Testing is the primary way we verify quality and reduce security risks before release.",
     subtopics: [
-      ["Software quality", "Meeting requirements and implicit expectations."],
-      [
-        "Garvin dimensions and other quality factors",
-        "Ways of evaluating product quality.",
-      ],
-      [
-        "Quality dilemma",
-        "Pressure on time and cost can conflict with quality goals.",
-      ],
-      [
-        "Cost of quality",
-        "Prevention, appraisal, internal failure, and external failure.",
-      ],
-      [
-        "Achieving quality",
-        "Methods, project management, quality control, and quality assurance.",
-      ],
-      ["Testing levels", "Unit, integration, validation, and system testing."],
-      [
-        "Verification vs validation",
-        "Built right versus built for the right need.",
-      ],
-      ["DevOps", "Integration of development, deployment, and support."],
-      [
-        "Source code management",
-        "Shared repositories, version history, branching, and merging.",
-      ],
-      [
-        "Continuous integration/deployment",
-        "Frequent automated integration and, where feasible, automated release.",
-      ],
-      ["Four Ps", "People, Product, Process, Project."],
-      [
-        "Team toxicity and ethics",
-        "Avoid destructive environments; act with honesty, integrity, competence, and responsibility.",
-      ],
+      ["Cost of Quality", "Prevention (Planning), Appraisal (Testing), and Failure (Fixing bugs)."],
+      ["Testing Levels", "Unit (one function), Integration (two parts), System (whole app)."],
+      ["Verification vs Validation", "Built right (code specs) vs Built for right need (user satisfaction)."],
     ],
+    example:
+      "🔹 Testing a Car Software:\nUnit → Test the brake sensor code.\nIntegration → Test sensor + braking hardware.\nSystem → Test the whole car in the rain.",
     exam_tip:
-      "Quality essays score better when you connect quality activities to cost and risk, not only to testing.",
+      "👉 Testing early saves money. External failure (bugs found by users) is the most expensive type of failure.",
     common_trap:
-      "Do not equate SQA with testing alone. SQA is broader and includes standards, plans, reviews, and process assurance.",
+      "Testing can show the presence of bugs, but never their absence. It reduces risk, it doesn't eliminate it.",
+    mastery_insight:
+      "🔥 Real Understanding of Quality:\nQuality is NOT just testing; it is built into the product from the beginning. \n\n👉 The Quality Dilemma: Balance 'Good Enough' vs 'Perfect'. Perfect is too expensive; good enough is where you meet all requirements safely and efficiently.",
     summary:
-      "High-yield summary: define quality, list cost-of-quality parts, distinguish testing levels, explain DevOps basics, and remember the four Ps and team toxicity.",
+      "🔹 High-Yield Summary: Testing levels build up from smallest (Unit) to largest (System). Quality is proactive, not reactive.",
+  },
+  {
+    title: "12. Project Management and Ethics",
+    topic: "PM and Ethics",
+    overview:
+      "Successful projects require managing people and processes while adhering to ethical standards like honesty and responsibility.",
+    subtopics: [
+      ["Four P's", "People (The Team), Product (The Software), Process (The Model), Project (The Plan)."],
+      ["Team Toxicity", "Bad communication and blame culture lead to failure."],
+      ["Ethics", "SE Code of Ethics: Public interest, client interest, and professional competence."],
+    ],
+    example:
+      "🔹 Ethical Dilemma:\nA manager asks you to hide a security bug to meet a deadline. Ethical choice: Report the bug because 'Public Interest' comes first.",
+    exam_tip:
+      "👉 Project failure is most often a 'People' problem, not a 'Code' problem. Ethics = Integrity + Responsibility.",
+    common_trap:
+      "Do not underestimate the 'People' factor. The Four P's list People FIRST for a reason.",
+    mastery_insight:
+      "🔥 Project Mastery:\nMost software failures come from People problems, not technical ones. Team Toxicity (poor communication, lack of trust) is the silent killer of projects. \n\n👉 Ethics Keyword: Always prioritize 'Public Interest' over 'Client/Manager Pride'.",
+    summary:
+      "🔹 High-Yield Summary: Managing the Four P's + Strong Ethics = Successful, professional software engineering.",
+  },
+  {
+    title: "13. Final Master Strategy",
+    topic: "Exam Mastery",
+    overview:
+      "The blueprint for moving from a Pass to a Distinction. This is how you should structure every long-form answer in the MIT 817 exam.",
+    subtopics: [
+      ["Step 1: The Core Structure", "Every answer must have: Definition → Explanation → Real-World Example → Diagram (if possible)."],
+      ["Step 2: High-Yield Topics", "Focus 80% of your energy on: RE, Process Models, UML, Architecture, Agile, and Quality."],
+      ["Step 3: The Example Rule", "Never list a concept without an example. It's the difference between a Pass and a Distinction."],
+    ],
+    example:
+      "🔹 Distinction Checklist:\n✔ Did I define the term?\n✔ Did I explain 'WHY' it matters?\n✔ Did I link it to the Banking/ATM example?\n✔ Did I mention the lifecycle phase?",
+    mastery_insight:
+      "🔥 Pass → Distinction Strategy:\nThe exam repeats every year. If you can provide a Definition + Explanation + Example + Diagram for the 12 modules above, you are in the top 5% of candidates.",
+    exam_tip:
+      "👉 High-stakes subjects like RE and Architecture scoring depend on your ability to show deep thinking, not just memorization.",
+    common_trap:
+      "Do not list bullet points without explanation. The examiner needs to see you UNDERSTAND the 'why', not just the 'what'.",
+    summary:
+      "🔹 High-Yield Summary: Pass = Knowing the definitions. Distinction = Explaining the 'how' and 'why' with concrete examples.",
   },
 ];
 export const flashcards = [
@@ -1304,6 +1256,57 @@ export const flashcards = [
     topic: "Maintenance & Process",
     front: "What is 'Perfective Maintenance' often called?",
     back: "Evolutionary maintenance, as it involves evolving the system to meet new user requirements.",
+  },
+  // --- MASTERY LEVEL & EXAM STRATEGY ---
+  {
+    topic: "Exam Strategy",
+    front: "What are the 4 essential steps for structuring any long-form exam answer?",
+    back: "1. Definition → 2. Explanation (The 'WHY') → 3. Real-World Example (Banking/ATM) → 4. Diagram (if applicable).",
+  },
+  {
+    topic: "Exam Strategy",
+    front: "What is the 'Difference between Pass and Distinction' in MIT 817?",
+    back: "A Pass knows definitions; a Distinction explains the 'how' and 'why' with specific, practical examples.",
+  },
+  {
+    topic: "Foundations",
+    front: "Why does software 'deteriorate' even though it does not 'wear out'?",
+    back: "Because it is abstract and intangible; continuous changes to meet new needs increase its internal complexity and dependencies.",
+  },
+  {
+    topic: "Foundations",
+    front: "What are the 4 Layers of Software Engineering as a technology?",
+    back: "1. Quality Focus (Mindset) → 2. Process (Framework) → 3. Methods (Technical steps) → 4. Tools (Support).",
+  },
+  {
+    topic: "Agile",
+    front: "What is the core 'Exam Gold' principle of Agile?",
+    back: "Deliver → Get feedback → Improve → Repeat. It's built to embrace change, not resist it.",
+  },
+  {
+    topic: "Agile",
+    front: "When is Agile most likely to fail or be unsuitable?",
+    back: "In safety-critical systems (e.g., medical, flight control) where the system must be 100% correct before any release.",
+  },
+  {
+    topic: "Requirements Engineering",
+    front: "What is the 'Master Level' 6-step task flow for RE?",
+    back: "1. Elicitation → 2. Analysis → 3. Modeling → 4. Negotiation → 5. Validation → 6. Management.",
+  },
+  {
+    topic: "Requirements Engineering",
+    front: "What is the 'Real Problem' that Requirements Engineering solves?",
+    back: "The fact that stakeholders often don't know exactly what they want or they provide conflicting information.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is the 'Quality Dilemma' in software engineering?",
+    back: "The balance between 'Good Enough' software (meeting specs safely/efficiently) and 'Perfect' software (too expensive/slow to reach).",
+  },
+  {
+    topic: "Project Management",
+    front: "What is the most common cause of software project failure?",
+    back: "People problems (communication gaps, toxic culture, lack of trust), rather than purely technical coding issues.",
   },
 ];
 export const quizzes = [
@@ -7861,5 +7864,84 @@ export const mcqs = [
     ],
     answer: "B",
     explanation: "Containers (like Docker) provide portable, isolated environments for software to run consistently across any infrastructure.",
+  },
+  // --- MASTERY LEVEL & EXAM STRATEGY ---
+  {
+    topic: "Exam Strategy",
+    difficulty: "Hard",
+    question: "What is the 'Master Formula' for structuring a distinction-level long-form answer in MIT 817?",
+    options: [
+      "Definition → Explanation → Real-World Example → Diagram.",
+      "Bulleted list of every fact you know about the topic.",
+      "A single summary paragraph followed by a conclusion.",
+      "Write as much code as possible to show technical skill.",
+    ],
+    answer: "A",
+    explanation: "The 'Definition → Explanation → Example → Diagram' structure shows the examiner both theoretical knowledge and practical application, which is required for a Distinction.",
+  },
+  {
+    topic: "Foundations",
+    difficulty: "Hard",
+    question: "Software 'does not wear out' like hardware, yet it still 'deteriorates'. What is the root cause of this deterioration?",
+    options: [
+      "Friction between electrical components in the server.",
+      "The build-up of unhandled exceptions in the CPU.",
+      "The accumulation of changes over time that increases complexity and breaks dependencies.",
+      "Exposure to cosmic radiation in data centers.",
+    ],
+    answer: "C",
+    explanation: "Because software is abstract, it deteriorates when constant modifications (to meet new needs) increase its internal complexity and cause it to lose its original modularity.",
+  },
+  {
+    topic: "Foundations",
+    difficulty: "Hard",
+    question: "What is the correct hierarchical order of the 'Software Engineering Layers'?",
+    options: [
+      "Tools → Methods → Process → Quality Focus.",
+      "Quality Focus → Process → Methods → Tools.",
+      "Process → Quality Focus → Tools → Methods.",
+      "Methods → Tools → Quality Focus → Process.",
+    ],
+    answer: "B",
+    explanation: "Quality is the MINDSET (foundation), Process is the FRAMEWORK, Methods are the TECHNICAL steps, and Tools are the SUPPORT.",
+  },
+  {
+    topic: "Requirements Engineering",
+    difficulty: "Hard",
+    question: "What is the 'Master Flow' of tasks within the Requirements Engineering phase?",
+    options: [
+      "Coding → Testing → Validation → Management.",
+      "Inception → Elaboration → Construction → Transition.",
+      "Elicitation → Analysis → Modeling → Negotiation → Validation → Management.",
+      "Planning → Modeling → Construction → Deployment.",
+    ],
+    answer: "C",
+    explanation: "The 6-step flow (E-A-M-N-V-M) is the standard professional structure for turning vague stakeholder needs into a precise SRS.",
+  },
+  {
+    topic: "Quality and Testing",
+    difficulty: "Hard",
+    question: "How does the 'Quality Dilemma' impact a professional software engineering project?",
+    options: [
+      "It makes it impossible to release any software that has bugs.",
+      "It involves choosing between a 'Perfect' product (unrealistic/expensive) and a 'Good Enough' product (meets needs safely/efficiently).",
+      "It forces the engineer to prioritize the client's pride over the public interest.",
+      "It requires that 100% of the budget be spent on testing.",
+    ],
+    answer: "B",
+    explanation: "Professional SE is about finding the 'Sweet Spot'—software that is fast and cheap enough to be useful, but high-quality enough to be safe and dependable.",
+  },
+  {
+    topic: "Project Management",
+    difficulty: "Hard",
+    question: "Which of the following causes the most significant number of 'failed' software projects in the industry?",
+    options: [
+      "Slow internet speeds in the development team's office.",
+      "Using an older version of the Python programming language.",
+      "People and communication issues (toxic culture, unclear goals, lack of trust).",
+      "The lack of high-performance graphics cards.",
+    ],
+    answer: "C",
+    explanation: "While technical bugs exist, most total project failures are attributed to the 'People' factor (one of the 4 Ps)—poor communication and lack of stakeholder alignment.",
   },
 ];

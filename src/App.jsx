@@ -18,6 +18,7 @@ import {
   Zap,
   RotateCcw,
   Trophy,
+  Flame,
 } from "lucide-react";
 
 import { studyGuide, flashcards, quizzes, mcqs } from "./data";
@@ -496,6 +497,31 @@ const App = () => {
                           </div>
                         </div>
                       </div>
+
+                      {m.example && (
+                        <div className="p-6 md:p-10 bg-white/5 rounded-3xl md:rounded-[2.5rem] border border-white/10">
+                          <h4 className="font-black text-gray-400 mb-6 uppercase text-[10px] tracking-[0.3em] flex items-center">
+                            <Terminal size={14} className="mr-3" /> Real-World Case Study
+                          </h4>
+                          <div className="text-gray-300 text-base md:text-lg leading-relaxed whitespace-pre-line font-medium italic border-l-2 border-indigo-500/30 pl-6">
+                            {m.example}
+                          </div>
+                        </div>
+                      )}
+
+                      {m.mastery_insight && (
+                        <div className="p-6 md:p-10 bg-rose-500/5 rounded-3xl md:rounded-[2.5rem] border border-rose-500/20 relative overflow-hidden group">
+                          <div className="absolute top-0 right-0 p-8 text-rose-500/10 group-hover:text-rose-500/20 transition-colors">
+                            <Flame size={80} />
+                          </div>
+                          <h4 className="font-black text-rose-400 mb-6 uppercase text-[10px] tracking-[0.3em] flex items-center">
+                            <Flame size={14} className="mr-3" /> Exam Mastery Insight
+                          </h4>
+                          <div className="text-rose-100/90 text-base md:text-lg leading-relaxed whitespace-pre-line font-medium relative z-10">
+                            {m.mastery_insight}
+                          </div>
+                        </div>
+                      )}
 
                       <div className="p-6 md:p-10 bg-indigo-500/5 rounded-3xl md:rounded-[2.5rem] border border-indigo-500/10">
                         <h4 className="font-black text-indigo-400 mb-4 uppercase text-[10px] tracking-[0.3em]">
