@@ -177,10 +177,14 @@ const App = () => {
             <div className="bg-gradient-to-br from-indigo-500 to-purple-600 p-2 rounded-xl">
               <Terminal size={18} className="text-white" />
             </div>
-            <h1 className="text-lg font-black tracking-tighter">MIT 817</h1>
+            <h1 className="text-lg font-black tracking-tighter">
+              MIT 817 BY RIDBAY
+            </h1>
           </div>
           <div className="bg-white/5 px-3 py-1 rounded-full border border-white/10">
-            <span className="text-[10px] font-black text-indigo-400 uppercase tracking-widest">{masteryPercent}% Mastery</span>
+            <span className="text-[10px] font-black text-indigo-400 uppercase tracking-widest">
+              {masteryPercent}% Mastery
+            </span>
           </div>
         </header>
       )}
@@ -730,7 +734,8 @@ const App = () => {
                       Efficiency
                     </p>
                     <p className="text-2xl md:text-3xl font-black text-emerald-400">
-                      {Math.round((quizScore / filteredQuestions.length) * 100)}%
+                      {Math.round((quizScore / filteredQuestions.length) * 100)}
+                      %
                     </p>
                   </div>
                   <div className="p-6 md:p-8 bg-white/5 rounded-3xl border border-white/10">
@@ -738,7 +743,9 @@ const App = () => {
                       Rank
                     </p>
                     <p className="text-xl md:text-2xl font-black text-indigo-400">
-                      {quizScore / filteredQuestions.length > 0.8 ? "OPTIMAL" : "RELEARN"}
+                      {quizScore / filteredQuestions.length > 0.8
+                        ? "OPTIMAL"
+                        : "RELEARN"}
                     </p>
                   </div>
                 </div>
@@ -817,7 +824,9 @@ const App = () => {
                             >
                               {["A", "B", "C", "D"][i]}
                             </div>
-                            <span className="font-medium text-base md:text-lg">{opt}</span>
+                            <span className="font-medium text-base md:text-lg">
+                              {opt}
+                            </span>
                             {showAnswer && isCorrect && (
                               <CheckCircle
                                 className="ml-auto text-emerald-400"
@@ -865,32 +874,52 @@ const App = () => {
       {!isFocusMode && (
         <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-2xl border-t border-white/10 px-6 py-4 flex items-center justify-between shadow-[0_-10px_40px_rgba(0,0,0,0.5)]">
           <button
-            onClick={() => { setActiveTab("home"); setQuizStarted(false); }}
+            onClick={() => {
+              setActiveTab("home");
+              setQuizStarted(false);
+            }}
             className={`flex flex-col items-center space-y-1 transition-colors ${activeTab === "home" ? "text-indigo-400" : "text-gray-500"}`}
           >
             <Layers size={20} />
-            <span className="text-[10px] font-bold uppercase tracking-tighter">Home</span>
+            <span className="text-[10px] font-bold uppercase tracking-tighter">
+              Home
+            </span>
           </button>
           <button
-            onClick={() => { setActiveTab("study"); setQuizStarted(false); }}
+            onClick={() => {
+              setActiveTab("study");
+              setQuizStarted(false);
+            }}
             className={`flex flex-col items-center space-y-1 transition-colors ${activeTab === "study" ? "text-indigo-400" : "text-gray-500"}`}
           >
             <BookOpen size={20} />
-            <span className="text-[10px] font-bold uppercase tracking-tighter">Study</span>
+            <span className="text-[10px] font-bold uppercase tracking-tighter">
+              Study
+            </span>
           </button>
           <button
-            onClick={() => { setActiveTab("flashcards"); setQuizStarted(false); }}
+            onClick={() => {
+              setActiveTab("flashcards");
+              setQuizStarted(false);
+            }}
             className={`flex flex-col items-center space-y-1 transition-colors ${activeTab === "flashcards" ? "text-indigo-400" : "text-gray-500"}`}
           >
             <Zap size={20} />
-            <span className="text-[10px] font-bold uppercase tracking-tighter">Cards</span>
+            <span className="text-[10px] font-bold uppercase tracking-tighter">
+              Cards
+            </span>
           </button>
           <button
-            onClick={() => { setActiveTab("quiz"); setQuizStarted(false); }}
+            onClick={() => {
+              setActiveTab("quiz");
+              setQuizStarted(false);
+            }}
             className={`flex flex-col items-center space-y-1 transition-colors ${activeTab === "quiz" ? "text-indigo-400" : "text-gray-500"}`}
           >
             <HelpCircle size={20} />
-            <span className="text-[10px] font-bold uppercase tracking-tighter">Exam</span>
+            <span className="text-[10px] font-bold uppercase tracking-tighter">
+              Exam
+            </span>
           </button>
         </nav>
       )}
