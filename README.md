@@ -1,16 +1,40 @@
-# React + Vite
+# MIT 817 Software Engineering Excellence Hub 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, high-performance study environment designed for the MIT 817 Exam preparation. This application combines active recall, spaced repetition, and exam simulation into a sleek, mobile-responsive dashboard.
 
-Currently, two official plugins are available:
+## 🚀 Core Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **500 Validated MCQs**: Comprehensive question bank covering the entire SE lifecycle.
+- **200 Neural Flashcards**: Question-answer pairs optimized for terminology mastery.
+- **Exam Simulator**: Timed simulation with topic filtering and randomized item generation.
+- **Active Recall Forge**: Dedicated interface for high-frequency vocabulary drills.
+- **Premium UX**: Glassmorphism design system inspired by high-end productivity tools.
+- **Mobile Responsive**: Fully optimized bottom-nav navigation for "anywhere, anytime" studying.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 19 + Vite
+- **Styling**: Tailwind CSS (PostCSS/Autoprefixer)
+- **Icons**: Lucide React
+- **Typography**: Syne (Headers) & Inter (Body)
+- **Deployment**: Local dev server or static hosting (Vercel/Netlify ready)
 
-## Expanding the ESLint configuration
+## 🏁 Study Sprint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Current Goal**: 1 Day Intensive Study Sprint
+- **Milestones**: Question bank expansion, mobile UI overhaul, and repository backup successfully completed.
+
+## 📦 Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+*Good luck with the MIT 817 Exam! Master the syllabus, engineer the excellence.*

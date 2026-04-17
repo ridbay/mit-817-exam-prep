@@ -709,7 +709,7 @@ const App = () => {
                   <div className="absolute inset-0 bg-yellow-400/20 blur-[100px] -z-10" />
                 </div>
                 <div className="space-y-4 px-4">
-                  <h2 className="text-3xl md:text-6xl font-black italic tracking-tighter">
+                  <h2 className="text-2xl md:text-5xl font-black tracking-tighter">
                     MISSION COMPLETE
                   </h2>
                   <p className="text-gray-400 text-lg md:text-xl font-medium">
@@ -737,7 +737,7 @@ const App = () => {
                     <p className="text-[10px] uppercase font-bold text-gray-500 mb-2">
                       Rank
                     </p>
-                    <p className="text-xl md:text-2xl font-black text-indigo-400 italic">
+                    <p className="text-xl md:text-2xl font-black text-indigo-400">
                       {quizScore / filteredQuestions.length > 0.8 ? "OPTIMAL" : "RELEARN"}
                     </p>
                   </div>
@@ -780,7 +780,7 @@ const App = () => {
                 </div>
 
                 <div className="p-6 md:p-12 bg-white/5 rounded-3xl md:rounded-[3.5rem] border border-white/10 space-y-6 md:space-y-12 shadow-3xl">
-                  <h3 className="text-xl md:text-3xl font-black italic leading-tight text-white/95">
+                  <h3 className="text-lg md:text-2xl font-bold leading-snug text-white/90">
                     {filteredQuestions[currentQuestionIdx].question}
                   </h3>
 
@@ -817,7 +817,7 @@ const App = () => {
                             >
                               {["A", "B", "C", "D"][i]}
                             </div>
-                            <span className="font-medium text-lg">{opt}</span>
+                            <span className="font-medium text-base md:text-lg">{opt}</span>
                             {showAnswer && isCorrect && (
                               <CheckCircle
                                 className="ml-auto text-emerald-400"
