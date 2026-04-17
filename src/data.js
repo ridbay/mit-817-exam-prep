@@ -893,6 +893,418 @@ export const flashcards = [
     front: "What is a core ethical principle for software engineers?",
     back: "Acting with integrity, competence, and taking responsibility for work product safety and security.",
   },
+
+  // --- NEW ADVANCED FLASHCARDS ---
+
+  // DESIGN PATTERNS (GoF)
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Singleton' pattern?",
+    back: "A creational pattern that ensures a class has only one instance and provides a global point of access to it.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Factory Method' pattern?",
+    back: "A creational pattern that defines an interface for creating an object, but lets subclasses decide which class to instantiate.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Observer' pattern?",
+    back: "A behavioral pattern where an object (subject) maintains a list of dependents (observers) and notifies them of state changes.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Strategy' pattern?",
+    back: "A behavioral pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Decorator' pattern?",
+    back: "A structural pattern that allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Adapter' pattern?",
+    back: "A structural pattern that allows the interface of an existing class to be used as another interface, often used to make existing classes work with others without modifying their source code.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Facade' pattern?",
+    back: "A structural pattern that provides a simplified interface to a large body of code, such as a class library.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Abstract Factory' pattern?",
+    back: "A creational pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Proxy' pattern?",
+    back: "A structural pattern where a class represents the functionality of another class (a surrogate or placeholder).",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Command' pattern?",
+    back: "A behavioral pattern that encapsulates a request as an object, thereby letting you parameterize clients with different requests.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'State' pattern?",
+    back: "A behavioral pattern that allows an object to alter its behavior when its internal state changes; the object will appear to change its class.",
+  },
+
+  // UML NUANCES
+  {
+    topic: "UML & Modeling",
+    front: "What is 'Generalization' in UML?",
+    back: "A relationship between a more general classifier (superclass) and a more specific classifier (subclass); essentially 'is-a' inheritance.",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is 'Aggregation' in UML?",
+    back: "A 'part-whole' relationship where the part can exist independently of the whole (empty diamond).",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is 'Composition' in UML?",
+    back: "A strong 'part-whole' relationship where the part cannot exist without the whole (filled diamond).",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is a 'Multiplicity' indicator in UML?",
+    back: "A notation (e.g., 0..1, 1..*) that specifies how many instances of one class can be associated with one instance of another class.",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is a 'Stereotype' in UML?",
+    back: "An extensibility mechanism that allows you to define new model elements based on existing ones (e.g., <<interface>>, <<actor>>).",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What are 'Lifelines' in a Sequence Diagram?",
+    back: "Vertical dashed lines representing the existence of an object or participant over a period of time.",
+  },
+
+  // MODERN DEPLOYMENT & INFRASTRUCTURE
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Containerization' (e.g., Docker)?",
+    back: "A form of operating system virtualization where applications are bundled with their libraries and dependencies into lightweight, portable containers.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Orchestration' (e.g., Kubernetes)?",
+    back: "The automated management, scaling, and deployment of containerized applications across a cluster of hosts.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Serverless Computing' (FaaS)?",
+    back: "A cloud execution model where the provider manages the server allocation, and users pay only for the resources consumed by specific functions.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Infrastructure as Code' (IaC)?",
+    back: "The process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is an 'API Gateway'?",
+    back: "A server that acts as an entry point for all clients, routing requests to appropriate microservices and handling cross-cutting concerns like auth.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Blue-Green Deployment'?",
+    back: "A release strategy that uses two identical production environments (Blue and Green) to reduce downtime and risk by swapping traffic between them.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Canary Deployment'?",
+    back: "A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users first.",
+  },
+
+  // ADVANCED TESTING & QUALITY
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Regression Testing'?",
+    back: "Re-running functional and non-functional tests to ensure that previously developed and tested software still performs after a change.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Mutation Testing'?",
+    back: "A method of testing where small changes (mutations) are made to the code to see if existing test cases can 'kill' (detect) the errors.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Fuzz Testing' (Fuzzing)?",
+    back: "An automated software testing technique that involves providing invalid, unexpected, or random data as inputs to a computer program.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Static Analysis'?",
+    back: "The analysis of computer software that is performed without actually executing programs, often used to find bugs or enforce coding standards.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Cyclomatic Complexity'?",
+    back: "A quantitative measure of the number of linearly independent paths through a program's source code, used to assess testing difficulty.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Technical Debt'?",
+    back: "The implied cost of additional rework caused by choosing an easy (quick) solution now instead of using a better approach that would take longer.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'ISO 25010'?",
+    back: "An international standard for software quality that defines a quality model with characteristics like functional suitability, performance efficiency, and security.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is the difference between 'Reliability' and 'Availability'?",
+    back: "Reliability is the probability of failure-free operation for a specified time; Availability is the probability that a system is up and running at any given time.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Fault Tolerance'?",
+    back: "The property that enables a system to continue operating properly in the event of the failure of some of its components.",
+  },
+
+  // MAINTENANCE & REUSE
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Corrective Maintenance'?",
+    back: "Reactive modification of a software product performed after delivery to correct discovered problems.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Adaptive Maintenance'?",
+    back: "Modification of a software product performed after delivery to keep it usable in a changed or changing environment.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Perfective Maintenance'?",
+    back: "Modification of a software product after delivery to improve performance or maintainability (evolution).",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Preventive Maintenance'?",
+    back: "Modification of a software product after delivery to detect and correct latent faults before they become effective faults.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Software Aging'?",
+    back: "The phenomenon of software quality decreasing over time due to accumulating changes and lack of internal cleanup.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'COTS' (Commercial Off-The-Shelf)?",
+    back: "Ready-made software products available for sale to the general public, often reused to reduce development time.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is a 'Software Product Line'?",
+    back: "A set of software-intensive systems sharing a common, managed set of features that satisfy the specific needs of a particular market segment.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Test-Driven Development' (TDD)?",
+    back: "A process where developers write a failing automated test case before writing the minimum code needed to pass that test.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Behavior-Driven Development' (BDD)?",
+    back: "An extension of TDD that uses natural language (Given/When/Then) to describe the behavior of the software from the user's perspective.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What are 'Stubs' vs. 'Mocks' in testing?",
+    back: "Stubs provide canned answers to calls made during the test; Mocks are pre-programmed with expectations which form a specification of the calls they are expected to receive.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Builder' pattern?",
+    back: "A creational pattern that separates the construction of a complex object from its representation, allowing the same construction process to create different representations.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Decorator' pattern used for?",
+    back: "Adding responsibilities to objects dynamically without subclassing.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Composite' pattern?",
+    back: "A structural pattern that lets you compose objects into tree structures to represent part-whole hierarchies.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Flyweight' pattern?",
+    back: "A structural pattern that uses sharing to support large numbers of fine-grained objects efficiently.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Bridge' pattern?",
+    back: "A structural pattern that decouples an abstraction from its implementation so that the two can vary independently.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Template Method' pattern?",
+    back: "A behavioral pattern that defines the skeleton of an algorithm in an operation, deferring some steps to subclasses.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Iterator' pattern?",
+    back: "A behavioral pattern that provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Mediator' pattern?",
+    back: "A behavioral pattern that defines an object that encapsulates how a set of objects interact, promoting loose coupling.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Memento' pattern?",
+    back: "A behavioral pattern that allows capturing and externalizing an object's internal state so the object can be restored to this state later.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Visitor' pattern?",
+    back: "A behavioral pattern that lets you define a new operation without changing the classes of the elements on which it operates.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Interpreter' pattern?",
+    back: "A behavioral pattern that defines a grammatical representation for a language and an interpreter to interpret the grammar.",
+  },
+  {
+    topic: "Design Patterns",
+    front: "What is the 'Chain of Responsibility' pattern?",
+    back: "A behavioral pattern that passes a request along a chain of handlers, where each handler decides either to process the request or pass it next.",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is 'Realization' in UML?",
+    back: "A relationship where one element (client) realizes or implements the behavior specified by another element (supplier).",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is 'Association' in UML?",
+    back: "A structural relationship that specifies that objects of one element are connected to objects of another.",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is 'Dependency' in UML?",
+    back: "A semantic relationship where a change in one element (the independent one) may affect the semantics of the other (the dependent one).",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What are 'Messages' in a Sequence Diagram?",
+    back: "Arrows representing communication between lifelines, which can be synchronous, asynchronous, or return messages.",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is a 'Package Diagram' used for?",
+    back: "Grouping related elements into packages to simplify the visualization of large systems and manage dependencies.",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is a 'Deployment Diagram' used for?",
+    back: "Showing the physical deployment of artifacts on nodes (hardware or execution environments).",
+  },
+  {
+    topic: "UML & Modeling",
+    front: "What is a 'Component Diagram'?",
+    back: "A diagram showing the organization and wiring of physical software components and their interfaces.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Infrastructure as Code' (IaC) benefit?",
+    back: "Enables consistent, repeatable, and version-controlled infrastructure provisioning.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Multi-tenancy'?",
+    back: "A software architecture where a single instance of software runs on a server and serves multiple tenants (customers).",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Service Discovery' in microservices?",
+    back: "The process of automatically detecting devices and services on a network, allowing services to find each other dynamically.",
+  },
+  {
+    topic: "Cloud & Microservices",
+    front: "What is 'Load Balancing'?",
+    back: "Distributing network or application traffic across multiple servers to ensure reliability and performance.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Sanity Testing'?",
+    back: "A subset of regression testing used to verify that a specific bug fix or change works as expected.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Smoke Testing'?",
+    back: "A set of basic tests executed on a new build to verify that the most critical functions work before further testing.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Alpha Testing'?",
+    back: "Testing performed by the internal development team in a controlled environment before releasing to external users.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Beta Testing'?",
+    back: "Testing performed by real users in their own environment before the final release.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Dynamic Analysis'?",
+    back: "The analysis of computer software that is performed by executing programs on a real or virtual processor.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Code Coverage'?",
+    back: "A measure used to describe the degree to which the source code of a program is executed when a particular test suite runs.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Resilience' in software?",
+    back: "The ability of a system to recover from failures and continue to function effectively.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Software Availability'?",
+    back: "The probability that a system is operational and accessible when required.",
+  },
+  {
+    topic: "Quality & Testing",
+    front: "What is 'Software Safety'?",
+    back: "The property of a system that ensures it will not cause harm to people or the environment, even in the event of a failure.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Domain Engineering'?",
+    back: "The process of identifying, modeling, and constructing commonalities and variabilities within a specific application domain for reuse.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Scaffolding' in testing?",
+    back: "Disposable code and data created specifically to support testing, such as test drivers and stubs.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Software Reuse' main benefit?",
+    back: "Improved productivity, reduced costs, and increased reliability by using proven components.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Legacy Software'?",
+    back: "A system that is still critical to an organization but was developed using older technology and may be difficult to maintain.",
+  },
+  {
+    topic: "Maintenance & Process",
+    front: "What is 'Perfective Maintenance' often called?",
+    back: "Evolutionary maintenance, as it involves evolving the system to meet new user requirements.",
+  },
 ];
 export const quizzes = [
   {
@@ -7185,5 +7597,269 @@ export const mcqs = [
     answer: "B",
     explanation:
       "Model-driven engineering is best described as: An approach that gives models a central role in development and possible code generation.",
+  },
+
+  // --- NEW ADVANCED QUIZ QUESTIONS ---
+
+  {
+    topic: "Cloud and Modern Architecture",
+    difficulty: "Hard",
+    question: "In the context of Cloud Computing, what defines Infrastructure as a Service (IaaS)?",
+    options: [
+      "The consumer manages the applications and perhaps the operating system, while the provider manages the underlying hardware, servers, and storage.",
+      "The provider manages all aspects of the application, including the interface and data storage.",
+      "The consumer writes code for specific functions that are triggered by events, with no server management.",
+      "The provider provides a development platform including languages and libraries, while the consumer manages the app life cycle.",
+    ],
+    answer: "A",
+    explanation: "IaaS gives the consumer control over operating systems, storage, and deployed applications, while the provider controls the physical infrastructure.",
+  },
+  {
+    topic: "Cloud and Modern Architecture",
+    difficulty: "Hard",
+    question: "What is the primary characteristic of Platform as a Service (PaaS)?",
+    options: [
+      "Users pay only for the execution time of individual code functions.",
+      "The provider delivers a pre-configured development and deployment environment, including runtime libraries and middleware.",
+      "Hardware is virtualized and provided as a raw resource.",
+      "Data is automatically synchronized across multiple organizational tenants.",
+    ],
+    answer: "B",
+    explanation: "PaaS provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure.",
+  },
+  {
+    topic: "Cloud and Modern Architecture",
+    difficulty: "Hard",
+    question: "What is a major security challenge unique to Multi-tenant SaaS environments?",
+    options: [
+      "Physical theft of servers from the data center.",
+      "Information leakage or data 'bleeding' between different organizational tenants using the same database.",
+      "Slow network speeds causing packet loss.",
+      "Lack of support for mobile devices.",
+    ],
+    answer: "B",
+    explanation: "In multi-tenant systems, ensuring that one customer cannot see another customer's data is a critical and complex security concern.",
+  },
+  {
+    topic: "DevOps, Teams, Ethics",
+    difficulty: "Hard",
+    question: "According to the ACM/IEEE Software Engineering Code of Ethics, what is the highest priority for a software engineer?",
+    options: [
+      "Satisfying the employer's requirements at all costs.",
+      "Ensuring the product is delivered on time, regardless of minor safety bugs.",
+      "Acting consistently with the public interest.",
+      "Advancing the engineer's personal career and reputation.",
+    ],
+    answer: "C",
+    explanation: "Principle 1 of the Code of Ethics states that software engineers shall act consistently with the public interest.",
+  },
+  {
+    topic: "DevOps, Teams, Ethics",
+    difficulty: "Hard",
+    question: "What does 'Brooks's Law' state regarding software project management?",
+    options: [
+      "Software complexity increases exponentially with the number of modules.",
+      "Adding manpower to a late software project makes it later.",
+      "The cost of fixing a bug increases the later it is found in the lifecycle.",
+      "A developer's productivity is halved for every interruption.",
+    ],
+    answer: "B",
+    explanation: "Brooks's Law highlights that the communication overhead of bringing new people onto a late project often outweighs their contribution.",
+  },
+  {
+    topic: "Quality and Testing",
+    difficulty: "Hard",
+    question: "What is 'Cyclomatic Complexity' used to measure?",
+    options: [
+      "The number of lines of code in a program.",
+      "The number of linearly independent paths through a program's source code.",
+      "The speed at which a program executes a specific loop.",
+      "The number of users that can simultaneously access a system.",
+    ],
+    answer: "B",
+    explanation: "Cyclomatic complexity provides a quantitative measure of the logical complexity of a program, indicating how many test cases are needed.",
+  },
+  {
+    topic: "Requirements Engineering",
+    difficulty: "Hard",
+    question: "What is the primary purpose of 'Requirements Negotiation'?",
+    options: [
+      "To convince the customer that the developer's idea is better.",
+      "To resolve conflicts between stakeholders and reach an agreed set of requirements that are feasible within budget.",
+      "To determine which developer will work on which requirement.",
+      "To finalize the legal contract and payment terms.",
+    ],
+    answer: "B",
+    explanation: "Negotiation ensures that all stakeholders agree on a realistic and achievable set of requirements.",
+  },
+  {
+    topic: "Design and Architecture",
+    difficulty: "Hard",
+    question: "In software design, what is 'Information Hiding'?",
+    options: [
+      "Encrypting the source code to prevent competitors from reading it.",
+      "Concealing internal design decisions or data structures behind stable interfaces to limit change impact.",
+      "Restricting user access to administrative features.",
+      "Storing sensitive data in hidden partitions on the disk.",
+    ],
+    answer: "B",
+    explanation: "Information hiding (encapsulation) reduces coupling by ensuring that one module's internal changes don't require changes in others.",
+  },
+  {
+    topic: "Cloud and Modern Architecture",
+    difficulty: "Medium",
+    question: "What is 'Infrastructure as Code' (IaC)?",
+    options: [
+      "Writing manual instructions for IT staff to follow.",
+      "Managing and provisioning infrastructure through machine-readable definition files.",
+      "Hard-coding IP addresses directly into the application source code.",
+      "Outsourcing all server management to a third-party company.",
+    ],
+    answer: "B",
+    explanation: "IaC allows infrastructure to be treated like software, enabling version control and automated deployment.",
+  },
+  {
+    topic: "Quality and Testing",
+    difficulty: "Medium",
+    question: "What is 'Regression Testing'?",
+    options: [
+      "Testing a system to see how many errors it can generate per hour.",
+      "Re-testing previously verified software after changes to ensure no new bugs were introduced.",
+      "Testing the system beyond its operational limits.",
+      "Asking users to provide feedback on the UI design.",
+    ],
+    answer: "B",
+    explanation: "Regression testing ensures that updates or bug fixes haven't 'broken' existing features.",
+  },
+  {
+    topic: "Quality and Testing",
+    difficulty: "Hard",
+    question: "What is the 'Cost of Quality' component related to find and fix bugs before release?",
+    options: [
+      "Prevention costs.",
+      "Internal failure costs.",
+      "Appraisal costs.",
+      "External failure costs.",
+    ],
+    answer: "B",
+    explanation: "Internal failure costs are incurred when defects are found by the team before the product reaches the customer.",
+  },
+  {
+    topic: "DevOps, Teams, Ethics",
+    difficulty: "Medium",
+    question: "In Software Project Management, what are the four 'Ps'?",
+    options: [
+      "Programming, Planning, Proofing, Publishing.",
+      "People, Product, Process, Project.",
+      "Performance, Price, Portability, Precision.",
+      "Prioritization, Procurement, Prototyping, Packaging.",
+    ],
+    answer: "B",
+    explanation: "The 4 Ps represent the critical elements that must be managed for a successful software project.",
+  },
+  {
+    topic: "Design and Architecture",
+    difficulty: "Hard",
+    question: "What is the main goal of 'Refactoring'?",
+    options: [
+      "To add new features requested by the client.",
+      "To improve the internal structure of code without changing its external behavior.",
+      "To rewrite the software into a different programming language.",
+      "To reduce the size of the compiled executable file.",
+    ],
+    answer: "B",
+    explanation: "Refactoring improves maintainability and readability by cleaning up technical debt.",
+  },
+  {
+    topic: "Requirements Engineering",
+    difficulty: "Medium",
+    question: "What is a 'Non-functional Requirement'?",
+    options: [
+      "A feature that is not yet implemented in the system.",
+      "A constraint on the system's operation or a quality attribute like security or performance.",
+      "A requirement that the user doesn't actually need.",
+      "A bug report from a previous version of the software.",
+    ],
+    answer: "B",
+    explanation: "Non-functional requirements specify *how* the system should behave, rather than *what* it should do.",
+  },
+  {
+    topic: "Modern Technology",
+    difficulty: "Hard",
+    question: "Which cloud deployment model provides the most control but the highest maintenance effort?",
+    options: [
+      "Public Cloud.",
+      "Private Cloud.",
+      "Hybrid Cloud.",
+      "SaaS.",
+    ],
+    answer: "B",
+    explanation: "A Private Cloud is dedicated to one organization, offering total control over security and infrastructure but requiring full internal management.",
+  },
+  {
+    topic: "Process Models",
+    difficulty: "Hard",
+    question: "In the Unified Process (UP), what happens during the 'Inception' phase?",
+    back: "The team defines the scope of the project and determines its feasibility.",
+    options: [
+      "The team codes the entire system.",
+      "The team defines the scope, basic architecture, and feasibility of the project.",
+      "The software is handed over to the customer.",
+      "Final testing and bug fixing occur.",
+    ],
+    answer: "B",
+    explanation: "Inception is about establishing the business case and scope, not full-scale construction.",
+  },
+  {
+    topic: "Modeling and UML",
+    difficulty: "Medium",
+    question: "What is 'Multiplicity' in a UML class diagram?",
+    options: [
+      "The number of classes in the diagram.",
+      "The number of instances of one class that can be linked to one instance of another class.",
+      "The speed at which objects are created at runtime.",
+      "The number of subclasses inherited from a parent class.",
+    ],
+    answer: "B",
+    explanation: "Multiplicity (e.g., 1..*) defines the quantitative relationship between associated classes.",
+  },
+  {
+    topic: "Design and Architecture",
+    difficulty: "Hard",
+    question: "What is the benefit of 'Separation of Concerns'?",
+    options: [
+      "It makes the software faster to execute.",
+      "It improves maintainability by ensuring each part of the program addresses a distinct concern.",
+      "It allows the program to run on multiple operating systems.",
+      "It reduces the amount of memory consumed by the application.",
+    ],
+    answer: "B",
+    explanation: "By isolating functionalities, changes in one area are less likely to impact others.",
+  },
+  {
+    topic: "Quality and Testing",
+    difficulty: "Medium",
+    question: "What is 'Equivalence Partitioning' in testing?",
+    options: [
+      "Dividing the development team into equal groups for peer review.",
+      "Dividing input data into classes that are expected to be processed similarly.",
+      "Ensuring that all functions have the same number of lines of code.",
+      "Calculating the average number of errors per module.",
+    ],
+    answer: "B",
+    explanation: "Equivalence partitioning reduces the number of test cases needed while maintaining effective coverage.",
+  },
+  {
+    topic: "Modern Technology",
+    difficulty: "Medium",
+    question: "What is 'Containerization'?",
+    options: [
+      "Storing old server hardware in physical shipping containers.",
+      "A lightweight form of individual OS virtualization allowing apps to run in isolated environments.",
+      "The process of putting software into physical boxes for retail sale.",
+      "A technique for compressing large database files.",
+    ],
+    answer: "B",
+    explanation: "Containers (like Docker) provide portable, isolated environments for software to run consistently across any infrastructure.",
   },
 ];
