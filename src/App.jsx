@@ -19,11 +19,12 @@ import {
   RotateCcw,
   Trophy,
   Flame,
+  Cpu,
 } from "lucide-react";
 
-import { studyGuide, flashcards, quizzes, mcqs } from "./data";
+import { studyGuide, flashcards, quizzes, theoryBank, groupProjectBank } from "./data";
 
-const ALL_QUESTIONS = [...quizzes, ...mcqs].map((q, idx) => ({
+const ALL_QUESTIONS = [...quizzes].map((q, idx) => ({
   ...q,
   id: idx + 1,
   correct: { A: 0, B: 1, C: 2, D: 3 }[q.answer],
@@ -46,6 +47,8 @@ const App = () => {
   const [quizFinished, setQuizFinished] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [isFocusMode, setIsFocusMode] = useState(false);
+  const [theorySearchQuery, setTheorySearchQuery] = useState("");
+  const [projectSearchQuery, setProjectSearchQuery] = useState("");
 
   // Filter & Shuffle States
   const [quizTopicFilter, setQuizTopicFilter] = useState("All");
@@ -87,7 +90,7 @@ const App = () => {
 
   const uniqueTopics = useMemo(
     () => ["All", ...new Set(ALL_QUESTIONS.map((q) => q.topic))],
-    [],
+    [ALL_QUESTIONS],
   );
 
   // Sync with LocalStorage
@@ -227,6 +230,18 @@ const App = () => {
               label="Exam Simulator"
               count={`${ALL_QUESTIONS.length} Items`}
             />
+            <SidebarItem
+              id="theory-bank"
+              icon={Award}
+              label="Theory Bank"
+              count={`${theoryBank.length} Questions`}
+            />
+            <SidebarItem
+              id="project-lab"
+              icon={Cpu}
+              label="Project Lab"
+              count={`${groupProjectBank.length} Items`}
+            />
           </nav>
 
           <div className="p-6 rounded-[2rem] border border-white/10 relative overflow-hidden group bg-white/5">
@@ -344,6 +359,38 @@ const App = () => {
                   <h3 className="text-2xl font-black">Exam Engine</h3>
                   <p className="text-gray-400 text-sm">
                     {ALL_QUESTIONS.length} Questions
+                  </p>
+                </div>
+              </div>
+
+              <div
+                onClick={() => setActiveTab("theory-bank")}
+                className="md:col-span-4 p-6 md:p-10 rounded-3xl md:rounded-[2.5rem] flex flex-col justify-between cursor-pointer border border-white/10 bg-white/5 group hover:border-purple-500/50 transition-all min-h-[12rem] md:min-h-0"
+              >
+                <Award
+                  className="text-purple-400 group-hover:scale-110 transition-transform"
+                  size={48}
+                />
+                <div className="space-y-1">
+                  <h3 className="text-2xl font-black">Theory Bank</h3>
+                  <p className="text-gray-400 text-sm">
+                    {theoryBank.length} Detail Models
+                  </p>
+                </div>
+              </div>
+
+              <div
+                onClick={() => setActiveTab("project-lab")}
+                className="md:col-span-4 p-6 md:p-10 rounded-3xl md:rounded-[2.5rem] flex flex-col justify-between cursor-pointer border border-white/10 bg-white/5 group hover:border-emerald-500/50 transition-all min-h-[12rem] md:min-h-0"
+              >
+                <Cpu
+                  className="text-emerald-400 group-hover:scale-110 transition-transform"
+                  size={48}
+                />
+                <div className="space-y-1">
+                  <h3 className="text-2xl font-black">Project Lab</h3>
+                  <p className="text-gray-400 text-sm">
+                     Group 4 Case Study
                   </p>
                 </div>
               </div>
@@ -618,7 +665,163 @@ const App = () => {
           </div>
         )}
 
-        {/* QUIZ TAB - FULLY RECONSTRUCTED */}
+        {/* PROJECT LAB */}
+        {activeTab === "project-lab" && (
+          <div className="max-w-5xl mx-auto space-y-12">
+            <header className="flex flex-col md:flex-row md:items-center justify-between gap-8 mb-4">
+              <div className="space-y-2">
+                <span className="text-emerald-400 font-black text-xs uppercase tracking-[0.4em]">
+                  Case Study Integration
+                </span>
+                <h2 className="text-4xl font-black uppercase leading-tight">
+                  Group 4: Digital Academic Records Portal for Managing Undergraduate and Postgraduate Academic Records
+                </h2>
+              </div>
+              <div className="relative flex-1 md:max-w-md">
+                <Search
+                  className="absolute left-5 top-1/2 -translate-y-1/2 text-white/30"
+                  size={20}
+                />
+                <input
+                  type="text"
+                  placeholder="Search project requirements, roles..."
+                  className="w-full pl-14 pr-8 py-5 bg-white/5 border border-white/10 rounded-2xl focus:ring-2 focus:ring-emerald-500/50 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
+                  onChange={(e) =>
+                    setProjectSearchQuery(e.target.value.toLowerCase())
+                  }
+                />
+              </div>
+            </header>
+
+            <div className="grid grid-cols-1 gap-8">
+              {groupProjectBank
+                .filter(
+                  (p) =>
+                    p.title.toLowerCase().includes(projectSearchQuery) ||
+                    p.details.toLowerCase().includes(projectSearchQuery),
+                )
+                .map((p, idx) => (
+                  <div
+                    key={idx}
+                    className="group bg-white/5 rounded-[2.5rem] border border-white/5 hover:border-emerald-500/30 transition-all overflow-hidden"
+                  >
+                    <div className="p-8 md:p-12 space-y-8">
+                      <div className="flex items-start space-x-6">
+                        <span className="text-4xl font-black text-white/10 translate-y-1">
+                          {p.id.padStart(2, "0")}
+                        </span>
+                        <h3 className="text-xl md:text-3xl font-black text-white group-hover:text-emerald-300 transition-colors leading-tight">
+                          {p.title}
+                        </h3>
+                      </div>
+
+                      <div className="grid grid-cols-1 gap-8">
+                        <div className="bg-white/[0.02] p-8 md:p-10 rounded-3xl border border-white/5 space-y-6">
+                          <p className="text-gray-300 text-lg md:text-xl leading-relaxed whitespace-pre-line font-medium">
+                            {p.details}
+                          </p>
+                        </div>
+
+                        {p.highlight && (
+                          <div className="bg-emerald-500/5 p-8 md:p-10 rounded-3xl border border-emerald-500/10 space-y-4">
+                            <div className="flex items-center space-x-2 text-emerald-400 font-black text-[10px] uppercase tracking-widest">
+                              <Info size={14} />
+                              <span>Critical Exam Insight</span>
+                            </div>
+                            <p className="text-emerald-100/80 text-lg md:text-xl italic font-bold">
+                              {p.highlight}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+        )}
+
+        {/* THEORY BANK */}
+        {activeTab === "theory-bank" && (
+          <div className="max-w-5xl mx-auto space-y-12">
+            <header className="flex flex-col md:flex-row md:items-center justify-between gap-8 mb-4">
+              <div className="space-y-2">
+                <span className="text-purple-400 font-black text-xs uppercase tracking-[0.4em]">
+                  Distinction Level Bank
+                </span>
+                <h2 className="text-4xl font-black">Written Exam Models</h2>
+              </div>
+              <div className="relative flex-1 md:max-w-md">
+                <Search
+                  className="absolute left-5 top-1/2 -translate-y-1/2 text-white/30"
+                  size={20}
+                />
+                <input
+                  type="text"
+                  placeholder="Search theory, definitions, comparison..."
+                  className="w-full pl-14 pr-8 py-5 bg-white/5 border border-white/10 rounded-2xl focus:ring-2 focus:ring-purple-500/50 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
+                  onChange={(e) =>
+                    setTheorySearchQuery(e.target.value.toLowerCase())
+                  }
+                />
+              </div>
+            </header>
+
+            <div className="grid grid-cols-1 gap-8">
+              {theoryBank
+                .filter(
+                  (t) =>
+                    t.question.toLowerCase().includes(theorySearchQuery) ||
+                    t.answer.toLowerCase().includes(theorySearchQuery),
+                )
+                .map((t, idx) => (
+                  <div
+                    key={idx}
+                    className="group bg-white/5 rounded-[2.5rem] border border-white/5 hover:border-purple-500/30 transition-all overflow-hidden"
+                  >
+                    <div className="p-8 md:p-12 space-y-8">
+                      <div className="flex items-start justify-between gap-6">
+                        <div className="flex items-start space-x-6">
+                          <span className="text-4xl font-black text-white/10 translate-y-1">
+                            {t.id.padStart(2, "0")}
+                          </span>
+                          <h3 className="text-xl md:text-3xl font-black text-white group-hover:text-purple-300 transition-colors leading-tight">
+                            {t.question}
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div className="grid grid-cols-1 gap-8">
+                        <div className="bg-white/[0.02] p-8 md:p-10 rounded-3xl border border-white/5 space-y-6">
+                          <h4 className="flex items-center text-[10px] uppercase font-black tracking-[0.3em] text-emerald-400">
+                            <CheckCircle size={14} className="mr-3" /> Model
+                            Answer
+                          </h4>
+                          <p className="text-gray-300 text-lg md:text-xl leading-relaxed whitespace-pre-line font-medium">
+                            {t.answer}
+                          </p>
+                        </div>
+
+                        {t.example && (
+                          <div className="bg-purple-500/5 p-8 md:p-10 rounded-3xl border border-purple-500/10 space-y-6">
+                            <h4 className="flex items-center text-[10px] uppercase font-black tracking-[0.3em] text-purple-400">
+                              <Terminal size={14} className="mr-3" /> Concrete
+                              Example
+                            </h4>
+                            <p className="text-purple-100/80 text-lg md:text-xl italic font-medium">
+                              {t.example}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+        )}
+
+        {/* QUIZ TAB */}
         {activeTab === "quiz" && (
           <div className="max-w-4xl mx-auto py-12">
             {!quizStarted ? (

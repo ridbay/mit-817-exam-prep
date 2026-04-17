@@ -1,0 +1,5529 @@
+[
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What is software engineering primarily concerned with?",
+    "options": [
+      "Writing code only",
+      "All aspects of software production",
+      "Hardware development",
+      "Network installation"
+    ],
+    "answer": "B",
+    "explanation": "Software engineering covers the entire lifecycle\u2014from specification to maintenance, not just coding."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Why did software engineering emerge as a discipline?",
+    "options": [
+      "Hardware shortage",
+      "Software crisis",
+      "Internet growth",
+      "Programming languages"
+    ],
+    "answer": "B",
+    "explanation": "The \u201csoftware crisis\u201d involved late delivery, high cost, and unreliable systems, which led to the need for structured engineering approaches."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Software systems are described as:",
+    "options": [
+      "Physical",
+      "Mechanical",
+      "Abstract and intangible",
+      "Static"
+    ],
+    "answer": "C",
+    "explanation": "Software is not constrained by physical laws, making it flexible but highly complex."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What is a major challenge of software systems?",
+    "options": [
+      "Weight",
+      "Power consumption",
+      "Complexity",
+      "Temperature"
+    ],
+    "answer": "C",
+    "explanation": "Because software has no physical limits, it can grow extremely complex and difficult to manage."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Professional software is typically developed by:",
+    "options": [
+      "Individuals only",
+      "Teams",
+      "Machines",
+      "Customers"
+    ],
+    "answer": "B",
+    "explanation": "Large systems require collaboration, coordination, and maintenance, hence teams are needed."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What is a software product?",
+    "options": [
+      "Hardware tool",
+      "System with useful functionality",
+      "Network device",
+      "Programming language"
+    ],
+    "answer": "B",
+    "explanation": "Software products provide useful functionality to customers, e.g., Excel, mobile apps."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "Generic software is developed for:",
+    "options": [
+      "One client",
+      "Many users",
+      "Developers only",
+      "Government only"
+    ],
+    "answer": "B",
+    "explanation": "Generic software targets a wide range of customers (e.g., Microsoft Word)."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "Custom software is developed for:",
+    "options": [
+      "Multiple companies",
+      "A specific client",
+      "Everyone",
+      "Open source"
+    ],
+    "answer": "B",
+    "explanation": "Custom software is tailored to specific business needs."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "Product development starts with:",
+    "options": [
+      "Coding",
+      "Product vision",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": "A product vision defines what to build, for whom, and why."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "Product vision answers which question?",
+    "options": [
+      "How to code",
+      "Who are the users",
+      "Which language to use",
+      "Where to host"
+    ],
+    "answer": "B",
+    "explanation": "Vision defines target users, purpose, and value."
+  },
+  {
+    "topic": "Product Management",
+    "difficulty": "Medium",
+    "question": "Who is responsible for a software product?",
+    "options": [
+      "Tester",
+      "Product manager",
+      "Programmer",
+      "Designer"
+    ],
+    "answer": "B",
+    "explanation": "The product manager oversees planning, development, and customer alignment."
+  },
+  {
+    "topic": "Product Management",
+    "difficulty": "Medium",
+    "question": "Product managers focus on:",
+    "options": [
+      "Code only",
+      "Customers and business needs",
+      "Hardware",
+      "Testing only"
+    ],
+    "answer": "B",
+    "explanation": "They act as a bridge between business, users, and developers."
+  },
+  {
+    "topic": "Product Management",
+    "difficulty": "Medium",
+    "question": "Product backlog is:",
+    "options": [
+      "Code repository",
+      "To-do list of features",
+      "Database",
+      "UI design"
+    ],
+    "answer": "B",
+    "explanation": "Backlog contains prioritized work items like features and improvements."
+  },
+  {
+    "topic": "Product Management",
+    "difficulty": "Medium",
+    "question": "Acceptance testing ensures:",
+    "options": [
+      "Code compiles",
+      "Product meets goals",
+      "UI is beautiful",
+      "Database is full"
+    ],
+    "answer": "B",
+    "explanation": "It checks whether the product satisfies user needs and expectations."
+  },
+  {
+    "topic": "Product Management",
+    "difficulty": "Medium",
+    "question": "Prototyping is used to:",
+    "options": [
+      "Finalize system",
+      "Explore ideas",
+      "Deploy system",
+      "Remove features"
+    ],
+    "answer": "B",
+    "explanation": "Prototypes help test ideas and user reactions early."
+  },
+  {
+    "topic": "Agile Development",
+    "difficulty": "Medium",
+    "question": "Agile focuses on:",
+    "options": [
+      "Documentation",
+      "Flexibility and speed",
+      "Hardware",
+      "Cost only"
+    ],
+    "answer": "B",
+    "explanation": "Agile emphasizes rapid delivery and adaptability to change."
+  },
+  {
+    "topic": "Agile Development",
+    "difficulty": "Medium",
+    "question": "Agile development is based on:",
+    "options": [
+      "Linear process",
+      "Incremental development",
+      "Waterfall",
+      "Hardware cycles"
+    ],
+    "answer": "B",
+    "explanation": "Software is built in small increments with feedback loops."
+  },
+  {
+    "topic": "Agile Development",
+    "difficulty": "Medium",
+    "question": "Agile values:",
+    "options": [
+      "Contracts over collaboration",
+      "Documentation over software",
+      "Working software over documentation",
+      "Plans over change"
+    ],
+    "answer": "C",
+    "explanation": "Agile prioritizes working software."
+  },
+  {
+    "topic": "Agile Development",
+    "difficulty": "Medium",
+    "question": "Agile supports:",
+    "options": [
+      "Fixed requirements",
+      "Changing requirements",
+      "No requirements",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": "Change is expected and embraced."
+  },
+  {
+    "topic": "Agile Development",
+    "difficulty": "Medium",
+    "question": "Incremental delivery means:",
+    "options": [
+      "Deliver everything at once",
+      "Deliver in parts",
+      "No delivery",
+      "Testing only"
+    ],
+    "answer": "B",
+    "explanation": "Software is delivered in usable increments."
+  },
+  {
+    "topic": "Extreme Programming (XP)",
+    "difficulty": "Medium",
+    "question": "XP stands for:",
+    "options": [
+      "Extra Programming",
+      "Extreme Programming",
+      "Extended Processing",
+      "Experimental Programming"
+    ],
+    "answer": "B",
+    "explanation": "XP is an Agile method emphasizing coding practices and rapid delivery."
+  },
+  {
+    "topic": "Extreme Programming (XP)",
+    "difficulty": "Medium",
+    "question": "XP promotes:",
+    "options": [
+      "Documentation",
+      "Pair programming",
+      "Hardware",
+      "Waterfall"
+    ],
+    "answer": "B",
+    "explanation": "Two developers work together to improve quality."
+  },
+  {
+    "topic": "Extreme Programming (XP)",
+    "difficulty": "Medium",
+    "question": "Test-driven development means:",
+    "options": [
+      "Test after coding",
+      "Test before coding",
+      "No testing",
+      "Manual testing only"
+    ],
+    "answer": "B",
+    "explanation": "Tests are written before code to define expected behavior."
+  },
+  {
+    "topic": "Extreme Programming (XP)",
+    "difficulty": "Medium",
+    "question": "Continuous integration ensures:",
+    "options": [
+      "No testing",
+      "Frequent integration",
+      "One-time deployment",
+      "Hardware checks"
+    ],
+    "answer": "B",
+    "explanation": "Code is integrated and tested frequently to avoid issues."
+  },
+  {
+    "topic": "Extreme Programming (XP)",
+    "difficulty": "Medium",
+    "question": "Refactoring means:",
+    "options": [
+      "Adding features",
+      "Improving code structure",
+      "Deleting code",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": "Improves readability and maintainability."
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "Scrum is:",
+    "options": [
+      "Programming language",
+      "Agile framework",
+      "Hardware tool",
+      "Testing method"
+    ],
+    "answer": "B",
+    "explanation": "Scrum organizes Agile development into structured processes."
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "A sprint lasts:",
+    "options": [
+      "1 year",
+      "2\u20134 weeks",
+      "1 day",
+      "6 months"
+    ],
+    "answer": "B",
+    "explanation": "Short development cycle producing usable increments."
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "Product owner is responsible for:",
+    "options": [
+      "Coding",
+      "Features and priorities",
+      "Testing",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": "Defines and prioritizes product requirements."
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "ScrumMaster is:",
+    "options": [
+      "Manager",
+      "Coach",
+      "Developer",
+      "Tester"
+    ],
+    "answer": "B",
+    "explanation": "Guides team in using Scrum effectively."
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "Daily scrum is:",
+    "options": [
+      "Weekly meeting",
+      "Daily short meeting",
+      "Monthly review",
+      "Testing session"
+    ],
+    "answer": "B",
+    "explanation": "Used to track progress and plan work."
+  },
+  {
+    "topic": "Features, Personas, Scenarios",
+    "difficulty": "Medium",
+    "question": "A feature is:",
+    "options": [
+      "A bug",
+      "Functionality",
+      "UI only",
+      "Code"
+    ],
+    "answer": "B",
+    "explanation": "Feature = fragment of functionality."
+  },
+  {
+    "topic": "Features, Personas, Scenarios",
+    "difficulty": "Medium",
+    "question": "Personas represent:",
+    "options": [
+      "Code",
+      "Imagined users",
+      "Features",
+      "Tests"
+    ],
+    "answer": "B",
+    "explanation": "They help developers understand user needs."
+  },
+  {
+    "topic": "Features, Personas, Scenarios",
+    "difficulty": "Medium",
+    "question": "Scenarios describe:",
+    "options": [
+      "Code structure",
+      "User interaction",
+      "Hardware",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": "Scenarios show how users use the system."
+  },
+  {
+    "topic": "Features, Personas, Scenarios",
+    "difficulty": "Medium",
+    "question": "Personas help developers:",
+    "options": [
+      "Code faster",
+      "Empathize with users",
+      "Reduce cost",
+      "Test"
+    ],
+    "answer": "B",
+    "explanation": "They allow developers to \u201cstep into user\u2019s shoes\u201d."
+  },
+  {
+    "topic": "Features, Personas, Scenarios",
+    "difficulty": "Medium",
+    "question": "Scenario is NOT:",
+    "options": [
+      "Narrative",
+      "Specification",
+      "Usage description",
+      "User interaction"
+    ],
+    "answer": "B",
+    "explanation": "Scenarios are informal and not detailed specifications."
+  },
+  {
+    "topic": "Product Backlog & Sprints",
+    "difficulty": "Medium",
+    "question": "Product backlog contains:",
+    "options": [
+      "Code",
+      "Tasks",
+      "UI",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": "List of features, fixes, and improvements."
+  },
+  {
+    "topic": "Product Backlog & Sprints",
+    "difficulty": "Medium",
+    "question": "Backlog items are called:",
+    "options": [
+      "Features",
+      "PBIs",
+      "Tasks",
+      "Stories"
+    ],
+    "answer": "B",
+    "explanation": "Product Backlog Items (PBIs)."
+  },
+  {
+    "topic": "Product Backlog & Sprints",
+    "difficulty": "Medium",
+    "question": "Story points measure:",
+    "options": [
+      "Time",
+      "Effort",
+      "Code size",
+      "Speed"
+    ],
+    "answer": "B",
+    "explanation": "They estimate relative effort and complexity."
+  },
+  {
+    "topic": "Product Backlog & Sprints",
+    "difficulty": "Medium",
+    "question": "Sprint goal defines:",
+    "options": [
+      "Code",
+      "Objective",
+      "UI",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": "It sets what the sprint should achieve."
+  },
+  {
+    "topic": "Product Backlog & Sprints",
+    "difficulty": "Medium",
+    "question": "Sprint backlog is:",
+    "options": [
+      "Product backlog",
+      "Subset for sprint",
+      "Code",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": "It contains items selected for that sprint."
+  },
+  {
+    "topic": "Team & Scrum Practices",
+    "difficulty": "Medium",
+    "question": "Ideal Scrum team size is:",
+    "options": [
+      "1\u20132",
+      "5\u20138",
+      "20",
+      "50"
+    ],
+    "answer": "B",
+    "explanation": "Small enough for communication, large enough for diversity."
+  },
+  {
+    "topic": "Team & Scrum Practices",
+    "difficulty": "Medium",
+    "question": "Self-organizing team means:",
+    "options": [
+      "No leader",
+      "Team makes decisions",
+      "Manager controls",
+      "Fixed roles"
+    ],
+    "answer": "B",
+    "explanation": "Team members decide how to work collaboratively."
+  },
+  {
+    "topic": "Team & Scrum Practices",
+    "difficulty": "Medium",
+    "question": "Scrum assumes teams are:",
+    "options": [
+      "Remote",
+      "Co-located",
+      "Part-time",
+      "Independent"
+    ],
+    "answer": "B",
+    "explanation": "Designed for close communication environments."
+  },
+  {
+    "topic": "Team & Scrum Practices",
+    "difficulty": "Medium",
+    "question": "Continuous integration involves:",
+    "options": [
+      "Manual testing",
+      "Frequent merging",
+      "Deployment only",
+      "UI updates"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Team & Scrum Practices",
+    "difficulty": "Medium",
+    "question": "Test automation ensures:",
+    "options": [
+      "No testing",
+      "Faster testing",
+      "Manual testing",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Software evolution is:",
+    "options": [
+      "Static process",
+      "Continuous change",
+      "Hardware change",
+      "Coding"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Software complexity arises due to:",
+    "options": [
+      "Hardware",
+      "Growth and changes",
+      "UI",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Software engineering methods include:",
+    "options": [
+      "Design only",
+      "Techniques and processes",
+      "Hardware",
+      "Testing only"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Software product line means:",
+    "options": [
+      "One product",
+      "Related products",
+      "Hardware",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Platform allows:",
+    "options": [
+      "Coding",
+      "Building applications",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": "Platforms provide base functionality for building new applications."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "What is the main purpose of a feature list?",
+    "options": [
+      "Testing",
+      "Starting point for design",
+      "Deployment",
+      "Coding"
+    ],
+    "answer": "B",
+    "explanation": "A feature list defines what the system should do and serves as the foundation for design and development."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "Features are best described as:",
+    "options": [
+      "Entire systems",
+      "Fragments of functionality",
+      "Hardware modules",
+      "UI layouts"
+    ],
+    "answer": "B",
+    "explanation": "A feature represents a specific function, like \u201cprint\u201d or \u201clogin\u201d."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "Personas are created to:",
+    "options": [
+      "Replace users",
+      "Understand users",
+      "Design databases",
+      "Test systems"
+    ],
+    "answer": "B",
+    "explanation": "Personas help developers visualize and empathize with users, improving design decisions."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "A persona should include:",
+    "options": [
+      "Code structure",
+      "Personal details and goals",
+      "Algorithms",
+      "Database schema"
+    ],
+    "answer": "B",
+    "explanation": "A persona describes background, skills, goals, and motivations of users."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "What is the benefit of personas?",
+    "options": [
+      "Reduce coding",
+      "Improve empathy",
+      "Increase cost",
+      "Replace testing"
+    ],
+    "answer": "B",
+    "explanation": "They help developers think like users, leading to better usability."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "A scenario is best described as:",
+    "options": [
+      "Code logic",
+      "User narrative",
+      "Test case",
+      "Database"
+    ],
+    "answer": "B",
+    "explanation": "A scenario is a story describing how a user interacts with the system."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "Scenarios should be written from:",
+    "options": [
+      "Developer perspective",
+      "User perspective",
+      "System perspective",
+      "Manager perspective"
+    ],
+    "answer": "B",
+    "explanation": "They must reflect real user interaction and experience."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "Scenarios help in:",
+    "options": [
+      "Coding",
+      "Understanding usage",
+      "Testing only",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": "They clarify how features will be used in real situations."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "A scenario is NOT:",
+    "options": [
+      "Detailed specification",
+      "Narrative",
+      "User-focused",
+      "Informal"
+    ],
+    "answer": "A",
+    "explanation": "Scenarios are informal descriptions, not strict specifications."
+  },
+  {
+    "topic": "Features / Scenarios",
+    "difficulty": "Medium",
+    "question": "Scenarios are derived from:",
+    "options": [
+      "Code",
+      "Personas",
+      "Hardware",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": "Personas inspire scenarios that describe how users behave."
+  },
+  {
+    "topic": "Product Vision",
+    "difficulty": "Medium",
+    "question": "Product vision defines:",
+    "options": [
+      "Code structure",
+      "Product purpose",
+      "Testing method",
+      "Database"
+    ],
+    "answer": "B",
+    "explanation": "It answers what, who, and why of the product."
+  },
+  {
+    "topic": "Product Vision",
+    "difficulty": "Medium",
+    "question": "Product vision helps to:",
+    "options": [
+      "Reduce testing",
+      "Guide development",
+      "Replace coding",
+      "Design UI"
+    ],
+    "answer": "B",
+    "explanation": "It keeps development aligned with business goals."
+  },
+  {
+    "topic": "Product Vision",
+    "difficulty": "Medium",
+    "question": "Product development is driven by:",
+    "options": [
+      "Hardware",
+      "Business opportunities",
+      "Code",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": "Products are built to capture market opportunities."
+  },
+  {
+    "topic": "Product Vision",
+    "difficulty": "Medium",
+    "question": "Rapid delivery is important because:",
+    "options": [
+      "Reduce cost",
+      "Capture market",
+      "Avoid testing",
+      "Reduce coding"
+    ],
+    "answer": "B",
+    "explanation": "Fast release helps gain competitive advantage."
+  },
+  {
+    "topic": "Product Vision",
+    "difficulty": "Medium",
+    "question": "Product roadmap is:",
+    "options": [
+      "Code",
+      "Development plan",
+      "UI design",
+      "Database"
+    ],
+    "answer": "B",
+    "explanation": "It outlines timeline, releases, and features."
+  },
+  {
+    "topic": "Prototyping",
+    "difficulty": "Medium",
+    "question": "Prototyping helps to:",
+    "options": [
+      "Finalize system",
+      "Test ideas",
+      "Replace coding",
+      "Deploy system"
+    ],
+    "answer": "B",
+    "explanation": "Prototypes allow early feedback and idea validation."
+  },
+  {
+    "topic": "Prototyping",
+    "difficulty": "Medium",
+    "question": "Prototype should be:",
+    "options": [
+      "Final product",
+      "Temporary",
+      "Permanent",
+      "Complex"
+    ],
+    "answer": "B",
+    "explanation": "Prototypes are often discarded after learning."
+  },
+  {
+    "topic": "Prototyping",
+    "difficulty": "Medium",
+    "question": "Feasibility prototype is used to:",
+    "options": [
+      "Deploy",
+      "Test concept",
+      "Finalize UI",
+      "Replace system"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Prototyping",
+    "difficulty": "Medium",
+    "question": "Customer prototype helps to:",
+    "options": [
+      "Replace users",
+      "Get feedback",
+      "Remove features",
+      "Test code"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Prototyping",
+    "difficulty": "Medium",
+    "question": "Prototyping improves:",
+    "options": [
+      "Cost",
+      "Understanding",
+      "Hardware",
+      "Errors"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Agile Practices",
+    "difficulty": "Medium",
+    "question": "Agile reduces:",
+    "options": [
+      "Flexibility",
+      "Overhead",
+      "Speed",
+      "Quality"
+    ],
+    "answer": "B",
+    "explanation": "Agile minimizes process bureaucracy."
+  },
+  {
+    "topic": "Agile Practices",
+    "difficulty": "Medium",
+    "question": "Agile focuses on:",
+    "options": [
+      "Documentation",
+      "Software",
+      "Hardware",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Agile Practices",
+    "difficulty": "Medium",
+    "question": "Agile development uses:",
+    "options": [
+      "Big releases",
+      "Small increments",
+      "No releases",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Agile Practices",
+    "difficulty": "Medium",
+    "question": "Customer involvement is:",
+    "options": [
+      "Optional",
+      "Essential",
+      "Irrelevant",
+      "Rare"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Agile Practices",
+    "difficulty": "Medium",
+    "question": "Agile principle emphasizes:",
+    "options": [
+      "Complexity",
+      "Simplicity",
+      "Documentation",
+      "Cost"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "Sprint output is:",
+    "options": [
+      "Documentation",
+      "Shippable product",
+      "Code only",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "Sprint backlog contains:",
+    "options": [
+      "All tasks",
+      "Selected tasks",
+      "Code",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "Scrum meetings are:",
+    "options": [
+      "Long",
+      "Short",
+      "Weekly",
+      "Monthly"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "Velocity measures:",
+    "options": [
+      "Speed",
+      "Work capacity",
+      "Time",
+      "Cost"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Scrum",
+    "difficulty": "Medium",
+    "question": "Scrum improves:",
+    "options": [
+      "Delay",
+      "Communication",
+      "Errors",
+      "Cost"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Backlog Management",
+    "difficulty": "Medium",
+    "question": "Backlog refinement means:",
+    "options": [
+      "Coding",
+      "Detailing items",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Backlog Management",
+    "difficulty": "Medium",
+    "question": "Estimation is used to:",
+    "options": [
+      "Code",
+      "Measure effort",
+      "Test",
+      "Deploy"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Backlog Management",
+    "difficulty": "Medium",
+    "question": "Prioritization ensures:",
+    "options": [
+      "All tasks equal",
+      "Important tasks first",
+      "No tasks",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Backlog Management",
+    "difficulty": "Medium",
+    "question": "Backlog items include:",
+    "options": [
+      "Features only",
+      "Features and improvements",
+      "Code only",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Backlog Management",
+    "difficulty": "Medium",
+    "question": "PBIs move through states like:",
+    "options": [
+      "Done only",
+      "Ready \u2192 refined \u2192 implemented",
+      "Code only",
+      "Test only"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Team & Coordination",
+    "difficulty": "Medium",
+    "question": "Self-organizing teams:",
+    "options": [
+      "Follow strict rules",
+      "Decide work themselves",
+      "Ignore tasks",
+      "Avoid planning"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Team & Coordination",
+    "difficulty": "Medium",
+    "question": "Scrum assumes:",
+    "options": [
+      "Remote teams",
+      "Co-located teams",
+      "No teams",
+      "Large teams"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Team & Coordination",
+    "difficulty": "Medium",
+    "question": "Daily scrum helps:",
+    "options": [
+      "Testing",
+      "Coordination",
+      "Coding",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Team & Coordination",
+    "difficulty": "Medium",
+    "question": "External interaction is handled by:",
+    "options": [
+      "Developers",
+      "ScrumMaster/Product Owner",
+      "Testers",
+      "Users"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Team & Coordination",
+    "difficulty": "Medium",
+    "question": "Team communication improves:",
+    "options": [
+      "Errors",
+      "Productivity",
+      "Cost",
+      "Delay"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Quality & Testing",
+    "difficulty": "Medium",
+    "question": "Test automation means:",
+    "options": [
+      "Manual testing",
+      "Automated testing",
+      "No testing",
+      "UI testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Quality & Testing",
+    "difficulty": "Medium",
+    "question": "Integration testing checks:",
+    "options": [
+      "Units",
+      "Combined components",
+      "UI",
+      "Database"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Quality & Testing",
+    "difficulty": "Medium",
+    "question": "Unit testing checks:",
+    "options": [
+      "System",
+      "Small parts",
+      "UI",
+      "Network"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Quality & Testing",
+    "difficulty": "Medium",
+    "question": "Testing ensures:",
+    "options": [
+      "Code exists",
+      "Correct behavior",
+      "UI",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Quality & Testing",
+    "difficulty": "Medium",
+    "question": "Acceptance testing is done by:",
+    "options": [
+      "Developers",
+      "Users/Product owner",
+      "Testers",
+      "Managers"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Software products differ from projects because:",
+    "options": [
+      "No users",
+      "Market-driven",
+      "No features",
+      "No testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Platform software allows:",
+    "options": [
+      "Coding",
+      "App development",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Software services run on:",
+    "options": [
+      "User device",
+      "Remote servers",
+      "Hardware",
+      "BIOS"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Hybrid systems run on:",
+    "options": [
+      "Local only",
+      "Both local and server",
+      "Server only",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Stand-alone systems run on:",
+    "options": [
+      "Server",
+      "User device",
+      "Network",
+      "Cloud"
+    ],
+    "answer": "B",
+    "explanation": "SECTION T \u2014 SOFTWARE PROCESSES & MODELS"
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "A software process defines:",
+    "options": [
+      "Code syntax",
+      "Activities for development",
+      "Hardware design",
+      "UI layout"
+    ],
+    "answer": "B",
+    "explanation": "A software process is a structured set of activities used to build and maintain software systems."
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Which is NOT a process activity?",
+    "options": [
+      "Specification",
+      "Development",
+      "Cooking",
+      "Validation"
+    ],
+    "answer": "C",
+    "explanation": "Software processes include specification, development, validation, and evolution, not unrelated activities."
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Software evolution refers to:",
+    "options": [
+      "Initial coding",
+      "Post-deployment changes",
+      "Testing only",
+      "UI design"
+    ],
+    "answer": "B",
+    "explanation": "Software continues to change and improve after release, adapting to new needs."
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Why is software evolution necessary?",
+    "options": [
+      "Hardware changes",
+      "Changing requirements",
+      "Coding errors",
+      "Testing issues"
+    ],
+    "answer": "B",
+    "explanation": "User needs and environments change, requiring updates."
+  },
+  {
+    "topic": "General Concepts",
+    "difficulty": "Medium",
+    "question": "Process models help to:",
+    "options": [
+      "Replace coding",
+      "Organize development",
+      "Eliminate testing",
+      "Remove design",
+      "Coding",
+      "Defining system needs",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": "They provide structure and guidance for development. It ensures the system meets user and stakeholder expectations."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "A stakeholder is:",
+    "options": [
+      "Developer",
+      "Anyone affected by the system",
+      "Tester",
+      "Manager"
+    ],
+    "answer": "B",
+    "explanation": "Includes users, clients, regulators, etc."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Elicitation is:",
+    "options": [
+      "Coding",
+      "Gathering requirements",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Validation ensures:",
+    "options": [
+      "Code runs",
+      "Requirements are correct",
+      "UI design",
+      "Database"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Negotiation resolves:",
+    "options": [
+      "Bugs",
+      "Conflicts",
+      "Code issues",
+      "UI design"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Requirements management deals with:",
+    "options": [
+      "Coding",
+      "Changes",
+      "Testing",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Functional requirements describe:",
+    "options": [
+      "Constraints",
+      "System behavior",
+      "UI",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Non-functional requirements describe:",
+    "options": [
+      "Behavior",
+      "Constraints",
+      "Features",
+      "Code"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Domain requirements are:",
+    "options": [
+      "General",
+      "Industry-specific",
+      "UI",
+      "Code"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "SRS stands for:",
+    "options": [
+      "System Resource Sheet",
+      "Software Requirements Specification",
+      "Software Resource System",
+      "System Requirements Software"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 SECTION V \u2014 MODELING & UML (ADVANCED)"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "UML is used for:",
+    "options": [
+      "Coding",
+      "Modeling",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Class diagrams represent:",
+    "options": [
+      "Flow",
+      "Structure",
+      "Behavior",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Activity diagrams represent:",
+    "options": [
+      "Data",
+      "Workflow",
+      "Classes",
+      "States"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "State diagrams represent:",
+    "options": [
+      "Flow",
+      "Transitions",
+      "Structure",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Modeling helps in:",
+    "options": [
+      "Confusion",
+      "Understanding",
+      "Errors",
+      "Coding"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 SECTION W \u2014 DESIGN & ARCHITECTURE (ADVANCED)"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Software architecture defines:",
+    "options": [
+      "Code",
+      "Structure",
+      "UI",
+      "Database"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Layered architecture divides system into:",
+    "options": [
+      "Modules",
+      "Layers",
+      "Classes",
+      "Files"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Abstraction means:",
+    "options": [
+      "Adding detail",
+      "Simplifying complexity",
+      "Removing code",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Modularity means:",
+    "options": [
+      "One system",
+      "Dividing into parts",
+      "No structure",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Separation of concerns means:",
+    "options": [
+      "Combine everything",
+      "Isolate functions",
+      "Remove features",
+      "Code only"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Refactoring improves:",
+    "options": [
+      "Functionality",
+      "Structure",
+      "UI",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 SECTION X \u2014 CLOUD, SERVICES & MICRO-SYSTEMS"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Cloud-based software runs on:",
+    "options": [
+      "Local machines",
+      "Remote servers",
+      "Hardware chips",
+      "BIOS"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Software services are:",
+    "options": [
+      "Installed locally",
+      "Delivered over internet",
+      "Hardware",
+      "Static"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Hybrid systems use:",
+    "options": [
+      "Local only",
+      "Server only",
+      "Both",
+      "Hardware"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Stand-alone systems run on:",
+    "options": [
+      "Server",
+      "Local device",
+      "Network",
+      "Cloud"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 SECTION Y \u2014 QUALITY & TESTING (ADVANCED)"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Software quality refers to:",
+    "options": [
+      "Size",
+      "Excellence",
+      "Code length",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Cost of quality includes:",
+    "options": [
+      "Coding cost",
+      "Prevention and failure cost",
+      "UI cost",
+      "Hardware cost"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Prevention cost is:",
+    "options": [
+      "Fixing bugs",
+      "Avoiding defects",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Failure cost is:",
+    "options": [
+      "Testing",
+      "Fixing defects",
+      "Coding",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Testing ensures:",
+    "options": [
+      "Code exists",
+      "Correctness",
+      "UI",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Unit testing checks:",
+    "options": [
+      "Entire system",
+      "Small parts",
+      "UI",
+      "Database"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Integration testing checks:",
+    "options": [
+      "Units",
+      "Combined components",
+      "UI",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Acceptance testing checks:",
+    "options": [
+      "Code",
+      "User satisfaction",
+      "UI",
+      "Database"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 SECTION Z \u2014 MANAGEMENT & ETHICS"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "The four P\u2019s include:",
+    "options": [
+      "Plan, product, process, people",
+      "People, product, process, project",
+      "Product, plan, program, people",
+      "None"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Team structure affects:",
+    "options": [
+      "UI",
+      "Project success",
+      "Code",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Team toxicity leads to:",
+    "options": [
+      "Success",
+      "Failure",
+      "Speed",
+      "Quality"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Ethics in software means:",
+    "options": [
+      "Following code",
+      "Moral responsibility",
+      "Testing",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Ethical behavior includes:",
+    "options": [
+      "Hiding bugs",
+      "Reporting issues",
+      "Ignoring problems",
+      "Skipping testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Agile is best for:",
+    "options": [
+      "Stable systems",
+      "Changing systems",
+      "Hardware",
+      "Static systems"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Waterfall is best for:",
+    "options": [
+      "Dynamic systems",
+      "Stable requirements",
+      "Agile teams",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Spiral model focuses on:",
+    "options": [
+      "Coding",
+      "Risk",
+      "UI",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Incremental model delivers:",
+    "options": [
+      "All at once",
+      "In parts",
+      "No delivery",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Good requirements lead to:",
+    "options": [
+      "Failure",
+      "Success",
+      "Complexity",
+      "Delay"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Poor design leads to:",
+    "options": [
+      "Simplicity",
+      "Complexity",
+      "Speed",
+      "Stability"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "Software engineering aims to:",
+    "options": [
+      "Reduce cost only",
+      "Produce quality software",
+      "Remove users",
+      "Avoid testing",
+      "Write code",
+      "Define system needs accurately",
+      "Test software",
+      "Deploy system"
+    ],
+    "answer": "B",
+    "explanation": "The ultimate goal is to deliver high-quality, reliable, and maintainable software systems. \ud83d\udd39 CORE CONCEPTS"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Which phase identifies what the system should do?",
+    "options": [
+      "Design",
+      "Coding",
+      "Testing"
+    ],
+    "answer": "C",
+    "explanation": "RE defines the scope, behavior, and constraints of the system before development begins."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Why is RE considered critical?",
+    "options": [
+      "It reduces coding",
+      "It prevents project failure",
+      "It replaces testing",
+      "It simplifies UI"
+    ],
+    "answer": "B",
+    "explanation": "Most failures occur due to incorrect or incomplete requirements. \ud83d\udd39 ELICITATION"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Elicitation is the process of:",
+    "options": [
+      "Coding",
+      "Gathering requirements",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Which technique is used in elicitation?",
+    "options": [
+      "Compilation",
+      "Interviews",
+      "Coding",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "A common problem during elicitation is:",
+    "options": [
+      "Too much code",
+      "Stakeholders unclear about needs",
+      "Too many developers",
+      "Too much testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Observation in elicitation means:",
+    "options": [
+      "Watching users perform tasks",
+      "Coding system",
+      "Writing documents",
+      "Testing system"
+    ],
+    "answer": "A",
+    "explanation": "\ud83d\udd39 ANALYSIS"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Requirements analysis focuses on:",
+    "options": [
+      "Writing code",
+      "Understanding requirements",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Analysis helps to:",
+    "options": [
+      "Add bugs",
+      "Remove ambiguity",
+      "Increase cost",
+      "Reduce testing"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Ambiguous requirement example:",
+    "options": [
+      "\u201cSystem must respond in 2 seconds\u201d",
+      "\u201cSystem should be fast\u201d",
+      "\u201cSystem must store data\u201d",
+      "\u201cSystem logs users\u201d"
+    ],
+    "answer": "B",
+    "explanation": "\u201cFast\u201d is vague \u2014 needs measurable clarification. \ud83d\udd39 MODELING"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Requirement modeling helps to:",
+    "options": [
+      "Code faster",
+      "Visualize system",
+      "Deploy system",
+      "Remove features"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Scenario-based models use:",
+    "options": [
+      "Algorithms",
+      "Use cases",
+      "Databases",
+      "Code"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "A use case describes:",
+    "options": [
+      "Code structure",
+      "Interaction between user and system",
+      "Database design",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Behavioral models show:",
+    "options": [
+      "Data structure",
+      "System behavior",
+      "UI",
+      "Hardware"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 NEGOTIATION"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Negotiation is required when:",
+    "options": [
+      "Coding fails",
+      "Stakeholders disagree",
+      "Testing fails",
+      "UI fails"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Goal of negotiation is:",
+    "options": [
+      "Win-lose outcome",
+      "Win-win solution",
+      "No agreement",
+      "Ignore stakeholders"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Example of negotiation conflict:",
+    "options": [
+      "User wants speed, company wants low cost",
+      "Code error",
+      "UI issue",
+      "Database crash"
+    ],
+    "answer": "A",
+    "explanation": "\ud83d\udd39 VALIDATION"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Validation ensures:",
+    "options": [
+      "Code compiles",
+      "Requirements are correct",
+      "UI is good",
+      "System runs fast"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Validation checks include:",
+    "options": [
+      "Completeness",
+      "Consistency",
+      "Correctness",
+      "All of the above"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Missing requirement is an example of:",
+    "options": [
+      "Coding error",
+      "Incomplete requirement",
+      "UI issue",
+      "Hardware failure"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 REQUIREMENTS MANAGEMENT"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Requirements management deals with:",
+    "options": [
+      "Coding",
+      "Change control",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Change in requirements is:",
+    "options": [
+      "Rare",
+      "Common",
+      "Impossible",
+      "Avoidable"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "A change request is:",
+    "options": [
+      "Bug",
+      "New or modified requirement",
+      "Code",
+      "UI"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 TYPES OF REQUIREMENTS"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Functional requirement example:",
+    "options": [
+      "System must be secure",
+      "User can log in",
+      "System must be fast",
+      "System must be reliable"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Non-functional requirement example:",
+    "options": [
+      "User logs in",
+      "System must respond in 2 seconds",
+      "User sends message",
+      "User logs out"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Domain requirement example:",
+    "options": [
+      "UI design",
+      "Banking rules",
+      "Code syntax",
+      "Testing"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 SRS (IMPORTANT)"
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "SRS is used to:",
+    "options": [
+      "Code system",
+      "Document requirements",
+      "Test system",
+      "Deploy system"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "SRS should be:",
+    "options": [
+      "Ambiguous",
+      "Clear and complete",
+      "Short",
+      "Code-based"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "Poor SRS leads to:",
+    "options": [
+      "Success",
+      "Project failure",
+      "Fast coding",
+      "Better design",
+      "Coding",
+      "Understanding user needs",
+      "Testing",
+      "Deployment"
+    ],
+    "answer": "B",
+    "explanation": "\ud83d\udd39 ADVANCED EXAM-LEVEL QUESTIONS Users often cannot clearly express what they need, making RE complex and critical."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Engineering discipline concerned with all aspects of software production, from specification to maintenance.",
+    "options": [
+      "Essential attributes of good software",
+      "Software engineering",
+      "Software deterioration",
+      "Professional software"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Software engineering because it matches that definition."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: The difficulty of building large systems that were reliable, on time, and within budget.",
+    "options": [
+      "Software engineering",
+      "Software process",
+      "Software crisis",
+      "Nature of software"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Software crisis because it matches that definition."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software is abstract and intangible and is not constrained by physical manufacturing limits.",
+    "options": [
+      "Software process",
+      "Essential attributes of good software",
+      "Nature of software",
+      "Software crisis"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Nature of software because it matches that definition."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software intended for use by someone other than its developer, usually built by teams and maintained over time.",
+    "options": [
+      "Framework activities",
+      "Software process",
+      "Professional software",
+      "Software deterioration"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Professional software because it matches that definition."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A structured set of activities needed to specify, develop, validate, and evolve software.",
+    "options": [
+      "Professional software",
+      "Framework activities",
+      "Software process",
+      "Nature of software"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Software process because it matches that definition."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Generic process activities such as communication, planning, modeling, construction, and deployment.",
+    "options": [
+      "Software engineering",
+      "Essential attributes of good software",
+      "Software deterioration",
+      "Framework activities"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Framework activities because it matches that definition."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Maintainability, dependability/security, efficiency, and acceptability/usability.",
+    "options": [
+      "Nature of software",
+      "Software deterioration",
+      "Essential attributes of good software",
+      "Software process"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Essential attributes of good software because it matches that definition."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software does not wear out physically but deteriorates because changes increase complexity.",
+    "options": [
+      "Software crisis",
+      "Framework activities",
+      "Software deterioration",
+      "Essential attributes of good software"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Software deterioration because it matches that definition."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software products built for a broad market and many customers.",
+    "options": [
+      "Generic software",
+      "Feature creep",
+      "Platform",
+      "Project-based software"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Generic software because it matches that definition."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software developed for a specific customer or organization.",
+    "options": [
+      "Product software engineering",
+      "Project-based software",
+      "Generic software",
+      "Custom software"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Custom software because it matches that definition."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software driven by customer requirements and developed under contract or dedicated project conditions.",
+    "options": [
+      "Rapid delivery",
+      "Project-based software",
+      "Platform",
+      "Generic software"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Project-based software because it matches that definition."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Development driven by a business opportunity and a planned product roadmap rather than a single customer contract.",
+    "options": [
+      "Project-based software",
+      "Rapid delivery",
+      "Generic software",
+      "Product software engineering"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Product software engineering because it matches that definition."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A simple statement that defines the essence of the product to be developed.",
+    "options": [
+      "Product software engineering",
+      "Generic software",
+      "Product vision",
+      "Custom software"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Product vision because it matches that definition."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A software product that includes functionality on which other applications can be built.",
+    "options": [
+      "Feature creep",
+      "Product software engineering",
+      "Platform",
+      "Rapid delivery"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Platform because it matches that definition."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Adding features in response to requests without checking general usefulness or better alternatives.",
+    "options": [
+      "Feature creep",
+      "Custom software",
+      "Project-based software",
+      "Platform"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Feature creep because it matches that definition."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Fast release of software products to capture market opportunity and user feedback.",
+    "options": [
+      "Rapid delivery",
+      "Product vision",
+      "Product software engineering",
+      "Project-based software"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Rapid delivery because it matches that definition."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Ability to respond quickly and effectively to change while still delivering useful software.",
+    "options": [
+      "Working software over documentation",
+      "Incremental delivery",
+      "Agile limitation",
+      "Agility"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Agility because it matches that definition."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A call to uncover better ways of developing software by doing it and helping others do it.",
+    "options": [
+      "Incremental delivery",
+      "Agile manifesto",
+      "Customer collaboration",
+      "Agile suitability"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Agile manifesto because it matches that definition."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Agile values working software more than comprehensive documentation, though documentation still has a role.",
+    "options": [
+      "Agile limitation",
+      "Agility",
+      "Working software over documentation",
+      "Agile manifesto"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Working software over documentation because it matches that definition."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Agile favors continuous collaboration with users or customers over rigid contract negotiation.",
+    "options": [
+      "Agility",
+      "Agile suitability",
+      "Agile limitation",
+      "Customer collaboration"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Customer collaboration because it matches that definition."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Agile prefers adapting plans and software when needs change.",
+    "options": [
+      "Responding to change",
+      "Agility",
+      "Agile limitation",
+      "Working software over documentation"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Responding to change because it matches that definition."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software is delivered in small usable increments.",
+    "options": [
+      "Customer collaboration",
+      "Agile suitability",
+      "Agile manifesto",
+      "Incremental delivery"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Incremental delivery because it matches that definition."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Agile fits environments with changing requirements and close customer feedback.",
+    "options": [
+      "Agile suitability",
+      "Incremental delivery",
+      "Agility",
+      "Responding to change"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Agile suitability because it matches that definition."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Agile is less suitable when heavy regulation, large distributed teams, or safety-critical demands require extensive formality.",
+    "options": [
+      "Agile limitation",
+      "Working software over documentation",
+      "Agile suitability",
+      "Agility"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Agile limitation because it matches that definition."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Prioritized list of desired product work items.",
+    "options": [
+      "XP values",
+      "Sprint",
+      "Product backlog",
+      "Daily scrum"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Product backlog because it matches that definition."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A fixed time-box in Scrum during which selected backlog items are implemented.",
+    "options": [
+      "Sprint",
+      "Person-hours",
+      "Daily scrum",
+      "Product backlog"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Sprint because it matches that definition."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A potentially usable version of the product produced at the end of an iteration or sprint.",
+    "options": [
+      "Acceptance testing",
+      "Extreme Programming",
+      "Increment",
+      "Sprint"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Increment because it matches that definition."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Short daily meeting for team synchronization.",
+    "options": [
+      "Person-hours",
+      "Acceptance testing",
+      "Extreme Programming",
+      "Daily scrum"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Daily scrum because it matches that definition."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A measure of effort estimating how long one person would take to implement a backlog item.",
+    "options": [
+      "Extreme Programming",
+      "Person-hours",
+      "Daily scrum",
+      "XP values"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Person-hours because it matches that definition."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: An agile approach that emphasizes disciplined coding practices and fast feedback.",
+    "options": [
+      "Extreme Programming",
+      "Increment",
+      "Sprint",
+      "Daily scrum"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Extreme Programming because it matches that definition."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Communication, simplicity, feedback, courage, and respect.",
+    "options": [
+      "Person-hours",
+      "Sprint",
+      "XP values",
+      "Increment"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is XP values because it matches that definition."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Testing used to confirm that delivered functionality satisfies agreed needs.",
+    "options": [
+      "XP values",
+      "Acceptance testing",
+      "Extreme Programming",
+      "Person-hours"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Acceptance testing because it matches that definition."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: An element that implements a coherent set of functionality.",
+    "options": [
+      "Feature design knowledge",
+      "Persona",
+      "Feature",
+      "User interface simplicity"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Feature because it matches that definition."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A narrative describing how a user or group of users might use a system.",
+    "options": [
+      "User interface simplicity",
+      "Feature",
+      "Scenario",
+      "Story"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Scenario because it matches that definition."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A short user-centered requirement expressed in simple terms.",
+    "options": [
+      "Persona",
+      "Feature",
+      "User interface simplicity",
+      "Story"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Story because it matches that definition."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A representation of a typical user used to guide design.",
+    "options": [
+      "Story",
+      "Persona",
+      "Feature design knowledge",
+      "Feature qualities"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Persona because it matches that definition."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Useful features are independent, coherent, and relevant.",
+    "options": [
+      "Feature qualities",
+      "Feature",
+      "Scenario",
+      "Persona"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Feature qualities because it matches that definition."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Interfaces should not be unnecessarily complex.",
+    "options": [
+      "Story",
+      "User interface simplicity",
+      "Feature design knowledge",
+      "Persona"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is User interface simplicity because it matches that definition."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Feature design draws on user knowledge, domain knowledge, product knowledge, and technology knowledge.",
+    "options": [
+      "Scenario",
+      "User interface simplicity",
+      "Feature design knowledge",
+      "Feature qualities"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Feature design knowledge because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A linear process model in which activities are performed largely in sequence.",
+    "options": [
+      "Spiral model",
+      "Concurrent model",
+      "Waterfall model",
+      "Model selection"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Waterfall model because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A model that delivers the system in a series of increments.",
+    "options": [
+      "Waterfall model",
+      "Software evolution",
+      "Incremental model",
+      "Prototyping model"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Incremental model because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A model in which an early working version is built to clarify needs and ideas.",
+    "options": [
+      "Component-based development",
+      "Incremental model",
+      "Prototyping model",
+      "Concurrent model"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Prototyping model because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A risk-driven iterative model that combines prototyping with controlled stages.",
+    "options": [
+      "Evolutionary models",
+      "Prototyping model",
+      "Model selection",
+      "Spiral model"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Spiral model because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A model that allows software activities to occur in parallel and move through different states.",
+    "options": [
+      "Prescriptive models",
+      "Concurrent model",
+      "Spiral model",
+      "Component-based development"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Concurrent model because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Building software by selecting, adapting, and integrating reusable components.",
+    "options": [
+      "Unified Process",
+      "Spiral model",
+      "Component-based development",
+      "Prescriptive models"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Component-based development because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A model that uses mathematically based specification and verification.",
+    "options": [
+      "Incremental model",
+      "Concurrent model",
+      "Prescriptive models",
+      "Formal methods model"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Formal methods model because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: An iterative process framework organized into phases such as inception, elaboration, construction, and transition.",
+    "options": [
+      "Model selection",
+      "Formal methods model",
+      "Evolutionary models",
+      "Unified Process"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Unified Process because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Process models that define a planned, structured way of developing software.",
+    "options": [
+      "Prescriptive models",
+      "Formal methods model",
+      "Evolutionary models",
+      "Software evolution"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Prescriptive models because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Process models that evolve the software through repeated cycles and feedback.",
+    "options": [
+      "Spiral model",
+      "Evolutionary models",
+      "Concurrent model",
+      "Waterfall model"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Evolutionary models because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Modification of software after delivery to meet changing needs or contexts.",
+    "options": [
+      "Concurrent model",
+      "Prescriptive models",
+      "Software evolution",
+      "Component-based development"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Software evolution because it matches that definition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Choice of process model should depend on project size, risk, requirements stability, and domain constraints.",
+    "options": [
+      "Prescriptive models",
+      "Model selection",
+      "Software evolution",
+      "Formal methods model"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Model selection because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: The activities involved in discovering, analyzing, documenting, validating, and managing requirements.",
+    "options": [
+      "Requirements engineering",
+      "Analysis",
+      "Non-functional requirement",
+      "Domain requirement"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Requirements engineering because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Anyone who affects or is affected by the system.",
+    "options": [
+      "System requirement",
+      "Validation",
+      "Requirements engineering",
+      "Stakeholder"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Stakeholder because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Gathering requirements from stakeholders and other sources.",
+    "options": [
+      "Functional requirement",
+      "Requirements management",
+      "Elicitation",
+      "SRS"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Elicitation because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Organizing, refining, and modeling gathered requirements.",
+    "options": [
+      "Stakeholder",
+      "Requirements engineering",
+      "Elicitation work products",
+      "Analysis"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Analysis because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Resolving conflicts among competing stakeholder needs to reach an agreed set of requirements.",
+    "options": [
+      "Validation",
+      "System requirement",
+      "Requirements management",
+      "Negotiation"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Negotiation because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Checking that requirements are correct, complete, consistent, realistic, and testable.",
+    "options": [
+      "Validation",
+      "Stakeholder",
+      "Non-functional requirement",
+      "Elicitation work products"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Validation because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Controlling requirement changes and maintaining traceability over time.",
+    "options": [
+      "Requirements management",
+      "Elicitation",
+      "Requirements engineering",
+      "Elicitation work products"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Requirements management because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A statement of a service or function the system must provide.",
+    "options": [
+      "User requirement",
+      "Negotiation",
+      "Functional requirement",
+      "Requirements management"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Functional requirement because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A constraint or quality attribute such as performance, reliability, or security.",
+    "options": [
+      "SRS",
+      "Negotiation",
+      "Requirements management",
+      "Non-functional requirement"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Non-functional requirement because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A requirement that arises from the application domain.",
+    "options": [
+      "Analysis",
+      "SRS",
+      "Functional requirement",
+      "Domain requirement"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Domain requirement because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: High-level statement of services and constraints understandable by users.",
+    "options": [
+      "User requirement",
+      "Elicitation",
+      "Stakeholder",
+      "Elicitation work products"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is User requirement because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Detailed, precise description of system functions and constraints for developers.",
+    "options": [
+      "System requirement",
+      "Requirements engineering",
+      "SRS",
+      "Stakeholder"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is System requirement because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software Requirements Specification document.",
+    "options": [
+      "SRS",
+      "Requirements management",
+      "Elicitation work products",
+      "Stakeholder"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is SRS because it matches that definition."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Outputs may include statements of need, stakeholder lists, scenarios, use cases, and preliminary models.",
+    "options": [
+      "Requirements management",
+      "Elicitation work products",
+      "Requirements engineering",
+      "Domain requirement"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Elicitation work products because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Unified Modeling Language, a standard visual language for software modeling.",
+    "options": [
+      "Scenario-based model",
+      "Class diagram",
+      "Data model",
+      "UML"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is UML because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Model based on use cases and user interactions.",
+    "options": [
+      "Model-driven engineering",
+      "Behavioral model",
+      "Class-oriented model",
+      "Scenario-based model"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Scenario-based model because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Model showing data objects, attributes, and relationships.",
+    "options": [
+      "Data model",
+      "Scenario-based model",
+      "Activity diagram",
+      "Flow-oriented model"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Data model because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Model showing analysis classes, attributes, operations, and relationships.",
+    "options": [
+      "State diagram",
+      "Structural model",
+      "Behavioral model",
+      "Class-oriented model"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Class-oriented model because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Model showing how information moves and is transformed.",
+    "options": [
+      "Activity diagram",
+      "Flow-oriented model",
+      "Scenario-based model",
+      "Data model"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Flow-oriented model because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Model showing states, events, and dynamic behavior.",
+    "options": [
+      "Structural model",
+      "Activity diagram",
+      "Flow-oriented model",
+      "Behavioral model"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Behavioral model because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: UML diagram showing classes and their relationships.",
+    "options": [
+      "State diagram",
+      "Behavioral model",
+      "Class diagram",
+      "Behavioral vs structural"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Class diagram because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: UML diagram showing workflow or processing sequence.",
+    "options": [
+      "Structural model",
+      "Flow-oriented model",
+      "UML",
+      "Activity diagram"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Activity diagram because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: UML diagram showing states and transitions of an object or system.",
+    "options": [
+      "Structural model",
+      "Class-oriented model",
+      "State diagram",
+      "Flow-oriented model"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is State diagram because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A model emphasizing static organization.",
+    "options": [
+      "Structural model",
+      "Data model",
+      "Class diagram",
+      "Behavioral vs structural"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Structural model because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Behavioral models show change over time; structural models show static organization.",
+    "options": [
+      "State diagram",
+      "UML",
+      "Behavioral vs structural",
+      "Structural model"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Behavioral vs structural because it matches that definition."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: An approach that gives models a central role in development and possible code generation.",
+    "options": [
+      "Model-driven engineering",
+      "Flow-oriented model",
+      "Activity diagram",
+      "Behavioral vs structural"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Model-driven engineering because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: The fundamental organization of a system, its components, relationships, and guiding principles.",
+    "options": [
+      "Patterns",
+      "Information hiding",
+      "Software architecture",
+      "Modularity"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Software architecture because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: An architecture in which system functionality is organized into layers.",
+    "options": [
+      "Information hiding",
+      "Layered architecture",
+      "Refactoring",
+      "Data/class design"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Layered architecture because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: An architecture in which data passes through a sequence of transformation components.",
+    "options": [
+      "Refinement",
+      "Data/class design",
+      "Pipe-and-filter",
+      "Interface design"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Pipe-and-filter because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Design activity that defines data structures and classes.",
+    "options": [
+      "Layered architecture",
+      "Data/class design",
+      "Information hiding",
+      "Modularity"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Data/class design because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Design activity that defines how users or components interact with the system.",
+    "options": [
+      "Layered architecture",
+      "Interface design",
+      "Refinement",
+      "Data/class design"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Interface design because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Focusing on the essential while suppressing unnecessary detail.",
+    "options": [
+      "Patterns",
+      "Abstraction",
+      "Data/class design",
+      "Layered architecture"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Abstraction because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Decomposing software into manageable components.",
+    "options": [
+      "Software architecture",
+      "Modularity",
+      "Abstraction",
+      "Separation of concerns"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Modularity because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Structuring software so different concerns are handled separately.",
+    "options": [
+      "Layered architecture",
+      "Separation of concerns",
+      "Data/class design",
+      "Interface design"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Separation of concerns because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Concealing design decisions likely to change behind stable interfaces.",
+    "options": [
+      "Layered architecture",
+      "Information hiding",
+      "Software architecture",
+      "Abstraction"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Information hiding because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Elaborating design detail in steps from abstract to concrete.",
+    "options": [
+      "Pipe-and-filter",
+      "Refinement",
+      "Interface design",
+      "Software architecture"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Refinement because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Improving internal structure without changing observable behavior.",
+    "options": [
+      "Abstraction",
+      "Layered architecture",
+      "Refactoring",
+      "Interface design"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Refactoring because it matches that definition."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Reusable solutions to recurring design problems.",
+    "options": [
+      "Abstraction",
+      "Layered architecture",
+      "Patterns",
+      "Software architecture"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Patterns because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software delivered over a network from remote infrastructure.",
+    "options": [
+      "Cloud-based software",
+      "Privacy",
+      "Data exchange issue",
+      "Data transfer issue"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Cloud-based software because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Data location and regulatory rules may restrict where personal data can be stored.",
+    "options": [
+      "Multi-tenant system",
+      "Reliability",
+      "SaaS regulation issue",
+      "Data transfer issue"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is SaaS regulation issue because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Network speed can limit response time when software relies on heavy data transfer.",
+    "options": [
+      "Data transfer issue",
+      "Authentication design",
+      "Multi-instance system",
+      "Safety"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Data transfer issue because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Organizations may hesitate to hand over sensitive data to an external provider.",
+    "options": [
+      "Reliability",
+      "Safety",
+      "Multi-instance system",
+      "Data security issue"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Data security issue because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Cloud systems need accessible APIs when data must move between services.",
+    "options": [
+      "Data exchange issue",
+      "Reliability",
+      "Privacy",
+      "Authentication design"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Data exchange issue because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Service software may use local authentication, social login, or federated authentication.",
+    "options": [
+      "Safety",
+      "Data transfer issue",
+      "Data security issue",
+      "Authentication design"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Authentication design because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A single running system instance serves multiple customers.",
+    "options": [
+      "Multi-tenant system",
+      "Data exchange issue",
+      "Reliability",
+      "Privacy"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Multi-tenant system because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Separate copies of the system and database are allocated to different users or organizations.",
+    "options": [
+      "Multi-instance system",
+      "SaaS regulation issue",
+      "Authentication design",
+      "Multi-tenant system"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Multi-instance system because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: An architecture based on small, independent services that collaborate.",
+    "options": [
+      "Microservices",
+      "Privacy",
+      "Safety",
+      "Reliability"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Microservices because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Probability that software performs required functions without failure for a specified time.",
+    "options": [
+      "Data transfer issue",
+      "Reliability",
+      "Safety",
+      "Multi-instance system"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Reliability because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Property of avoiding or controlling harm-causing conditions.",
+    "options": [
+      "Privacy",
+      "Safety",
+      "Data security issue",
+      "Multi-instance system"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Safety because it matches that definition."
+  },
+  {
+    "topic": "Cloud, Microservices, Security, Reliability",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Protection of personal or sensitive information from inappropriate access or disclosure.",
+    "options": [
+      "Multi-tenant system",
+      "Data transfer issue",
+      "Safety",
+      "Privacy"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Privacy because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: The degree to which software meets stated requirements and implicit expectations.",
+    "options": [
+      "Cost of quality",
+      "Validation testing",
+      "Software quality",
+      "SQA"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Software quality because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A set of product quality dimensions such as performance, features, reliability, conformance, durability, serviceability, aesthetics, and perceived quality.",
+    "options": [
+      "Software quality",
+      "Integration testing",
+      "Cost of quality",
+      "Garvin dimensions"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Garvin dimensions because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Pressure to release quickly and cheaply can conflict with the desire for high quality.",
+    "options": [
+      "Unit testing",
+      "Verification and validation",
+      "Software quality",
+      "Quality dilemma"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Quality dilemma because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Costs associated with prevention, appraisal, and internal and external failures.",
+    "options": [
+      "Unit testing",
+      "System testing",
+      "Cost of quality",
+      "Verification and validation"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Cost of quality because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Quality is supported by sound methods, good project management, quality control, and quality assurance.",
+    "options": [
+      "System testing",
+      "Achieving quality",
+      "Validation testing",
+      "Software quality"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Achieving quality because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software Quality Assurance: activities that ensure processes and products conform to standards and plans.",
+    "options": [
+      "Integration testing",
+      "System testing",
+      "SQA",
+      "Testing"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is SQA because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Execution and evaluation intended to reveal defects and build confidence in the software.",
+    "options": [
+      "Testing",
+      "Cost of quality",
+      "Validation testing",
+      "Unit testing"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Testing because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Verification asks whether we built the product right; validation asks whether we built the right product.",
+    "options": [
+      "Quality dilemma",
+      "Verification and validation",
+      "Garvin dimensions",
+      "Software quality"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Verification and validation because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Testing individual components or units.",
+    "options": [
+      "Achieving quality",
+      "Testing",
+      "Software quality",
+      "Unit testing"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Unit testing because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Testing interactions among combined components.",
+    "options": [
+      "Integration testing",
+      "Achieving quality",
+      "Verification and validation",
+      "SQA"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Integration testing because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Testing to confirm software satisfies requirements.",
+    "options": [
+      "Software quality",
+      "Validation testing",
+      "Garvin dimensions",
+      "SQA"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Validation testing because it matches that definition."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Testing the complete integrated system.",
+    "options": [
+      "Software quality",
+      "Garvin dimensions",
+      "SQA",
+      "System testing"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is System testing because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Integration of software development with deployment and operational support by closely connected teams.",
+    "options": [
+      "DevOps",
+      "Four Ps",
+      "Continuous deployment",
+      "Team toxicity"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is DevOps because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Repository-based control of versions, changes, branching, and merging.",
+    "options": [
+      "Four Ps",
+      "Source code management",
+      "Coordination approaches",
+      "Ethical principles"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Source code management because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Frequent integration of code changes into a shared baseline followed by automated build/testing.",
+    "options": [
+      "Coordination approaches",
+      "Infrastructure as code",
+      "Continuous integration",
+      "Four Ps"
+    ],
+    "answer": "C",
+    "explanation": "The correct term is Continuous integration because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Automatic updating of the deployed version after changes pass the pipeline, especially for cloud services.",
+    "options": [
+      "DevOps metrics",
+      "Team toxicity",
+      "Source code management",
+      "Continuous deployment"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Continuous deployment because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Defining infrastructure in machine-readable form so it can be provisioned automatically.",
+    "options": [
+      "DevOps",
+      "Continuous deployment",
+      "Continuous integration",
+      "Infrastructure as code"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is Infrastructure as code because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Measures such as deployment frequency, failed deployment rate, and mean time to recovery.",
+    "options": [
+      "Source code management",
+      "Continuous integration",
+      "Continuous deployment",
+      "DevOps metrics"
+    ],
+    "answer": "D",
+    "explanation": "The correct term is DevOps metrics because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: People, Product, Process, and Project.",
+    "options": [
+      "Infrastructure as code",
+      "Four Ps",
+      "Ethical principles",
+      "Continuous integration"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Four Ps because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: A harmful team environment that reduces trust, motivation, and effectiveness.",
+    "options": [
+      "Coordination approaches",
+      "Team toxicity",
+      "Ethical principles",
+      "Four Ps"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Team toxicity because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Formal impersonal, formal interpersonal, and informal interpersonal methods of project coordination.",
+    "options": [
+      "Coordination approaches",
+      "DevOps",
+      "Team toxicity",
+      "Continuous deployment"
+    ],
+    "answer": "A",
+    "explanation": "The correct term is Coordination approaches because it matches that definition."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Easy",
+    "question": "Which term best matches this description: Software professionals should act with honesty, integrity, competence, and public responsibility.",
+    "options": [
+      "DevOps",
+      "Ethical principles",
+      "DevOps metrics",
+      "Continuous deployment"
+    ],
+    "answer": "B",
+    "explanation": "The correct term is Ethical principles because it matches that definition."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What best describes Software engineering?",
+    "options": [
+      "Software does not wear out physically but deteriorates because changes increase complexity.",
+      "Generic process activities such as communication",
+      "planning",
+      "modeling",
+      "construction",
+      "and deployment.",
+      "Engineering discipline concerned with all aspects of software production",
+      "from specification to maintenance.",
+      "The difficulty of building large systems that were reliable",
+      "on time",
+      "and within budget."
+    ],
+    "answer": "C",
+    "explanation": "Software engineering is best described as: Engineering discipline concerned with all aspects of software production, from specification to maintenance."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What best describes Software crisis?",
+    "options": [
+      "The difficulty of building large systems that were reliable",
+      "on time",
+      "and within budget.",
+      "Software does not wear out physically but deteriorates because changes increase complexity.",
+      "Generic process activities such as communication",
+      "planning",
+      "modeling",
+      "construction",
+      "and deployment.",
+      "Engineering discipline concerned with all aspects of software production",
+      "from specification to maintenance."
+    ],
+    "answer": "A",
+    "explanation": "Software crisis is best described as: The difficulty of building large systems that were reliable, on time, and within budget."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What best describes Nature of software?",
+    "options": [
+      "A structured set of activities needed to specify",
+      "develop",
+      "validate",
+      "and evolve software.",
+      "Software is abstract and intangible and is not constrained by physical manufacturing limits.",
+      "Maintainability",
+      "dependability/security",
+      "efficiency",
+      "and acceptability/usability.",
+      "The difficulty of building large systems that were reliable",
+      "on time",
+      "and within budget."
+    ],
+    "answer": "B",
+    "explanation": "Nature of software is best described as: Software is abstract and intangible and is not constrained by physical manufacturing limits."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What best describes Professional software?",
+    "options": [
+      "Software intended for use by someone other than its developer",
+      "usually built by teams and maintained over time.",
+      "Engineering discipline concerned with all aspects of software production",
+      "from specification to maintenance.",
+      "Generic process activities such as communication",
+      "planning",
+      "modeling",
+      "construction",
+      "and deployment.",
+      "A structured set of activities needed to specify",
+      "develop",
+      "validate",
+      "and evolve software."
+    ],
+    "answer": "A",
+    "explanation": "Professional software is best described as: Software intended for use by someone other than its developer, usually built by teams and maintained over time."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What best describes Software process?",
+    "options": [
+      "The difficulty of building large systems that were reliable",
+      "on time",
+      "and within budget.",
+      "Generic process activities such as communication",
+      "planning",
+      "modeling",
+      "construction",
+      "and deployment.",
+      "A structured set of activities needed to specify",
+      "develop",
+      "validate",
+      "and evolve software.",
+      "Engineering discipline concerned with all aspects of software production",
+      "from specification to maintenance."
+    ],
+    "answer": "C",
+    "explanation": "Software process is best described as: A structured set of activities needed to specify, develop, validate, and evolve software."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What best describes Framework activities?",
+    "options": [
+      "Generic process activities such as communication",
+      "planning",
+      "modeling",
+      "construction",
+      "and deployment.",
+      "Software intended for use by someone other than its developer",
+      "usually built by teams and maintained over time.",
+      "Software does not wear out physically but deteriorates because changes increase complexity.",
+      "Software is abstract and intangible and is not constrained by physical manufacturing limits."
+    ],
+    "answer": "A",
+    "explanation": "Framework activities is best described as: Generic process activities such as communication, planning, modeling, construction, and deployment."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What best describes Essential attributes of good software?",
+    "options": [
+      "A structured set of activities needed to specify",
+      "develop",
+      "validate",
+      "and evolve software.",
+      "Generic process activities such as communication",
+      "planning",
+      "modeling",
+      "construction",
+      "and deployment.",
+      "Software is abstract and intangible and is not constrained by physical manufacturing limits.",
+      "Maintainability",
+      "dependability/security",
+      "efficiency",
+      "and acceptability/usability."
+    ],
+    "answer": "D",
+    "explanation": "Essential attributes of good software is best described as: Maintainability, dependability/security, efficiency, and acceptability/usability."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Medium",
+    "question": "What best describes Software deterioration?",
+    "options": [
+      "Software intended for use by someone other than its developer",
+      "usually built by teams and maintained over time.",
+      "The difficulty of building large systems that were reliable",
+      "on time",
+      "and within budget.",
+      "A structured set of activities needed to specify",
+      "develop",
+      "validate",
+      "and evolve software.",
+      "Software does not wear out physically but deteriorates because changes increase complexity."
+    ],
+    "answer": "D",
+    "explanation": "Software deterioration is best described as: Software does not wear out physically but deteriorates because changes increase complexity."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What best describes Generic software?",
+    "options": [
+      "Fast release of software products to capture market opportunity and user feedback.",
+      "Adding features in response to requests without checking general usefulness or better alternatives.",
+      "Software products built for a broad market and many customers.",
+      "Development driven by a business opportunity and a planned product roadmap rather than a single customer contract."
+    ],
+    "answer": "C",
+    "explanation": "Generic software is best described as: Software products built for a broad market and many customers."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What best describes Custom software?",
+    "options": [
+      "Software developed for a specific customer or organization.",
+      "Software driven by customer requirements and developed under contract or dedicated project conditions.",
+      "A software product that includes functionality on which other applications can be built.",
+      "Fast release of software products to capture market opportunity and user feedback."
+    ],
+    "answer": "A",
+    "explanation": "Custom software is best described as: Software developed for a specific customer or organization."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What best describes Project-based software?",
+    "options": [
+      "Development driven by a business opportunity and a planned product roadmap rather than a single customer contract.",
+      "Software driven by customer requirements and developed under contract or dedicated project conditions.",
+      "Software developed for a specific customer or organization.",
+      "Fast release of software products to capture market opportunity and user feedback."
+    ],
+    "answer": "B",
+    "explanation": "Project-based software is best described as: Software driven by customer requirements and developed under contract or dedicated project conditions."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What best describes Product software engineering?",
+    "options": [
+      "Software driven by customer requirements and developed under contract or dedicated project conditions.",
+      "A software product that includes functionality on which other applications can be built.",
+      "A simple statement that defines the essence of the product to be developed.",
+      "Development driven by a business opportunity and a planned product roadmap rather than a single customer contract."
+    ],
+    "answer": "D",
+    "explanation": "Product software engineering is best described as: Development driven by a business opportunity and a planned product roadmap rather than a single customer contract."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What best describes Product vision?",
+    "options": [
+      "A simple statement that defines the essence of the product to be developed.",
+      "Fast release of software products to capture market opportunity and user feedback.",
+      "Software developed for a specific customer or organization.",
+      "Software driven by customer requirements and developed under contract or dedicated project conditions."
+    ],
+    "answer": "A",
+    "explanation": "Product vision is best described as: A simple statement that defines the essence of the product to be developed."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What best describes Platform?",
+    "options": [
+      "A simple statement that defines the essence of the product to be developed.",
+      "A software product that includes functionality on which other applications can be built.",
+      "Software developed for a specific customer or organization.",
+      "Development driven by a business opportunity and a planned product roadmap rather than a single customer contract."
+    ],
+    "answer": "B",
+    "explanation": "Platform is best described as: A software product that includes functionality on which other applications can be built."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What best describes Feature creep?",
+    "options": [
+      "A software product that includes functionality on which other applications can be built.",
+      "Adding features in response to requests without checking general usefulness or better alternatives.",
+      "Software developed for a specific customer or organization.",
+      "Development driven by a business opportunity and a planned product roadmap rather than a single customer contract."
+    ],
+    "answer": "B",
+    "explanation": "Feature creep is best described as: Adding features in response to requests without checking general usefulness or better alternatives."
+  },
+  {
+    "topic": "Software Products",
+    "difficulty": "Medium",
+    "question": "What best describes Rapid delivery?",
+    "options": [
+      "Fast release of software products to capture market opportunity and user feedback.",
+      "A software product that includes functionality on which other applications can be built.",
+      "Software products built for a broad market and many customers.",
+      "Software developed for a specific customer or organization."
+    ],
+    "answer": "A",
+    "explanation": "Rapid delivery is best described as: Fast release of software products to capture market opportunity and user feedback."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Medium",
+    "question": "What best describes Agility?",
+    "options": [
+      "Ability to respond quickly and effectively to change while still delivering useful software.",
+      "Agile prefers adapting plans and software when needs change.",
+      "Agile values working software more than comprehensive documentation",
+      "though documentation still has a role.",
+      "Agile is less suitable when heavy regulation",
+      "large distributed teams",
+      "or safety-critical demands require extensive formality."
+    ],
+    "answer": "A",
+    "explanation": "Agility is best described as: Ability to respond quickly and effectively to change while still delivering useful software."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Medium",
+    "question": "What best describes Agile manifesto?",
+    "options": [
+      "A call to uncover better ways of developing software by doing it and helping others do it.",
+      "Agile prefers adapting plans and software when needs change.",
+      "Agile values working software more than comprehensive documentation",
+      "though documentation still has a role.",
+      "Agile is less suitable when heavy regulation",
+      "large distributed teams",
+      "or safety-critical demands require extensive formality."
+    ],
+    "answer": "A",
+    "explanation": "Agile manifesto is best described as: A call to uncover better ways of developing software by doing it and helping others do it."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Medium",
+    "question": "What best describes Working software over documentation?",
+    "options": [
+      "A call to uncover better ways of developing software by doing it and helping others do it.",
+      "Agile favors continuous collaboration with users or customers over rigid contract negotiation.",
+      "Agile values working software more than comprehensive documentation",
+      "though documentation still has a role.",
+      "Agile fits environments with changing requirements and close customer feedback."
+    ],
+    "answer": "C",
+    "explanation": "Working software over documentation is best described as: Agile values working software more than comprehensive documentation, though documentation still has a role."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Medium",
+    "question": "What best describes Customer collaboration?",
+    "options": [
+      "Agile favors continuous collaboration with users or customers over rigid contract negotiation.",
+      "Agile prefers adapting plans and software when needs change.",
+      "Agile values working software more than comprehensive documentation",
+      "though documentation still has a role.",
+      "Software is delivered in small usable increments."
+    ],
+    "answer": "A",
+    "explanation": "Customer collaboration is best described as: Agile favors continuous collaboration with users or customers over rigid contract negotiation."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Medium",
+    "question": "What best describes Responding to change?",
+    "options": [
+      "Agile favors continuous collaboration with users or customers over rigid contract negotiation.",
+      "Agile prefers adapting plans and software when needs change.",
+      "Agile fits environments with changing requirements and close customer feedback.",
+      "A call to uncover better ways of developing software by doing it and helping others do it."
+    ],
+    "answer": "B",
+    "explanation": "Responding to change is best described as: Agile prefers adapting plans and software when needs change."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Medium",
+    "question": "What best describes Incremental delivery?",
+    "options": [
+      "Agile values working software more than comprehensive documentation",
+      "though documentation still has a role.",
+      "Agile prefers adapting plans and software when needs change.",
+      "Software is delivered in small usable increments.",
+      "Agile favors continuous collaboration with users or customers over rigid contract negotiation."
+    ],
+    "answer": "C",
+    "explanation": "Incremental delivery is best described as: Software is delivered in small usable increments."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Medium",
+    "question": "What best describes Agile suitability?",
+    "options": [
+      "Agile fits environments with changing requirements and close customer feedback.",
+      "Ability to respond quickly and effectively to change while still delivering useful software.",
+      "A call to uncover better ways of developing software by doing it and helping others do it.",
+      "Agile values working software more than comprehensive documentation",
+      "though documentation still has a role."
+    ],
+    "answer": "A",
+    "explanation": "Agile suitability is best described as: Agile fits environments with changing requirements and close customer feedback."
+  },
+  {
+    "topic": "Agile",
+    "difficulty": "Medium",
+    "question": "What best describes Agile limitation?",
+    "options": [
+      "Agile is less suitable when heavy regulation",
+      "large distributed teams",
+      "or safety-critical demands require extensive formality.",
+      "Ability to respond quickly and effectively to change while still delivering useful software.",
+      "Agile prefers adapting plans and software when needs change.",
+      "Agile favors continuous collaboration with users or customers over rigid contract negotiation."
+    ],
+    "answer": "A",
+    "explanation": "Agile limitation is best described as: Agile is less suitable when heavy regulation, large distributed teams, or safety-critical demands require extensive formality."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Medium",
+    "question": "What best describes Product backlog?",
+    "options": [
+      "Testing used to confirm that delivered functionality satisfies agreed needs.",
+      "Prioritized list of desired product work items.",
+      "A measure of effort estimating how long one person would take to implement a backlog item.",
+      "An agile approach that emphasizes disciplined coding practices and fast feedback."
+    ],
+    "answer": "B",
+    "explanation": "Product backlog is best described as: Prioritized list of desired product work items."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Medium",
+    "question": "What best describes Sprint?",
+    "options": [
+      "Testing used to confirm that delivered functionality satisfies agreed needs.",
+      "A fixed time-box in Scrum during which selected backlog items are implemented.",
+      "An agile approach that emphasizes disciplined coding practices and fast feedback.",
+      "A measure of effort estimating how long one person would take to implement a backlog item."
+    ],
+    "answer": "B",
+    "explanation": "Sprint is best described as: A fixed time-box in Scrum during which selected backlog items are implemented."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Medium",
+    "question": "What best describes Increment?",
+    "options": [
+      "Communication",
+      "simplicity",
+      "feedback",
+      "courage",
+      "and respect.",
+      "A potentially usable version of the product produced at the end of an iteration or sprint.",
+      "Testing used to confirm that delivered functionality satisfies agreed needs.",
+      "Prioritized list of desired product work items."
+    ],
+    "answer": "B",
+    "explanation": "Increment is best described as: A potentially usable version of the product produced at the end of an iteration or sprint."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Medium",
+    "question": "What best describes Daily scrum?",
+    "options": [
+      "An agile approach that emphasizes disciplined coding practices and fast feedback.",
+      "Communication",
+      "simplicity",
+      "feedback",
+      "courage",
+      "and respect.",
+      "Short daily meeting for team synchronization.",
+      "A measure of effort estimating how long one person would take to implement a backlog item."
+    ],
+    "answer": "C",
+    "explanation": "Daily scrum is best described as: Short daily meeting for team synchronization."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Medium",
+    "question": "What best describes Person-hours?",
+    "options": [
+      "Communication",
+      "simplicity",
+      "feedback",
+      "courage",
+      "and respect.",
+      "An agile approach that emphasizes disciplined coding practices and fast feedback.",
+      "A measure of effort estimating how long one person would take to implement a backlog item.",
+      "A fixed time-box in Scrum during which selected backlog items are implemented."
+    ],
+    "answer": "C",
+    "explanation": "Person-hours is best described as: A measure of effort estimating how long one person would take to implement a backlog item."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Medium",
+    "question": "What best describes Extreme Programming?",
+    "options": [
+      "Testing used to confirm that delivered functionality satisfies agreed needs.",
+      "Short daily meeting for team synchronization.",
+      "Communication",
+      "simplicity",
+      "feedback",
+      "courage",
+      "and respect.",
+      "An agile approach that emphasizes disciplined coding practices and fast feedback."
+    ],
+    "answer": "D",
+    "explanation": "Extreme Programming is best described as: An agile approach that emphasizes disciplined coding practices and fast feedback."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Medium",
+    "question": "What best describes XP values?",
+    "options": [
+      "Communication",
+      "simplicity",
+      "feedback",
+      "courage",
+      "and respect.",
+      "Prioritized list of desired product work items.",
+      "A fixed time-box in Scrum during which selected backlog items are implemented.",
+      "An agile approach that emphasizes disciplined coding practices and fast feedback."
+    ],
+    "answer": "A",
+    "explanation": "XP values is best described as: Communication, simplicity, feedback, courage, and respect."
+  },
+  {
+    "topic": "Scrum and XP",
+    "difficulty": "Medium",
+    "question": "What best describes Acceptance testing?",
+    "options": [
+      "Short daily meeting for team synchronization.",
+      "Communication",
+      "simplicity",
+      "feedback",
+      "courage",
+      "and respect.",
+      "Testing used to confirm that delivered functionality satisfies agreed needs.",
+      "Prioritized list of desired product work items."
+    ],
+    "answer": "C",
+    "explanation": "Acceptance testing is best described as: Testing used to confirm that delivered functionality satisfies agreed needs."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Medium",
+    "question": "What best describes Feature?",
+    "options": [
+      "An element that implements a coherent set of functionality.",
+      "Interfaces should not be unnecessarily complex.",
+      "A narrative describing how a user or group of users might use a system.",
+      "A short user-centered requirement expressed in simple terms."
+    ],
+    "answer": "A",
+    "explanation": "Feature is best described as: An element that implements a coherent set of functionality."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Medium",
+    "question": "What best describes Scenario?",
+    "options": [
+      "A short user-centered requirement expressed in simple terms.",
+      "Feature design draws on user knowledge",
+      "domain knowledge",
+      "product knowledge",
+      "and technology knowledge.",
+      "Interfaces should not be unnecessarily complex.",
+      "A narrative describing how a user or group of users might use a system."
+    ],
+    "answer": "D",
+    "explanation": "Scenario is best described as: A narrative describing how a user or group of users might use a system."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Medium",
+    "question": "What best describes Story?",
+    "options": [
+      "A representation of a typical user used to guide design.",
+      "A short user-centered requirement expressed in simple terms.",
+      "Feature design draws on user knowledge",
+      "domain knowledge",
+      "product knowledge",
+      "and technology knowledge.",
+      "A narrative describing how a user or group of users might use a system."
+    ],
+    "answer": "B",
+    "explanation": "Story is best described as: A short user-centered requirement expressed in simple terms."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Medium",
+    "question": "What best describes Persona?",
+    "options": [
+      "Useful features are independent",
+      "coherent",
+      "and relevant.",
+      "A narrative describing how a user or group of users might use a system.",
+      "A representation of a typical user used to guide design.",
+      "An element that implements a coherent set of functionality."
+    ],
+    "answer": "C",
+    "explanation": "Persona is best described as: A representation of a typical user used to guide design."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Medium",
+    "question": "What best describes Feature qualities?",
+    "options": [
+      "Feature design draws on user knowledge",
+      "domain knowledge",
+      "product knowledge",
+      "and technology knowledge.",
+      "Interfaces should not be unnecessarily complex.",
+      "An element that implements a coherent set of functionality.",
+      "Useful features are independent",
+      "coherent",
+      "and relevant."
+    ],
+    "answer": "D",
+    "explanation": "Feature qualities is best described as: Useful features are independent, coherent, and relevant."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Medium",
+    "question": "What best describes User interface simplicity?",
+    "options": [
+      "Useful features are independent",
+      "coherent",
+      "and relevant.",
+      "A short user-centered requirement expressed in simple terms.",
+      "Feature design draws on user knowledge",
+      "domain knowledge",
+      "product knowledge",
+      "and technology knowledge.",
+      "Interfaces should not be unnecessarily complex."
+    ],
+    "answer": "D",
+    "explanation": "User interface simplicity is best described as: Interfaces should not be unnecessarily complex."
+  },
+  {
+    "topic": "Features, Stories, Scenarios",
+    "difficulty": "Medium",
+    "question": "What best describes Feature design knowledge?",
+    "options": [
+      "Feature design draws on user knowledge",
+      "domain knowledge",
+      "product knowledge",
+      "and technology knowledge.",
+      "Interfaces should not be unnecessarily complex.",
+      "An element that implements a coherent set of functionality.",
+      "A representation of a typical user used to guide design."
+    ],
+    "answer": "A",
+    "explanation": "Feature design knowledge is best described as: Feature design draws on user knowledge, domain knowledge, product knowledge, and technology knowledge."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Waterfall model?",
+    "options": [
+      "A linear process model in which activities are performed largely in sequence.",
+      "A model that uses mathematically based specification and verification.",
+      "Modification of software after delivery to meet changing needs or contexts.",
+      "A risk-driven iterative model that combines prototyping with controlled stages."
+    ],
+    "answer": "A",
+    "explanation": "Waterfall model is best described as: A linear process model in which activities are performed largely in sequence."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Incremental model?",
+    "options": [
+      "Choice of process model should depend on project size",
+      "risk",
+      "requirements stability",
+      "and domain constraints.",
+      "A model that delivers the system in a series of increments.",
+      "Process models that evolve the software through repeated cycles and feedback.",
+      "An iterative process framework organized into phases such as inception",
+      "elaboration",
+      "construction",
+      "and transition."
+    ],
+    "answer": "B",
+    "explanation": "Incremental model is best described as: A model that delivers the system in a series of increments."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Prototyping model?",
+    "options": [
+      "Process models that evolve the software through repeated cycles and feedback.",
+      "Modification of software after delivery to meet changing needs or contexts.",
+      "A model in which an early working version is built to clarify needs and ideas.",
+      "A linear process model in which activities are performed largely in sequence."
+    ],
+    "answer": "C",
+    "explanation": "Prototyping model is best described as: A model in which an early working version is built to clarify needs and ideas."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Spiral model?",
+    "options": [
+      "A risk-driven iterative model that combines prototyping with controlled stages.",
+      "Choice of process model should depend on project size",
+      "risk",
+      "requirements stability",
+      "and domain constraints.",
+      "Process models that evolve the software through repeated cycles and feedback.",
+      "A model that uses mathematically based specification and verification."
+    ],
+    "answer": "A",
+    "explanation": "Spiral model is best described as: A risk-driven iterative model that combines prototyping with controlled stages."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Concurrent model?",
+    "options": [
+      "A model that allows software activities to occur in parallel and move through different states.",
+      "A model that delivers the system in a series of increments.",
+      "Process models that define a planned",
+      "structured way of developing software.",
+      "Modification of software after delivery to meet changing needs or contexts."
+    ],
+    "answer": "A",
+    "explanation": "Concurrent model is best described as: A model that allows software activities to occur in parallel and move through different states."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Component-based development?",
+    "options": [
+      "Modification of software after delivery to meet changing needs or contexts.",
+      "Process models that evolve the software through repeated cycles and feedback.",
+      "Building software by selecting",
+      "adapting",
+      "and integrating reusable components.",
+      "A model that uses mathematically based specification and verification."
+    ],
+    "answer": "C",
+    "explanation": "Component-based development is best described as: Building software by selecting, adapting, and integrating reusable components."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Formal methods model?",
+    "options": [
+      "A model that uses mathematically based specification and verification.",
+      "Building software by selecting",
+      "adapting",
+      "and integrating reusable components.",
+      "A model in which an early working version is built to clarify needs and ideas.",
+      "A risk-driven iterative model that combines prototyping with controlled stages."
+    ],
+    "answer": "A",
+    "explanation": "Formal methods model is best described as: A model that uses mathematically based specification and verification."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Unified Process?",
+    "options": [
+      "A model that uses mathematically based specification and verification.",
+      "Process models that evolve the software through repeated cycles and feedback.",
+      "Building software by selecting",
+      "adapting",
+      "and integrating reusable components.",
+      "An iterative process framework organized into phases such as inception",
+      "elaboration",
+      "construction",
+      "and transition."
+    ],
+    "answer": "D",
+    "explanation": "Unified Process is best described as: An iterative process framework organized into phases such as inception, elaboration, construction, and transition."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Prescriptive models?",
+    "options": [
+      "Modification of software after delivery to meet changing needs or contexts.",
+      "Process models that define a planned",
+      "structured way of developing software.",
+      "Building software by selecting",
+      "adapting",
+      "and integrating reusable components.",
+      "A model that allows software activities to occur in parallel and move through different states."
+    ],
+    "answer": "B",
+    "explanation": "Prescriptive models is best described as: Process models that define a planned, structured way of developing software."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Evolutionary models?",
+    "options": [
+      "Choice of process model should depend on project size",
+      "risk",
+      "requirements stability",
+      "and domain constraints.",
+      "A risk-driven iterative model that combines prototyping with controlled stages.",
+      "A model that allows software activities to occur in parallel and move through different states.",
+      "Process models that evolve the software through repeated cycles and feedback."
+    ],
+    "answer": "D",
+    "explanation": "Evolutionary models is best described as: Process models that evolve the software through repeated cycles and feedback."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Software evolution?",
+    "options": [
+      "Choice of process model should depend on project size",
+      "risk",
+      "requirements stability",
+      "and domain constraints.",
+      "Modification of software after delivery to meet changing needs or contexts.",
+      "A model that delivers the system in a series of increments.",
+      "Process models that evolve the software through repeated cycles and feedback."
+    ],
+    "answer": "B",
+    "explanation": "Software evolution is best described as: Modification of software after delivery to meet changing needs or contexts."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Medium",
+    "question": "What best describes Model selection?",
+    "options": [
+      "A model that allows software activities to occur in parallel and move through different states.",
+      "A model that delivers the system in a series of increments.",
+      "Choice of process model should depend on project size",
+      "risk",
+      "requirements stability",
+      "and domain constraints.",
+      "A model that uses mathematically based specification and verification."
+    ],
+    "answer": "C",
+    "explanation": "Model selection is best described as: Choice of process model should depend on project size, risk, requirements stability, and domain constraints."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Requirements engineering?",
+    "options": [
+      "Resolving conflicts among competing stakeholder needs to reach an agreed set of requirements.",
+      "Outputs may include statements of need",
+      "stakeholder lists",
+      "scenarios",
+      "use cases",
+      "and preliminary models.",
+      "The activities involved in discovering",
+      "analyzing",
+      "documenting",
+      "validating",
+      "and managing requirements.",
+      "Gathering requirements from stakeholders and other sources."
+    ],
+    "answer": "C",
+    "explanation": "Requirements engineering is best described as: The activities involved in discovering, analyzing, documenting, validating, and managing requirements."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Stakeholder?",
+    "options": [
+      "Software Requirements Specification document.",
+      "Anyone who affects or is affected by the system.",
+      "The activities involved in discovering",
+      "analyzing",
+      "documenting",
+      "validating",
+      "and managing requirements.",
+      "A requirement that arises from the application domain."
+    ],
+    "answer": "B",
+    "explanation": "Stakeholder is best described as: Anyone who affects or is affected by the system."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Elicitation?",
+    "options": [
+      "Controlling requirement changes and maintaining traceability over time.",
+      "A requirement that arises from the application domain.",
+      "Gathering requirements from stakeholders and other sources.",
+      "Software Requirements Specification document."
+    ],
+    "answer": "C",
+    "explanation": "Elicitation is best described as: Gathering requirements from stakeholders and other sources."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Analysis?",
+    "options": [
+      "Controlling requirement changes and maintaining traceability over time.",
+      "A constraint or quality attribute such as performance",
+      "reliability",
+      "or security.",
+      "Organizing",
+      "refining",
+      "and modeling gathered requirements.",
+      "The activities involved in discovering",
+      "analyzing",
+      "documenting",
+      "validating",
+      "and managing requirements."
+    ],
+    "answer": "C",
+    "explanation": "Analysis is best described as: Organizing, refining, and modeling gathered requirements."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Negotiation?",
+    "options": [
+      "Resolving conflicts among competing stakeholder needs to reach an agreed set of requirements.",
+      "Software Requirements Specification document.",
+      "Gathering requirements from stakeholders and other sources.",
+      "A statement of a service or function the system must provide."
+    ],
+    "answer": "A",
+    "explanation": "Negotiation is best described as: Resolving conflicts among competing stakeholder needs to reach an agreed set of requirements."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Validation?",
+    "options": [
+      "Organizing",
+      "refining",
+      "and modeling gathered requirements.",
+      "Checking that requirements are correct",
+      "complete",
+      "consistent",
+      "realistic",
+      "and testable.",
+      "Software Requirements Specification document.",
+      "Gathering requirements from stakeholders and other sources."
+    ],
+    "answer": "B",
+    "explanation": "Validation is best described as: Checking that requirements are correct, complete, consistent, realistic, and testable."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Requirements management?",
+    "options": [
+      "Controlling requirement changes and maintaining traceability over time.",
+      "High-level statement of services and constraints understandable by users.",
+      "A requirement that arises from the application domain.",
+      "Anyone who affects or is affected by the system."
+    ],
+    "answer": "A",
+    "explanation": "Requirements management is best described as: Controlling requirement changes and maintaining traceability over time."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Functional requirement?",
+    "options": [
+      "Outputs may include statements of need",
+      "stakeholder lists",
+      "scenarios",
+      "use cases",
+      "and preliminary models.",
+      "Checking that requirements are correct",
+      "complete",
+      "consistent",
+      "realistic",
+      "and testable.",
+      "The activities involved in discovering",
+      "analyzing",
+      "documenting",
+      "validating",
+      "and managing requirements.",
+      "A statement of a service or function the system must provide."
+    ],
+    "answer": "D",
+    "explanation": "Functional requirement is best described as: A statement of a service or function the system must provide."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Non-functional requirement?",
+    "options": [
+      "The activities involved in discovering",
+      "analyzing",
+      "documenting",
+      "validating",
+      "and managing requirements.",
+      "A constraint or quality attribute such as performance",
+      "reliability",
+      "or security.",
+      "Detailed",
+      "precise description of system functions and constraints for developers.",
+      "Organizing",
+      "refining",
+      "and modeling gathered requirements."
+    ],
+    "answer": "B",
+    "explanation": "Non-functional requirement is best described as: A constraint or quality attribute such as performance, reliability, or security."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Domain requirement?",
+    "options": [
+      "Resolving conflicts among competing stakeholder needs to reach an agreed set of requirements.",
+      "A constraint or quality attribute such as performance",
+      "reliability",
+      "or security.",
+      "A requirement that arises from the application domain.",
+      "Gathering requirements from stakeholders and other sources."
+    ],
+    "answer": "C",
+    "explanation": "Domain requirement is best described as: A requirement that arises from the application domain."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes User requirement?",
+    "options": [
+      "High-level statement of services and constraints understandable by users.",
+      "A constraint or quality attribute such as performance",
+      "reliability",
+      "or security.",
+      "Outputs may include statements of need",
+      "stakeholder lists",
+      "scenarios",
+      "use cases",
+      "and preliminary models.",
+      "Anyone who affects or is affected by the system."
+    ],
+    "answer": "A",
+    "explanation": "User requirement is best described as: High-level statement of services and constraints understandable by users."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes System requirement?",
+    "options": [
+      "Organizing",
+      "refining",
+      "and modeling gathered requirements.",
+      "Resolving conflicts among competing stakeholder needs to reach an agreed set of requirements.",
+      "Detailed",
+      "precise description of system functions and constraints for developers.",
+      "A statement of a service or function the system must provide."
+    ],
+    "answer": "C",
+    "explanation": "System requirement is best described as: Detailed, precise description of system functions and constraints for developers."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes SRS?",
+    "options": [
+      "Controlling requirement changes and maintaining traceability over time.",
+      "High-level statement of services and constraints understandable by users.",
+      "Software Requirements Specification document.",
+      "Checking that requirements are correct",
+      "complete",
+      "consistent",
+      "realistic",
+      "and testable."
+    ],
+    "answer": "C",
+    "explanation": "SRS is best described as: Software Requirements Specification document."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What best describes Elicitation work products?",
+    "options": [
+      "Organizing",
+      "refining",
+      "and modeling gathered requirements.",
+      "High-level statement of services and constraints understandable by users.",
+      "Outputs may include statements of need",
+      "stakeholder lists",
+      "scenarios",
+      "use cases",
+      "and preliminary models.",
+      "A requirement that arises from the application domain."
+    ],
+    "answer": "C",
+    "explanation": "Elicitation work products is best described as: Outputs may include statements of need, stakeholder lists, scenarios, use cases, and preliminary models."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes UML?",
+    "options": [
+      "UML diagram showing classes and their relationships.",
+      "Unified Modeling Language",
+      "a standard visual language for software modeling.",
+      "UML diagram showing states and transitions of an object or system.",
+      "Behavioral models show change over time; structural models show static organization."
+    ],
+    "answer": "B",
+    "explanation": "UML is best described as: Unified Modeling Language, a standard visual language for software modeling."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Scenario-based model?",
+    "options": [
+      "Model based on use cases and user interactions.",
+      "Model showing data objects",
+      "attributes",
+      "and relationships.",
+      "Behavioral models show change over time; structural models show static organization.",
+      "UML diagram showing workflow or processing sequence."
+    ],
+    "answer": "A",
+    "explanation": "Scenario-based model is best described as: Model based on use cases and user interactions."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Data model?",
+    "options": [
+      "An approach that gives models a central role in development and possible code generation.",
+      "UML diagram showing workflow or processing sequence.",
+      "Model showing how information moves and is transformed.",
+      "Model showing data objects",
+      "attributes",
+      "and relationships."
+    ],
+    "answer": "D",
+    "explanation": "Data model is best described as: Model showing data objects, attributes, and relationships."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Class-oriented model?",
+    "options": [
+      "UML diagram showing states and transitions of an object or system.",
+      "An approach that gives models a central role in development and possible code generation.",
+      "Behavioral models show change over time; structural models show static organization.",
+      "Model showing analysis classes",
+      "attributes",
+      "operations",
+      "and relationships."
+    ],
+    "answer": "D",
+    "explanation": "Class-oriented model is best described as: Model showing analysis classes, attributes, operations, and relationships."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Flow-oriented model?",
+    "options": [
+      "An approach that gives models a central role in development and possible code generation.",
+      "A model emphasizing static organization.",
+      "Model showing states",
+      "events",
+      "and dynamic behavior.",
+      "Model showing how information moves and is transformed."
+    ],
+    "answer": "D",
+    "explanation": "Flow-oriented model is best described as: Model showing how information moves and is transformed."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Behavioral model?",
+    "options": [
+      "Model showing states",
+      "events",
+      "and dynamic behavior.",
+      "Unified Modeling Language",
+      "a standard visual language for software modeling.",
+      "An approach that gives models a central role in development and possible code generation.",
+      "Model showing how information moves and is transformed."
+    ],
+    "answer": "A",
+    "explanation": "Behavioral model is best described as: Model showing states, events, and dynamic behavior."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Class diagram?",
+    "options": [
+      "A model emphasizing static organization.",
+      "Model showing analysis classes",
+      "attributes",
+      "operations",
+      "and relationships.",
+      "Model showing states",
+      "events",
+      "and dynamic behavior.",
+      "UML diagram showing classes and their relationships."
+    ],
+    "answer": "D",
+    "explanation": "Class diagram is best described as: UML diagram showing classes and their relationships."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Activity diagram?",
+    "options": [
+      "Model showing data objects",
+      "attributes",
+      "and relationships.",
+      "UML diagram showing classes and their relationships.",
+      "Model showing states",
+      "events",
+      "and dynamic behavior.",
+      "UML diagram showing workflow or processing sequence."
+    ],
+    "answer": "D",
+    "explanation": "Activity diagram is best described as: UML diagram showing workflow or processing sequence."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes State diagram?",
+    "options": [
+      "UML diagram showing states and transitions of an object or system.",
+      "Model showing how information moves and is transformed.",
+      "Unified Modeling Language",
+      "a standard visual language for software modeling.",
+      "Model showing states",
+      "events",
+      "and dynamic behavior."
+    ],
+    "answer": "A",
+    "explanation": "State diagram is best described as: UML diagram showing states and transitions of an object or system."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Structural model?",
+    "options": [
+      "Model showing states",
+      "events",
+      "and dynamic behavior.",
+      "Unified Modeling Language",
+      "a standard visual language for software modeling.",
+      "A model emphasizing static organization.",
+      "Behavioral models show change over time; structural models show static organization."
+    ],
+    "answer": "C",
+    "explanation": "Structural model is best described as: A model emphasizing static organization."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Behavioral vs structural?",
+    "options": [
+      "Model based on use cases and user interactions.",
+      "Behavioral models show change over time; structural models show static organization.",
+      "Model showing states",
+      "events",
+      "and dynamic behavior.",
+      "Model showing analysis classes",
+      "attributes",
+      "operations",
+      "and relationships."
+    ],
+    "answer": "B",
+    "explanation": "Behavioral vs structural is best described as: Behavioral models show change over time; structural models show static organization."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What best describes Model-driven engineering?",
+    "options": [
+      "Model showing how information moves and is transformed.",
+      "An approach that gives models a central role in development and possible code generation.",
+      "Model showing data objects",
+      "attributes",
+      "and relationships.",
+      "UML diagram showing classes and their relationships."
+    ],
+    "answer": "B",
+    "explanation": "Model-driven engineering is best described as: An approach that gives models a central role in development and possible code generation."
+  },
+  {
+    "topic": "Cloud and Modern Architecture",
+    "difficulty": "Hard",
+    "question": "In the context of Cloud Computing, what defines Infrastructure as a Service (IaaS)?",
+    "options": [
+      "The consumer manages the applications and perhaps the operating system",
+      "while the provider manages the underlying hardware",
+      "servers",
+      "and storage.",
+      "The provider manages all aspects of the application",
+      "including the interface and data storage.",
+      "The consumer writes code for specific functions that are triggered by events",
+      "with no server management.",
+      "The provider provides a development platform including languages and libraries",
+      "while the consumer manages the app life cycle."
+    ],
+    "answer": "A",
+    "explanation": "IaaS gives the consumer control over operating systems, storage, and deployed applications, while the provider controls the physical infrastructure."
+  },
+  {
+    "topic": "Cloud and Modern Architecture",
+    "difficulty": "Hard",
+    "question": "What is the primary characteristic of Platform as a Service (PaaS)?",
+    "options": [
+      "Users pay only for the execution time of individual code functions.",
+      "The provider delivers a pre-configured development and deployment environment",
+      "including runtime libraries and middleware.",
+      "Hardware is virtualized and provided as a raw resource.",
+      "Data is automatically synchronized across multiple organizational tenants."
+    ],
+    "answer": "B",
+    "explanation": "PaaS provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure."
+  },
+  {
+    "topic": "Cloud and Modern Architecture",
+    "difficulty": "Hard",
+    "question": "What is a major security challenge unique to Multi-tenant SaaS environments?",
+    "options": [
+      "Physical theft of servers from the data center.",
+      "Information leakage or data 'bleeding' between different organizational tenants using the same database.",
+      "Slow network speeds causing packet loss.",
+      "Lack of support for mobile devices."
+    ],
+    "answer": "B",
+    "explanation": "In multi-tenant systems, ensuring that one customer cannot see another customer's data is a critical and complex security concern."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Hard",
+    "question": "According to the ACM/IEEE Software Engineering Code of Ethics, what is the highest priority for a software engineer?",
+    "options": [
+      "Satisfying the employer's requirements at all costs.",
+      "Ensuring the product is delivered on time",
+      "regardless of minor safety bugs.",
+      "Acting consistently with the public interest.",
+      "Advancing the engineer's personal career and reputation."
+    ],
+    "answer": "C",
+    "explanation": "Principle 1 of the Code of Ethics states that software engineers shall act consistently with the public interest."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Hard",
+    "question": "What does 'Brooks's Law' state regarding software project management?",
+    "options": [
+      "Software complexity increases exponentially with the number of modules.",
+      "Adding manpower to a late software project makes it later.",
+      "The cost of fixing a bug increases the later it is found in the lifecycle.",
+      "A developer's productivity is halved for every interruption."
+    ],
+    "answer": "B",
+    "explanation": "Brooks's Law highlights that the communication overhead of bringing new people onto a late project often outweighs their contribution."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Hard",
+    "question": "What is 'Cyclomatic Complexity' used to measure?",
+    "options": [
+      "The number of lines of code in a program.",
+      "The number of linearly independent paths through a program's source code.",
+      "The speed at which a program executes a specific loop.",
+      "The number of users that can simultaneously access a system."
+    ],
+    "answer": "B",
+    "explanation": "Cyclomatic complexity provides a quantitative measure of the logical complexity of a program, indicating how many test cases are needed."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Hard",
+    "question": "What is the primary purpose of 'Requirements Negotiation'?",
+    "options": [
+      "To convince the customer that the developer's idea is better.",
+      "To resolve conflicts between stakeholders and reach an agreed set of requirements that are feasible within budget.",
+      "To determine which developer will work on which requirement.",
+      "To finalize the legal contract and payment terms."
+    ],
+    "answer": "B",
+    "explanation": "Negotiation ensures that all stakeholders agree on a realistic and achievable set of requirements."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Hard",
+    "question": "In software design, what is 'Information Hiding'?",
+    "options": [
+      "Encrypting the source code to prevent competitors from reading it.",
+      "Concealing internal design decisions or data structures behind stable interfaces to limit change impact.",
+      "Restricting user access to administrative features.",
+      "Storing sensitive data in hidden partitions on the disk."
+    ],
+    "answer": "B",
+    "explanation": "Information hiding (encapsulation) reduces coupling by ensuring that one module's internal changes don't require changes in others."
+  },
+  {
+    "topic": "Cloud and Modern Architecture",
+    "difficulty": "Medium",
+    "question": "What is 'Infrastructure as Code' (IaC)?",
+    "options": [
+      "Writing manual instructions for IT staff to follow.",
+      "Managing and provisioning infrastructure through machine-readable definition files.",
+      "Hard-coding IP addresses directly into the application source code.",
+      "Outsourcing all server management to a third-party company."
+    ],
+    "answer": "B",
+    "explanation": "IaC allows infrastructure to be treated like software, enabling version control and automated deployment."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Medium",
+    "question": "What is 'Regression Testing'?",
+    "options": [
+      "Testing a system to see how many errors it can generate per hour.",
+      "Re-testing previously verified software after changes to ensure no new bugs were introduced.",
+      "Testing the system beyond its operational limits.",
+      "Asking users to provide feedback on the UI design."
+    ],
+    "answer": "B",
+    "explanation": "Regression testing ensures that updates or bug fixes haven't 'broken' existing features."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Hard",
+    "question": "What is the 'Cost of Quality' component related to find and fix bugs before release?",
+    "options": [
+      "Prevention costs.",
+      "Internal failure costs.",
+      "Appraisal costs.",
+      "External failure costs."
+    ],
+    "answer": "B",
+    "explanation": "Internal failure costs are incurred when defects are found by the team before the product reaches the customer."
+  },
+  {
+    "topic": "DevOps, Teams, Ethics",
+    "difficulty": "Medium",
+    "question": "In Software Project Management, what are the four 'Ps'?",
+    "options": [
+      "Programming",
+      "Planning",
+      "Proofing",
+      "Publishing.",
+      "People",
+      "Product",
+      "Process",
+      "Project.",
+      "Performance",
+      "Price",
+      "Portability",
+      "Precision.",
+      "Prioritization",
+      "Procurement",
+      "Prototyping",
+      "Packaging."
+    ],
+    "answer": "B",
+    "explanation": "The 4 Ps represent the critical elements that must be managed for a successful software project."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Hard",
+    "question": "What is the main goal of 'Refactoring'?",
+    "options": [
+      "To add new features requested by the client.",
+      "To improve the internal structure of code without changing its external behavior.",
+      "To rewrite the software into a different programming language.",
+      "To reduce the size of the compiled executable file."
+    ],
+    "answer": "B",
+    "explanation": "Refactoring improves maintainability and readability by cleaning up technical debt."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Medium",
+    "question": "What is a 'Non-functional Requirement'?",
+    "options": [
+      "A feature that is not yet implemented in the system.",
+      "A constraint on the system's operation or a quality attribute like security or performance.",
+      "A requirement that the user doesn't actually need.",
+      "A bug report from a previous version of the software."
+    ],
+    "answer": "B",
+    "explanation": "Non-functional requirements specify *how* the system should behave, rather than *what* it should do."
+  },
+  {
+    "topic": "Modern Technology",
+    "difficulty": "Hard",
+    "question": "Which cloud deployment model provides the most control but the highest maintenance effort?",
+    "options": [
+      "Public Cloud.",
+      "Private Cloud.",
+      "Hybrid Cloud.",
+      "SaaS."
+    ],
+    "answer": "B",
+    "explanation": "A Private Cloud is dedicated to one organization, offering total control over security and infrastructure but requiring full internal management."
+  },
+  {
+    "topic": "Process Models",
+    "difficulty": "Hard",
+    "question": "In the Unified Process (UP), what happens during the 'Inception' phase?",
+    "options": [
+      "The team codes the entire system.",
+      "The team defines the scope",
+      "basic architecture",
+      "and feasibility of the project.",
+      "The software is handed over to the customer.",
+      "Final testing and bug fixing occur."
+    ],
+    "answer": "B",
+    "explanation": "Inception is about establishing the business case and scope, not full-scale construction."
+  },
+  {
+    "topic": "Modeling and UML",
+    "difficulty": "Medium",
+    "question": "What is 'Multiplicity' in a UML class diagram?",
+    "options": [
+      "The number of classes in the diagram.",
+      "The number of instances of one class that can be linked to one instance of another class.",
+      "The speed at which objects are created at runtime.",
+      "The number of subclasses inherited from a parent class."
+    ],
+    "answer": "B",
+    "explanation": "Multiplicity (e.g., 1..*) defines the quantitative relationship between associated classes."
+  },
+  {
+    "topic": "Design and Architecture",
+    "difficulty": "Hard",
+    "question": "What is the benefit of 'Separation of Concerns'?",
+    "options": [
+      "It makes the software faster to execute.",
+      "It improves maintainability by ensuring each part of the program addresses a distinct concern.",
+      "It allows the program to run on multiple operating systems.",
+      "It reduces the amount of memory consumed by the application."
+    ],
+    "answer": "B",
+    "explanation": "By isolating functionalities, changes in one area are less likely to impact others."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Medium",
+    "question": "What is 'Equivalence Partitioning' in testing?",
+    "options": [
+      "Dividing the development team into equal groups for peer review.",
+      "Dividing input data into classes that are expected to be processed similarly.",
+      "Ensuring that all functions have the same number of lines of code.",
+      "Calculating the average number of errors per module."
+    ],
+    "answer": "B",
+    "explanation": "Equivalence partitioning reduces the number of test cases needed while maintaining effective coverage."
+  },
+  {
+    "topic": "Modern Technology",
+    "difficulty": "Medium",
+    "question": "What is 'Containerization'?",
+    "options": [
+      "Storing old server hardware in physical shipping containers.",
+      "A lightweight form of individual OS virtualization allowing apps to run in isolated environments.",
+      "The process of putting software into physical boxes for retail sale.",
+      "A technique for compressing large database files."
+    ],
+    "answer": "B",
+    "explanation": "Containers (like Docker) provide portable, isolated environments for software to run consistently across any infrastructure."
+  },
+  {
+    "topic": "Exam Strategy",
+    "difficulty": "Hard",
+    "question": "What is the 'Master Formula' for structuring a distinction-level long-form answer in MIT 817?",
+    "options": [
+      "Definition \u2192 Explanation \u2192 Real-World Example \u2192 Diagram.",
+      "Bulleted list of every fact you know about the topic.",
+      "A single summary paragraph followed by a conclusion.",
+      "Write as much code as possible to show technical skill."
+    ],
+    "answer": "A",
+    "explanation": "The 'Definition \u2192 Explanation \u2192 Example \u2192 Diagram' structure shows the examiner both theoretical knowledge and practical application, which is required for a Distinction."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Hard",
+    "question": "Software 'does not wear out' like hardware, yet it still 'deteriorates'. What is the root cause of this deterioration?",
+    "options": [
+      "Friction between electrical components in the server.",
+      "The build-up of unhandled exceptions in the CPU.",
+      "The accumulation of changes over time that increases complexity and breaks dependencies.",
+      "Exposure to cosmic radiation in data centers."
+    ],
+    "answer": "C",
+    "explanation": "Because software is abstract, it deteriorates when constant modifications (to meet new needs) increase its internal complexity and cause it to lose its original modularity."
+  },
+  {
+    "topic": "Foundations",
+    "difficulty": "Hard",
+    "question": "What is the correct hierarchical order of the 'Software Engineering Layers'?",
+    "options": [
+      "Tools \u2192 Methods \u2192 Process \u2192 Quality Focus.",
+      "Quality Focus \u2192 Process \u2192 Methods \u2192 Tools.",
+      "Process \u2192 Quality Focus \u2192 Tools \u2192 Methods.",
+      "Methods \u2192 Tools \u2192 Quality Focus \u2192 Process."
+    ],
+    "answer": "B",
+    "explanation": "Quality is the MINDSET (foundation), Process is the FRAMEWORK, Methods are the TECHNICAL steps, and Tools are the SUPPORT."
+  },
+  {
+    "topic": "Requirements Engineering",
+    "difficulty": "Hard",
+    "question": "What is the 'Master Flow' of tasks within the Requirements Engineering phase?",
+    "options": [
+      "Coding \u2192 Testing \u2192 Validation \u2192 Management.",
+      "Inception \u2192 Elaboration \u2192 Construction \u2192 Transition.",
+      "Elicitation \u2192 Analysis \u2192 Modeling \u2192 Negotiation \u2192 Validation \u2192 Management.",
+      "Planning \u2192 Modeling \u2192 Construction \u2192 Deployment."
+    ],
+    "answer": "C",
+    "explanation": "The 6-step flow (E-A-M-N-V-M) is the standard professional structure for turning vague stakeholder needs into a precise SRS."
+  },
+  {
+    "topic": "Quality and Testing",
+    "difficulty": "Hard",
+    "question": "How does the 'Quality Dilemma' impact a professional software engineering project?",
+    "options": [
+      "It makes it impossible to release any software that has bugs.",
+      "It involves choosing between a 'Perfect' product (unrealistic/expensive) and a 'Good Enough' product (meets needs safely/efficiently).",
+      "It forces the engineer to prioritize the client's pride over the public interest.",
+      "It requires that 100% of the budget be spent on testing."
+    ],
+    "answer": "B",
+    "explanation": "Professional SE is about finding the 'Sweet Spot'\u2014software that is fast and cheap enough to be useful, but high-quality enough to be safe and dependable."
+  },
+  {
+    "topic": "Project Management",
+    "difficulty": "Hard",
+    "question": "Which of the following causes the most significant number of 'failed' software projects in the industry?",
+    "options": [
+      "Slow internet speeds in the development team's office.",
+      "Using an older version of the Python programming language.",
+      "People and communication issues (toxic culture",
+      "unclear goals",
+      "lack of trust).",
+      "The lack of high-performance graphics cards."
+    ],
+    "answer": "C",
+    "explanation": "While technical bugs exist, most total project failures are attributed to the 'People' factor (one of the 4 Ps)\u2014poor communication and lack of stakeholder alignment."
+  }
+]

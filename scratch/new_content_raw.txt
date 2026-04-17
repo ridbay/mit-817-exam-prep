@@ -1,0 +1,1584 @@
+
+# BLOCK 1: SECTIONS K-S
+🔹 SECTION K — FEATURES, PERSONAS, SCENARIOS (DEEP)
+51. What is the main purpose of a feature list?
+
+A. Testing
+B. Starting point for design
+C. Deployment
+D. Coding
+
+→ Answer: B
+
+→ Explanation:
+A feature list defines what the system should do and serves as the foundation for design and development.
+
+52. Features are best described as:
+
+A. Entire systems
+B. Fragments of functionality
+C. Hardware modules
+D. UI layouts
+
+→ Answer: B
+
+→ Explanation:
+A feature represents a specific function, like “print” or “login”.
+
+53. Personas are created to:
+
+A. Replace users
+B. Understand users
+C. Design databases
+D. Test systems
+
+→ Answer: B
+
+→ Explanation:
+Personas help developers visualize and empathize with users, improving design decisions.
+
+54. A persona should include:
+
+A. Code structure
+B. Personal details and goals
+C. Algorithms
+D. Database schema
+
+→ Answer: B
+
+→ Explanation:
+A persona describes background, skills, goals, and motivations of users.
+
+55. What is the benefit of personas?
+
+A. Reduce coding
+B. Improve empathy
+C. Increase cost
+D. Replace testing
+
+→ Answer: B
+
+→ Explanation:
+They help developers think like users, leading to better usability.
+
+56. A scenario is best described as:
+
+A. Code logic
+B. User narrative
+C. Test case
+D. Database
+
+→ Answer: B
+
+→ Explanation:
+A scenario is a story describing how a user interacts with the system.
+
+57. Scenarios should be written from:
+
+A. Developer perspective
+B. User perspective
+C. System perspective
+D. Manager perspective
+
+→ Answer: B
+
+→ Explanation:
+They must reflect real user interaction and experience.
+
+58. Scenarios help in:
+
+A. Coding
+B. Understanding usage
+C. Testing only
+D. Deployment
+
+→ Answer: B
+
+→ Explanation:
+They clarify how features will be used in real situations.
+
+59. A scenario is NOT:
+
+A. Detailed specification
+B. Narrative
+C. User-focused
+D. Informal
+
+→ Answer: A
+
+→ Explanation:
+Scenarios are informal descriptions, not strict specifications.
+
+60. Scenarios are derived from:
+
+A. Code
+B. Personas
+C. Hardware
+D. Testing
+
+→ Answer: B
+
+→ Explanation:
+Personas inspire scenarios that describe how users behave.
+
+🔹 SECTION L — PRODUCT VISION & DEVELOPMENT
+61. Product vision defines:
+
+A. Code structure
+B. Product purpose
+C. Testing method
+D. Database
+
+→ Answer: B
+
+→ Explanation:
+It answers what, who, and why of the product.
+
+62. Product vision helps to:
+
+A. Reduce testing
+B. Guide development
+C. Replace coding
+D. Design UI
+
+→ Answer: B
+
+→ Explanation:
+It keeps development aligned with business goals.
+
+63. Product development is driven by:
+
+A. Hardware
+B. Business opportunities
+C. Code
+D. Testing
+
+→ Answer: B
+
+→ Explanation:
+Products are built to capture market opportunities.
+
+64. Rapid delivery is important because:
+
+A. Reduce cost
+B. Capture market
+C. Avoid testing
+D. Reduce coding
+
+→ Answer: B
+
+→ Explanation:
+Fast release helps gain competitive advantage.
+
+65. Product roadmap is:
+
+A. Code
+B. Development plan
+C. UI design
+D. Database
+
+→ Answer: B
+
+→ Explanation:
+It outlines timeline, releases, and features.
+
+🔹 SECTION M — PROTOTYPING
+66. Prototyping helps to:
+
+A. Finalize system
+B. Test ideas
+C. Replace coding
+D. Deploy system
+
+→ Answer: B
+
+→ Explanation:
+Prototypes allow early feedback and idea validation.
+
+67. Prototype should be:
+
+A. Final product
+B. Temporary
+C. Permanent
+D. Complex
+
+→ Answer: B
+
+→ Explanation:
+Prototypes are often discarded after learning.
+
+68. Feasibility prototype is used to:
+
+A. Deploy
+B. Test concept
+C. Finalize UI
+D. Replace system
+
+→ Answer: B
+
+69. Customer prototype helps to:
+
+A. Replace users
+B. Get feedback
+C. Remove features
+D. Test code
+
+→ Answer: B
+
+70. Prototyping improves:
+
+A. Cost
+B. Understanding
+C. Hardware
+D. Errors
+
+→ Answer: B
+
+🔹 SECTION N — AGILE PRACTICES
+71. Agile reduces:
+
+A. Flexibility
+B. Overhead
+C. Speed
+D. Quality
+
+→ Answer: B
+
+→ Explanation:
+Agile minimizes process bureaucracy.
+
+72. Agile focuses on:
+
+A. Documentation
+B. Software
+C. Hardware
+D. UI
+
+→ Answer: B
+
+73. Agile development uses:
+
+A. Big releases
+B. Small increments
+C. No releases
+D. Hardware
+
+→ Answer: B
+
+74. Customer involvement is:
+
+A. Optional
+B. Essential
+C. Irrelevant
+D. Rare
+
+→ Answer: B
+
+75. Agile principle emphasizes:
+
+A. Complexity
+B. Simplicity
+C. Documentation
+D. Cost
+
+→ Answer: B
+
+🔹 SECTION O — SCRUM (ADVANCED)
+76. Sprint output is:
+
+A. Documentation
+B. Shippable product
+C. Code only
+D. UI
+
+→ Answer: B
+
+77. Sprint backlog contains:
+
+A. All tasks
+B. Selected tasks
+C. Code
+D. UI
+
+→ Answer: B
+
+78. Scrum meetings are:
+
+A. Long
+B. Short
+C. Weekly
+D. Monthly
+
+→ Answer: B
+
+79. Velocity measures:
+
+A. Speed
+B. Work capacity
+C. Time
+D. Cost
+
+→ Answer: B
+
+80. Scrum improves:
+
+A. Delay
+B. Communication
+C. Errors
+D. Cost
+
+→ Answer: B
+
+🔹 SECTION P — BACKLOG MANAGEMENT
+81. Backlog refinement means:
+
+A. Coding
+B. Detailing items
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+82. Estimation is used to:
+
+A. Code
+B. Measure effort
+C. Test
+D. Deploy
+
+→ Answer: B
+
+83. Prioritization ensures:
+
+A. All tasks equal
+B. Important tasks first
+C. No tasks
+D. Testing
+
+→ Answer: B
+
+84. Backlog items include:
+
+A. Features only
+B. Features and improvements
+C. Code only
+D. UI
+
+→ Answer: B
+
+85. PBIs move through states like:
+
+A. Done only
+B. Ready → refined → implemented
+C. Code only
+D. Test only
+
+→ Answer: B
+
+🔹 SECTION Q — TEAM & COORDINATION
+86. Self-organizing teams:
+
+A. Follow strict rules
+B. Decide work themselves
+C. Ignore tasks
+D. Avoid planning
+
+→ Answer: B
+
+87. Scrum assumes:
+
+A. Remote teams
+B. Co-located teams
+C. No teams
+D. Large teams
+
+→ Answer: B
+
+88. Daily scrum helps:
+
+A. Testing
+B. Coordination
+C. Coding
+D. Deployment
+
+→ Answer: B
+
+89. External interaction is handled by:
+
+A. Developers
+B. ScrumMaster/Product Owner
+C. Testers
+D. Users
+
+→ Answer: B
+
+90. Team communication improves:
+
+A. Errors
+B. Productivity
+C. Cost
+D. Delay
+
+→ Answer: B
+
+🔹 SECTION R — QUALITY & TESTING (INTRO)
+91. Test automation means:
+
+A. Manual testing
+B. Automated testing
+C. No testing
+D. UI testing
+
+→ Answer: B
+
+92. Integration testing checks:
+
+A. Units
+B. Combined components
+C. UI
+D. Database
+
+→ Answer: B
+
+93. Unit testing checks:
+
+A. System
+B. Small parts
+C. UI
+D. Network
+
+→ Answer: B
+
+94. Testing ensures:
+
+A. Code exists
+B. Correct behavior
+C. UI
+D. Hardware
+
+→ Answer: B
+
+95. Acceptance testing is done by:
+
+A. Developers
+B. Users/Product owner
+C. Testers
+D. Managers
+
+→ Answer: B
+
+🔹 SECTION S — GENERAL CONCEPTS
+96. Software products differ from projects because:
+
+A. No users
+B. Market-driven
+C. No features
+D. No testing
+
+→ Answer: B
+
+97. Platform software allows:
+
+A. Coding
+B. App development
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+98. Software services run on:
+
+A. User device
+B. Remote servers
+C. Hardware
+D. BIOS
+
+→ Answer: B
+
+99. Hybrid systems run on:
+
+A. Local only
+B. Both local and server
+C. Server only
+D. Hardware
+
+→ Answer: B
+
+100. Stand-alone systems run on:
+
+A. Server
+B. User device
+C. Network
+D. Cloud
+
+→ Answer: B
+
+# BLOCK 2: SECTIONS T-AA
+SECTION T — SOFTWARE PROCESSES & MODELS
+101. A software process defines:
+
+A. Code syntax
+B. Activities for development
+C. Hardware design
+D. UI layout
+
+→ Answer: B
+
+→ Explanation:
+A software process is a structured set of activities used to build and maintain software systems.
+
+102. Which is NOT a process activity?
+
+A. Specification
+B. Development
+C. Cooking
+D. Validation
+
+→ Answer: C
+
+→ Explanation:
+Software processes include specification, development, validation, and evolution, not unrelated activities.
+
+103. Software evolution refers to:
+
+A. Initial coding
+B. Post-deployment changes
+C. Testing only
+D. UI design
+
+→ Answer: B
+
+→ Explanation:
+Software continues to change and improve after release, adapting to new needs.
+
+104. Why is software evolution necessary?
+
+A. Hardware changes
+B. Changing requirements
+C. Coding errors
+D. Testing issues
+
+→ Answer: B
+
+→ Explanation:
+User needs and environments change, requiring updates.
+
+105. Process models help to:
+
+A. Replace coding
+B. Organize development
+C. Eliminate testing
+D. Remove design
+
+→ Answer: B
+
+→ Explanation:
+They provide structure and guidance for development.
+
+🔹 SECTION U — REQUIREMENTS ENGINEERING (ADVANCED)
+106. Requirements engineering focuses on:
+
+A. Coding
+B. Defining system needs
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+→ Explanation:
+It ensures the system meets user and stakeholder expectations.
+
+107. A stakeholder is:
+
+A. Developer
+B. Anyone affected by the system
+C. Tester
+D. Manager
+
+→ Answer: B
+
+→ Explanation:
+Includes users, clients, regulators, etc.
+
+108. Elicitation is:
+
+A. Coding
+B. Gathering requirements
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+109. Validation ensures:
+
+A. Code runs
+B. Requirements are correct
+C. UI design
+D. Database
+
+→ Answer: B
+
+110. Negotiation resolves:
+
+A. Bugs
+B. Conflicts
+C. Code issues
+D. UI design
+
+→ Answer: B
+
+111. Requirements management deals with:
+
+A. Coding
+B. Changes
+C. Testing
+D. UI
+
+→ Answer: B
+
+112. Functional requirements describe:
+
+A. Constraints
+B. System behavior
+C. UI
+D. Hardware
+
+→ Answer: B
+
+113. Non-functional requirements describe:
+
+A. Behavior
+B. Constraints
+C. Features
+D. Code
+
+→ Answer: B
+
+114. Domain requirements are:
+
+A. General
+B. Industry-specific
+C. UI
+D. Code
+
+→ Answer: B
+
+115. SRS stands for:
+
+A. System Resource Sheet
+B. Software Requirements Specification
+C. Software Resource System
+D. System Requirements Software
+
+→ Answer: B
+
+🔹 SECTION V — MODELING & UML (ADVANCED)
+116. UML is used for:
+
+A. Coding
+B. Modeling
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+117. Class diagrams represent:
+
+A. Flow
+B. Structure
+C. Behavior
+D. UI
+
+→ Answer: B
+
+118. Activity diagrams represent:
+
+A. Data
+B. Workflow
+C. Classes
+D. States
+
+→ Answer: B
+
+119. State diagrams represent:
+
+A. Flow
+B. Transitions
+C. Structure
+D. UI
+
+→ Answer: B
+
+120. Modeling helps in:
+
+A. Confusion
+B. Understanding
+C. Errors
+D. Coding
+
+→ Answer: B
+
+🔹 SECTION W — DESIGN & ARCHITECTURE (ADVANCED)
+121. Software architecture defines:
+
+A. Code
+B. Structure
+C. UI
+D. Database
+
+→ Answer: B
+
+122. Layered architecture divides system into:
+
+A. Modules
+B. Layers
+C. Classes
+D. Files
+
+→ Answer: B
+
+123. Abstraction means:
+
+A. Adding detail
+B. Simplifying complexity
+C. Removing code
+D. Testing
+
+→ Answer: B
+
+124. Modularity means:
+
+A. One system
+B. Dividing into parts
+C. No structure
+D. UI
+
+→ Answer: B
+
+125. Separation of concerns means:
+
+A. Combine everything
+B. Isolate functions
+C. Remove features
+D. Code only
+
+→ Answer: B
+
+126. Refactoring improves:
+
+A. Functionality
+B. Structure
+C. UI
+D. Hardware
+
+→ Answer: B
+
+🔹 SECTION X — CLOUD, SERVICES & MICRO-SYSTEMS
+127. Cloud-based software runs on:
+
+A. Local machines
+B. Remote servers
+C. Hardware chips
+D. BIOS
+
+→ Answer: B
+
+128. Software services are:
+
+A. Installed locally
+B. Delivered over internet
+C. Hardware
+D. Static
+
+→ Answer: B
+
+129. Hybrid systems use:
+
+A. Local only
+B. Server only
+C. Both
+D. Hardware
+
+→ Answer: C
+
+130. Stand-alone systems run on:
+
+A. Server
+B. Local device
+C. Network
+D. Cloud
+
+→ Answer: B
+
+🔹 SECTION Y — QUALITY & TESTING (ADVANCED)
+131. Software quality refers to:
+
+A. Size
+B. Excellence
+C. Code length
+D. UI
+
+→ Answer: B
+
+132. Cost of quality includes:
+
+A. Coding cost
+B. Prevention and failure cost
+C. UI cost
+D. Hardware cost
+
+→ Answer: B
+
+133. Prevention cost is:
+
+A. Fixing bugs
+B. Avoiding defects
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+134. Failure cost is:
+
+A. Testing
+B. Fixing defects
+C. Coding
+D. UI
+
+→ Answer: B
+
+135. Testing ensures:
+
+A. Code exists
+B. Correctness
+C. UI
+D. Hardware
+
+→ Answer: B
+
+136. Unit testing checks:
+
+A. Entire system
+B. Small parts
+C. UI
+D. Database
+
+→ Answer: B
+
+137. Integration testing checks:
+
+A. Units
+B. Combined components
+C. UI
+D. Hardware
+
+→ Answer: B
+
+138. Acceptance testing checks:
+
+A. Code
+B. User satisfaction
+C. UI
+D. Database
+
+→ Answer: B
+
+🔹 SECTION Z — MANAGEMENT & ETHICS
+139. The four P’s include:
+
+A. Plan, product, process, people
+B. People, product, process, project
+C. Product, plan, program, people
+D. None
+
+→ Answer: B
+
+140. Team structure affects:
+
+A. UI
+B. Project success
+C. Code
+D. Hardware
+
+→ Answer: B
+
+141. Team toxicity leads to:
+
+A. Success
+B. Failure
+C. Speed
+D. Quality
+
+→ Answer: B
+
+142. Ethics in software means:
+
+A. Following code
+B. Moral responsibility
+C. Testing
+D. UI
+
+→ Answer: B
+
+143. Ethical behavior includes:
+
+A. Hiding bugs
+B. Reporting issues
+C. Ignoring problems
+D. Skipping testing
+
+→ Answer: B
+
+🔹 SECTION AA — INTEGRATION / MIXED CONCEPTS
+144. Agile is best for:
+
+A. Stable systems
+B. Changing systems
+C. Hardware
+D. Static systems
+
+→ Answer: B
+
+145. Waterfall is best for:
+
+A. Dynamic systems
+B. Stable requirements
+C. Agile teams
+D. Testing
+
+→ Answer: B
+
+146. Spiral model focuses on:
+
+A. Coding
+B. Risk
+C. UI
+D. Testing
+
+→ Answer: B
+
+147. Incremental model delivers:
+
+A. All at once
+B. In parts
+C. No delivery
+D. Hardware
+
+→ Answer: B
+
+148. Good requirements lead to:
+
+A. Failure
+B. Success
+C. Complexity
+D. Delay
+
+→ Answer: B
+
+149. Poor design leads to:
+
+A. Simplicity
+B. Complexity
+C. Speed
+D. Stability
+
+→ Answer: B
+
+150. Software engineering aims to:
+
+A. Reduce cost only
+B. Produce quality software
+C. Remove users
+D. Avoid testing
+
+→ Answer: B
+
+→ Explanation:
+The ultimate goal is to deliver high-quality, reliable, and maintainable software systems.
+
+# BLOCK 3: RE EXTRA QUIZZES
+REQUIREMENTS ENGINEERING — EXTRA QUIZZES
+🔹 CORE CONCEPTS
+1. What is the primary goal of requirements engineering?
+
+A. Write code
+B. Define system needs accurately
+C. Test software
+D. Deploy system
+
+→ Answer: B
+
+→ Explanation:
+Requirements engineering ensures the system meets stakeholder needs correctly, preventing costly errors later.
+
+2. Which phase identifies what the system should do?
+
+A. Design
+B. Coding
+C. Requirements engineering
+D. Testing
+
+→ Answer: C
+
+→ Explanation:
+RE defines the scope, behavior, and constraints of the system before development begins.
+
+3. Why is RE considered critical?
+
+A. It reduces coding
+B. It prevents project failure
+C. It replaces testing
+D. It simplifies UI
+
+→ Answer: B
+
+→ Explanation:
+Most failures occur due to incorrect or incomplete requirements.
+
+🔹 ELICITATION
+4. Elicitation is the process of:
+
+A. Coding
+B. Gathering requirements
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+5. Which technique is used in elicitation?
+
+A. Compilation
+B. Interviews
+C. Coding
+D. Deployment
+
+→ Answer: B
+
+6. A common problem during elicitation is:
+
+A. Too much code
+B. Stakeholders unclear about needs
+C. Too many developers
+D. Too much testing
+
+→ Answer: B
+
+7. Observation in elicitation means:
+
+A. Watching users perform tasks
+B. Coding system
+C. Writing documents
+D. Testing system
+
+→ Answer: A
+
+🔹 ANALYSIS
+8. Requirements analysis focuses on:
+
+A. Writing code
+B. Understanding requirements
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+9. Analysis helps to:
+
+A. Add bugs
+B. Remove ambiguity
+C. Increase cost
+D. Reduce testing
+
+→ Answer: B
+
+10. Ambiguous requirement example:
+
+A. “System must respond in 2 seconds”
+B. “System should be fast”
+C. “System must store data”
+D. “System logs users”
+
+→ Answer: B
+
+→ Explanation:
+“Fast” is vague — needs measurable clarification.
+
+🔹 MODELING
+11. Requirement modeling helps to:
+
+A. Code faster
+B. Visualize system
+C. Deploy system
+D. Remove features
+
+→ Answer: B
+
+12. Scenario-based models use:
+
+A. Algorithms
+B. Use cases
+C. Databases
+D. Code
+
+→ Answer: B
+
+13. A use case describes:
+
+A. Code structure
+B. Interaction between user and system
+C. Database design
+D. Hardware
+
+→ Answer: B
+
+14. Behavioral models show:
+
+A. Data structure
+B. System behavior
+C. UI
+D. Hardware
+
+→ Answer: B
+
+🔹 NEGOTIATION
+15. Negotiation is required when:
+
+A. Coding fails
+B. Stakeholders disagree
+C. Testing fails
+D. UI fails
+
+→ Answer: B
+
+16. Goal of negotiation is:
+
+A. Win-lose outcome
+B. Win-win solution
+C. No agreement
+D. Ignore stakeholders
+
+→ Answer: B
+
+17. Example of negotiation conflict:
+
+A. User wants speed, company wants low cost
+B. Code error
+C. UI issue
+D. Database crash
+
+→ Answer: A
+
+🔹 VALIDATION
+18. Validation ensures:
+
+A. Code compiles
+B. Requirements are correct
+C. UI is good
+D. System runs fast
+
+→ Answer: B
+
+19. Validation checks include:
+
+A. Completeness
+B. Consistency
+C. Correctness
+D. All of the above
+
+→ Answer: D
+
+20. Missing requirement is an example of:
+
+A. Coding error
+B. Incomplete requirement
+C. UI issue
+D. Hardware failure
+
+→ Answer: B
+
+🔹 REQUIREMENTS MANAGEMENT
+21. Requirements management deals with:
+
+A. Coding
+B. Change control
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+22. Change in requirements is:
+
+A. Rare
+B. Common
+C. Impossible
+D. Avoidable
+
+→ Answer: B
+
+23. A change request is:
+
+A. Bug
+B. New or modified requirement
+C. Code
+D. UI
+
+→ Answer: B
+
+🔹 TYPES OF REQUIREMENTS
+24. Functional requirement example:
+
+A. System must be secure
+B. User can log in
+C. System must be fast
+D. System must be reliable
+
+→ Answer: B
+
+25. Non-functional requirement example:
+
+A. User logs in
+B. System must respond in 2 seconds
+C. User sends message
+D. User logs out
+
+→ Answer: B
+
+26. Domain requirement example:
+
+A. UI design
+B. Banking rules
+C. Code syntax
+D. Testing
+
+→ Answer: B
+
+🔹 SRS (IMPORTANT)
+27. SRS is used to:
+
+A. Code system
+B. Document requirements
+C. Test system
+D. Deploy system
+
+→ Answer: B
+
+28. SRS should be:
+
+A. Ambiguous
+B. Clear and complete
+C. Short
+D. Code-based
+
+→ Answer: B
+
+29. Poor SRS leads to:
+
+A. Success
+B. Project failure
+C. Fast coding
+D. Better design
+
+→ Answer: B
+
+🔹 ADVANCED EXAM-LEVEL QUESTIONS
+30. The biggest challenge in requirements engineering is:
+
+A. Coding
+B. Understanding user needs
+C. Testing
+D. Deployment
+
+→ Answer: B
+
+→ Explanation:
+Users often cannot clearly express what they need, making RE complex and critical.
+
+# BLOCK 4: THEORY QUESTIONS
+1. Define Software Engineering and explain its importance
+✅ Model Answer
+
+Software engineering is an engineering discipline concerned with all aspects of software production, from specification to maintenance.
+
+It is important because:
+
+Software systems are complex and continuously evolving
+The “software crisis” showed problems of cost, delays, and failures
+It ensures systematic, disciplined, and measurable development
+
+Example:
+A banking system requires structured development to ensure security and reliability.
+
+🔵 2. Explain the layered technology of software engineering
+✅ Model Answer
+
+Software engineering is a layered technology consisting of:
+
+Quality focus – foundation ensuring high standards
+Process layer – framework of activities (communication, planning, modeling, construction, deployment)
+Methods layer – technical techniques (analysis, design, coding, testing)
+Tools layer – automated support (IDEs, testing tools)
+
+Example:
+In a banking system:
+
+Process defines steps
+Methods define how to design
+Tools support coding
+🔵 3. Discuss the fundamental activities of software engineering
+✅ Model Answer
+
+The fundamental activities are:
+
+Specification – defining system requirements
+Development – designing and coding
+Validation – testing correctness
+Evolution – maintaining and updating
+
+Example:
+ATM system:
+
+Specify withdrawal
+Develop code
+Validate functionality
+Add features later
+🔵 4. Explain Agile Software Development and its principles
+✅ Model Answer
+
+Agile is a flexible development approach emphasizing:
+
+Working software over documentation
+Customer collaboration over contracts
+Responding to change over plans
+
+Principles:
+
+Incremental delivery
+Continuous feedback
+Simplicity
+
+Example:
+Food app developed in weekly increments based on user feedback.
+
+🔵 5. Compare Agile and Waterfall models
+✅ Model Answer
+Agile	Waterfall
+Flexible	Rigid
+Incremental	Sequential
+Customer involvement	Limited involvement
+Handles change	Difficult to change
+
+Example:
+Agile suits mobile apps; Waterfall suits stable systems like payroll.
+
+🔵 6. Explain Scrum framework and its components
+✅ Model Answer
+
+Scrum is an Agile framework with:
+
+Product backlog – list of features
+Sprint – short iteration
+Increment – working product
+Daily scrum – progress meeting
+
+Roles:
+
+Product owner
+ScrumMaster
+Development team
+
+Example:
+E-commerce app builds login in one sprint.
+
+🔵 7. Explain Extreme Programming (XP) practices
+✅ Model Answer
+
+XP is an Agile method focusing on:
+
+Pair programming
+Test-driven development
+Continuous integration
+Refactoring
+
+Example:
+Developers write tests before coding login feature.
+
+🔵 8. Define and explain software products
+✅ Model Answer
+
+Software products are systems developed to provide functionality to users.
+
+Types:
+
+Generic
+Custom
+
+Example:
+MS Word (generic), hospital system (custom)
+
+🔵 9. Explain product vision and its importance
+✅ Model Answer
+
+Product vision defines:
+
+Target users
+Product purpose
+Value
+
+Importance:
+
+Guides development
+Aligns team
+
+Example:
+“An app for fast online payments.”
+
+🔵 10. Explain features, scenarios, and user stories
+✅ Model Answer
+Feature → functionality
+Scenario → step-by-step usage
+User story → user need
+
+Example:
+Feature: Withdraw money
+Story: “I want to withdraw cash…”
+Scenario: Insert card → enter PIN → withdraw
+
+🔵 11. Explain personas and their role in design
+✅ Model Answer
+
+Personas are fictional user profiles used to understand user needs.
+
+They include:
+
+Age
+Goals
+Behavior
+
+Example:
+A busy banker needing fast transactions.
+
+🔵 12. Discuss process models in software engineering
+✅ Model Answer
+
+Common models:
+
+Waterfall
+Incremental
+Spiral
+Agile
+
+Each provides structure for development.
+
+🔵 13. Explain the Spiral model
+✅ Model Answer
+
+Spiral model is risk-driven with phases:
+
+Planning
+Risk analysis
+Engineering
+Evaluation
+
+Example:
+Used in banking systems to assess security risks.
+
+🔵 14. Explain Incremental model
+✅ Model Answer
+
+System is developed in parts (increments).
+
+Advantages:
+
+Early delivery
+User feedback
+🔵 15. Explain Requirements Engineering
+✅ Model Answer
+
+Requirements engineering is the process of defining system requirements.
+
+Tasks:
+
+Elicitation
+Analysis
+Validation
+Management
+🔵 16. Discuss RE tasks in detail
+✅ Model Answer
+Elicitation – gather requirements
+Analysis – refine
+Modeling – represent
+Negotiation – resolve conflicts
+Validation – ensure correctness
+Management – handle changes
+🔵 17. Explain types of requirements
+✅ Model Answer
+Functional → system actions
+Non-functional → constraints
+Domain → industry rules
+🔵 18. Explain Software Requirements Specification (SRS)
+✅ Model Answer
+
+SRS is a document describing:
+
+Functional requirements
+Non-functional requirements
+Constraints
+🔵 19. Explain UML and its importance
+✅ Model Answer
+
+UML is a modeling language used to visualize systems.
+
+Benefits:
+
+Improves understanding
+Aids communication
+🔵 20. Explain UML diagrams with examples
+✅ Model Answer
+Class diagram → structure
+Activity diagram → workflow
+State diagram → behavior
+🔵 21. Explain software architecture
+✅ Model Answer
+
+Architecture defines system structure and organization.
+
+Example:
+Layered architecture (UI, logic, database)
+
+🔵 22. Explain design principles
+✅ Model Answer
+Modularity
+Abstraction
+Separation of concerns
+Information hiding
+🔵 23. Explain software quality and its attributes
+✅ Model Answer
+
+Attributes:
+
+Maintainability
+Reliability
+Efficiency
+Usability
+🔵 24. Explain cost of quality
+✅ Model Answer
+Prevention cost
+Failure cost
+
+Early testing reduces overall cost.
+
+🔵 25. Discuss software project management and ethics
+✅ Model Answer
+
+Project management includes:
+
+People
+Product
+Process
+Project
+
+Ethics:
+
+Responsibility
+Honesty
+Safety
