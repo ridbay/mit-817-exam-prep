@@ -129,32 +129,31 @@ export const studyGuide = [
     title: "5. Features, Scenarios, and Stories",
     topic: "User Focus",
     overview:
-      "Concepts that connect user-centered thinking to product design by distinguishing functionality, usage narratives, and user needs.",
+      "Deeply understanding the user is the foundation of product design. We distinguish between WHO the user is (Persona), WHY they need the system (User Story), and HOW they interact with it step-by-step (Scenario).",
     subtopics: [
       [
-        "Feature",
-        "A coherent set of functionality (The WHAT).",
+        "1. Scenario (HOW)",
+        "A detailed narrative that describes how a user interacts with the system step-by-step. It is the 'story of interaction'.",
       ],
       [
-        "Scenario",
-        "A narrative/story of usage showing how a user interacts with the system (The HOW).",
+        "2. User Story (WHY)",
+        "A short statement from the user's perspective: 'As a [user], I want [goal], so that [reason]'.",
       ],
-      ["User Story", "A short, user-centered requirement expressing a need (The WHY)."],
       [
-        "Persona",
-        "A representation of a typical user used to think through requirements.",
+        "3. Persona (WHO)",
+        "A fictional representation of a typical user (character profile) used to ground requirements in reality.",
       ],
     ],
     example:
-      "🔹 ATM User Experience:\nFeature → 'Withdraw Cash'\nStory → 'As a user, I want to withdraw cash quickly so I can buy food'\nScenario → 'User inserts card → enters PIN → selects 2000 → receives cash'",
+      "🚀 FINAL MASTER EXAMPLE (ALL 3 TOGETHER)\n\n🔹 Persona: John, a busy banker who needs quick transactions.\n🔹 User Story: 'As a banker, I want to withdraw money quickly so that I save time.'\n🔹 Scenario:\n1. John inserts card\n2. Enters PIN\n3. Selects withdraw\n4. Gets cash",
     exam_tip:
-      "👉 ALWAYS use the phrase 'narrative that describes system use' when defining a scenario.",
+      "🧠 MEMORY TRICK & FORMAT:\n👉 Persona = Person | Story = Goal | Scenario = Steps\n\n🎯 EXAM-READY FORMAT:\nDefine each → Give an example for each → Compare them (WHO/WHY/HOW).",
     common_trap:
-      "Feature ≠ Story. A Story explains the 'Why' for the user; a Feature is the technical 'What'.",
+      "⚠️ AVOID THESE:\n❌ Writing a scenario as a story (keep steps distinct).\n❌ Forgetting the 'So that [reason]' in stories.\n❌ Making personas too vague; give them a name and specific behavior.",
     mastery_insight:
-      "🔥 Visual Thinking:\nThink of the Feature as the tool, the Story as the goal, and the Scenario as the movie of the user using the tool to reach the goal.",
+      "🔥 QUICK COMPARISON:\n\n| Concept | Focus | Example |\n| :--- | :--- | :--- |\n| **Persona** | **WHO** | 'Sarah, a student' |\n| **User Story** | **WHY** | 'I want to order food...' |\n| **Scenario** | **HOW** | Step-by-step process |",
     summary:
-      "🔹 High-Yield Summary: Feature = WHAT; Scenario = HOW; Story = WHY. Personas help anchor these to real user needs.",
+      "🔹 High-Yield Summary: Feature = WHAT; Scenario = HOW; Story = WHY. Use Personas to keep your design grounded and user-centered.",
   },
   {
     title: "6. Process Models",
