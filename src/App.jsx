@@ -787,6 +787,16 @@ const App = () => {
                 </div>
 
                 <div className="p-6 md:p-12 bg-white/5 rounded-3xl md:rounded-[3.5rem] border border-white/10 space-y-6 md:space-y-12 shadow-3xl">
+                  {showAnswer && (
+                    <button
+                      onClick={nextQuestion}
+                      className="w-full py-4 md:py-5 bg-white text-black font-black uppercase tracking-widest rounded-2xl hover:invert transition-all flex items-center justify-center space-x-4"
+                    >
+                      <span>Continue</span>
+                      <ArrowRight size={20} />
+                    </button>
+                  )}
+
                   <h3 className="text-lg md:text-2xl font-bold leading-snug text-white/90">
                     {filteredQuestions[currentQuestionIdx].question}
                   </h3>
@@ -854,13 +864,6 @@ const App = () => {
                       <p className="text-gray-300 leading-relaxed text-base md:text-lg italic">
                         {filteredQuestions[currentQuestionIdx].explanation}
                       </p>
-                      <button
-                        onClick={nextQuestion}
-                        className="mt-6 w-full py-4 md:py-5 bg-white text-black font-black uppercase tracking-widest rounded-2xl hover:invert transition-all flex items-center justify-center space-x-4"
-                      >
-                        <span>Advance Simulation</span>
-                        <ArrowRight size={20} />
-                      </button>
                     </div>
                   )}
                 </div>
