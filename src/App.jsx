@@ -177,7 +177,7 @@ const App = () => {
             <div className="bg-gradient-to-br from-indigo-500 to-purple-600 p-2 rounded-xl">
               <Terminal size={18} className="text-white" />
             </div>
-            <h1 className="text-lg font-black tracking-tighter">
+            <h1 className="text-sm font-black tracking-tighter">
               MIT 817 BY RIDBAY
             </h1>
           </div>
